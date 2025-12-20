@@ -12,7 +12,7 @@ ns.HARANDAR = 2413
 -- ns.WORLDQUESTS = ns.conditions.QuestComplete(79573)
 
 -- ns.MAXLEVEL = {ns.conditions.QuestComplete(67030), ns.conditions.Level(70)}
--- ns.DRAGONRIDING = ns.conditions.SpellKnown(376777)
+ns.DRAGONRIDING = ns.conditions.SpellKnown(376777)
 
 ns.FACTION_AMANI = 2696 -- paragon:2705
 ns.FACTION_SINGULARITY = 2699 -- paragon:2725

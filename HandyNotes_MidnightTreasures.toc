@@ -24,7 +24,9 @@ zones\Voidstorm.lua
 zones\Harandar.lua
 zones\IsleOfQueldanas.lua
 
-#achievements\Races.lua
+achievements\GlyphHunter
+achievements\HighestPeaks.lua
+achievements\LoreHunter.lua
 
 #shared\Delves.lua
 #shared\WorldBosses.lua
