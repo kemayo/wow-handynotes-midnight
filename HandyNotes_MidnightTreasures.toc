@@ -16,7 +16,13 @@ handler\handler.xml
 
 midnight.lua
 
-#zones\.lua
+zones\Quelthalas.lua
+zones\EversongWoods.lua
+zones\SilvermoonCity.lua
+zones\Zulaman.lua
+zones\Voidstorm.lua
+zones\Harandar.lua
+zones\IsleOfQueldanas.lua
 
 #achievements\Races.lua
 
