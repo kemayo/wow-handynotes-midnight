@@ -74,14 +74,14 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			265803, -- Bazaar Bites
 		},
 	},
-	[36403620] = { -- Coralfang
-		-- [36403620, 36803620]
+	[36333636] = { -- Coralfang
 		criteria=110171, quest=92389,
 		npc=250683,
 		loot={
 			264602, -- Abyss Coral Band
 			264629, -- Coralfang's Hefty Fin
 		},
+		vignette=7298,
 	},
 	[36607720] = { -- Lady Liminus
 		criteria=110172, quest=92393,
@@ -109,15 +109,16 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			265803, -- Bazaar Bites
 		},
 	},
-	[34802100] = { -- Waverly
+	[34812098] = { -- Waverly
 		criteria=110175, quest=92395,
-		npc=250780,
+		npc=250780, -- 250788 for Lovely Sunflower
 		loot={
 			-- 251788, -- Gift of Light
 			260694, -- Foul Kelp
 			264608, -- String of Lovely Blossoms
 			264910, -- Shell-Cleaving Poleaxe
 		},
+		vignette=7302,
 	},
 	[56407740] = { -- Banuran
 		-- [56407740, 56407760]
@@ -146,14 +147,14 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			264594, -- Netherscale Cloak
 		},
 	},
-	[51204580] = { -- Malfunctioning Construct
-		-- [51204580, 51604580]
+	[51694601] = { -- Malfunctioning Construct
 		criteria=110179, quest=93555,
 		npc=255329,
 		loot={
 			264584, -- Stonecarved Smashers
 			264603, -- Guardian's Gemstone Loop
 		},
+		vignette=7399,
 	},
 	[44403840] = { -- Dame Bloodshed
 		-- [44403840, 44803860, 45003820, 45603820, 45803900]
