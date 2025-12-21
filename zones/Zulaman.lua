@@ -28,21 +28,121 @@ ns.RegisterPoints(ns.ATALAMAN, {})
 
 -- Tallest Tree in the Forest
 ns.RegisterPoints(ns.ZULAMAN, {
-	-- [] = {criteria=111839, quest=89569}, -- Necrohexxer Raz'ka
-	-- [] = {criteria=111840, quest=89570}, -- The Snapping Scourge
-	-- [] = {criteria=111841, quest=89571}, -- Skullcrusher Harak
-	-- [] = {criteria=111842, quest=89575}, -- Lightwood Borer
-	-- [] = {criteria=111843, quest=91174}, -- Mrrlokk
-	-- [] = {criteria=111844, quest=91634}, -- Poacher Rav'ik
-	-- [] = {criteria=111845, quest=89578}, -- Spinefrill
-	-- [] = {criteria=111846, quest=89579}, -- Oophaga
-	-- [] = {criteria=111847, quest=89580}, -- Tiny Vermin
-	-- [] = {criteria=111848, quest=89581}, -- Voidtouched Crustacean
-	-- [] = {criteria=111849, quest=89583}, -- The Devouring Invader
-	-- [] = {criteria=111850, quest=89572}, -- Elder Oaktalon
-	-- [] = {criteria=111851, quest=89573}, -- Depthborn Eelamental
-	-- [] = {criteria=111852, quest=91072}, -- The Decaying Diamondback
-	-- [] = {criteria=111853, quest=91073}, -- Asha the Empowered
+	[34203300] = { -- Necrohexxer Raz'ka
+		criteria=111839, quest=89569,
+		npc=242023,
+		loot={
+			251783, -- Lost Idol of the Hash'ey
+			264527, -- Vile Hexxer's Mantle
+			264611, -- Pendant of Siphoned Vitality
+		},
+	},
+	[51601820] = { -- The Snapping Scourge
+		criteria=111840, quest=89570,
+		npc=242024,
+		loot={
+			264585, -- Snapper Steppers
+			264617, -- Scourge's Spike
+		},
+	},
+	[51607240] = { -- Skullcrusher Harak
+		-- [51607240, 51607260]
+		criteria=111841, quest=89571,
+		npc=242025,
+		loot={
+			251783, -- Lost Idol of the Hash'ey
+			251784, -- Sylvan Wakrapuku
+			264542, -- Skullcrusher's Mantle
+			264631, -- Harak's Skullcutter
+		},
+	},
+	[28802440] = { -- Lightwood Borer
+		criteria=111842, quest=89575,
+		npc=242028,
+		loot={
+			251784, -- Sylvan Wakrapuku
+			264640, -- Sharpened Borer Claw
+		},
+	},
+	[50206500] = { -- Mrrlokk
+		-- [50206500, 50806520, 50806580]
+		criteria=111843, quest=91174,
+		npc=245975,
+		loot={
+			251783, -- Lost Idol of the Hash'ey
+			264570, -- Reinforced Chainmrrl
+			264580, -- Mrrlokk's Mrgl Grrdle
+			265543, -- Tempered Amani Spearhead
+		},
+	},
+	[39005020] = { -- Poacher Rav'ik
+		criteria=111844, quest=91634,
+		npc=247976,
+		loot={
+			264627, -- Rav'ik's Spare Hunting Spear
+			264911, -- Forest Hunter's Arc
+		},
+	},
+	[30604500] = { -- Spinefrill
+		criteria=111845, quest=89578,
+		npc=242031,
+		loot={
+			264554, -- Frilly Leather Vest
+		},
+	},
+	[46405140] = { -- Oophaga
+		criteria=111846, quest=89579,
+		npc=242032,
+		loot={
+			264528, -- Goop-Coated Leggings
+			264541, -- Egg-Swaddling Sash
+		},
+	},
+	[47403400] = { -- Tiny Vermin
+		-- [47403400, 47803400]
+		criteria=111847, quest=89580,
+		npc=242033,
+		loot={
+			251784, -- Sylvan Wakrapuku
+			264648, -- Verminscale Gavel
+		},
+	},
+	-- [0] = { -- Voidtouched Crustacean
+	-- 	criteria=111848, quest=89581,
+	-- 	npc=242034,
+	-- },
+	[39402040] = { -- The Devouring Invader
+		-- [39402040, 39402060, 39602100]
+		criteria=111849, quest=89583,
+		npc=242035,
+		loot={
+			264559, -- Devourer's Visage
+			264638, -- Fangs of the Invader
+		},
+	},
+	[33608880] = { -- Elder Oaktalon
+		criteria=111850, quest=89572,
+		npc=242026,
+		loot={
+			264547, -- Worn Furbolg Bindings
+		},
+	},
+	[47602060] = { -- Depthborn Eelamental
+		-- [47602060, 47802040]
+		criteria=111851, quest=89573,
+		npc=242027,
+		loot={
+			264618, -- Strangely Eelastic Blade
+		},
+	},
+	-- [0] = { -- The Decaying Diamondback
+	-- 	criteria=111852, quest=91072,
+	-- 	npc=245691,
+	-- },
+	[45004120] = { -- Ash'an the Empowered / Asha the Empowered
+		criteria=111853, quest=91073,
+		npc=245692,
+	},
 }, {
 	achievement=62122,
 })
