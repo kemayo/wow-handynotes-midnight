@@ -5,18 +5,20 @@ Runestone Rush: 61961
 Ever Painting: 62185
 ]]
 
+local COURT = ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50)
+
 -- Treasures
 
 ns.RegisterPoints(ns.EVERSONGWOODS, {
-	-- [] = {criteria=111471, quest=93967}, -- Rookery Cache
-	-- [] = {criteria=111472, quest=93456}, -- Triple-Locked Safebox
-	-- [] = {criteria=111473, quest=93544}, -- Gift of the Phoenix
-	-- [] = {criteria=111474, quest=93893}, -- Forgotten Ink and Quill
-	-- [] = {criteria=111475, quest=93908}, -- Gilded Armillary Sphere
-	-- [] = {criteria=111476, quest=93455}, -- Antique Nobleman's Signet Ring
-	-- [] = {criteria=111477, quest=93457}, -- Farstrider's Lost Quiver
-	-- [] = {criteria=111478, quest=93061}, -- Stone Vat of Wine
-	-- [] = {criteria=111479, quest=91358}, -- Burbling Paint Pot
+	-- [] = {criteria=111471, quest=93967, loot={}, vignette=nil,}, -- Rookery Cache
+	-- [] = {criteria=111472, quest=93456, loot={}, vignette=nil,}, -- Triple-Locked Safebox
+	-- [] = {criteria=111473, quest=93544, loot={}, vignette=nil,}, -- Gift of the Phoenix
+	-- [] = {criteria=111474, quest=93893, loot={}, vignette=nil,}, -- Forgotten Ink and Quill
+	[44624555] = {criteria=111475, quest=93908, loot={265828, COURT}, vignette=7429, note="Upper floor",}, -- Gilded Armillary Sphere
+	[52344543] = {criteria=111476, quest=93455, loot={265814, COURT}, vignette=7364, note="Ground floor",}, -- Antique Nobleman's Signet Ring
+	-- [] = {criteria=111477, quest=93457, loot={}, vignette=nil,}, -- Farstrider's Lost Quiver
+	-- [] = {criteria=111478, quest=93061, loot={}, vignette=nil,}, -- Stone Vat of Wine
+	-- [] = {criteria=111479, quest=91358, loot={}, vignette=nil,}, -- Burbling Paint Pot
 }, {
 	achievement=61960,
 })
