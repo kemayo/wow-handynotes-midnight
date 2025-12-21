@@ -9,7 +9,7 @@
 ## X-eMail: kemayo @ gmail DOT com
 ## X-Curse-Project-ID: 934070
 ## X-Wago-ID: 
-## SavedVariables: HandyNotes_MidnightDB
+## SavedVariables: HandyNotes_MidnightTreasuresDB
 ## RequiredDeps: HandyNotes
 
 handler\handler.xml
