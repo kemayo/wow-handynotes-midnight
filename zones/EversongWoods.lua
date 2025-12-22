@@ -10,11 +10,9 @@ local COURT = ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50)
 -- Treasures
 
 ns.RegisterPoints(ns.EVERSONGWOODS, {
-	-- [] = {criteria=111471, quest=93967, loot={}, vignette=nil,}, -- Rookery Cache
 	[38907607] = { -- Triple-Locked Safebox
 		criteria=111472, quest=93456, loot={243106}, vignette=7365, -- Gemmed Eversong Lantern
 		note="Pick up the torch, and find three keys in the village",
-		-- nearby={37637481, 38467346, 40257582},
 		related={
 			[37637481] = {loot={258768},minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Battered Safebox Key
 			[38467346] = {loot={258769}, minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Worn Safebox Key
@@ -22,39 +20,74 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			color={r=0.6,g=0.6,b=1},
 		},
 	},
-	-- [] = {criteria=111473, quest=93544, loot={}, vignette=nil,}, -- Gift of the Phoenix
+	[40961945] = { -- Gift of the Phoenix
+		criteria=111473, quest=93544, -- 93545 for placing
+		loot={26311}, -- Gilded Eversong Cup
+		note="Take {spell:1264567:Sunstrider Vessel}, catch 5x{spell:1264565:Phoenix Cinders}",
+		vignette=7395,
+	},
 	[43286948] = {criteria=111474, quest=93893, loot={262616, COURT}, vignette=7424, note="Upper floor",}, -- Forgotten Ink and Quill
 	[44624555] = {criteria=111475, quest=93908, loot={265828, COURT}, vignette=7429, note="Upper floor",}, -- Gilded Armillary Sphere
 	[52344543] = {criteria=111476, quest=93455, loot={265814, COURT}, vignette=7364, note="Ground floor",}, -- Antique Nobleman's Signet Ring
 	[60696729] = {criteria=111477, quest=93457, loot={265816, COURT}, vignette=7366,}, -- Farstrider's Lost Quiver
 	[40446090] = {criteria=111478, quest=93061, loot={251912, COURT}, vignette=7344, note="On floating platform; pick 10x{item:256232:Bunch of Ripe Grapes}, then get {item:256397:Packet of Instant Yeast} from {npc:251405:Sheri} nearby"}, -- Stone Vat of Wine (also: 86645)
-	-- [] = {criteria=111479, quest=91358, loot={}, vignette=nil,}, -- Burbling Paint Pot
+	[48747544] = {criteria=111479, quest=91358, loot={{246314, pet=4974}, COURT}, vignette=7041,}, -- Burbling Paint Pot
 }, {
 	achievement=61960,
 })
+ns.RegisterPoints(ns.SILVERMOONCITY, {
+	[24346928] = { -- Rookery Cache
+		criteria=111471, quest=93967, -- 94626 for giving the meat
+		loot={{267838, pet=true}, COURT}, -- Sunwing Hatchling
+		note="In floating building; buy {item:265674:Tasty Meat} from {npc:258550:Farstrider Aerieminder}, give it to the {npc:257049:Mischevious Chick}; may need to relog to be able to place it",
+		vignette=7437,
+	},
+}, {
+	achievement=61960,
+	parent=true,
+})
+
+ns.RegisterPoints(ns.SILVERMOONCITY, {
+	[37805238] = { -- Incomplete Book of Sonnets
+		label="{item:265832:Incomplete Booklet of Sonnets}",
+		quest=94781,
+		loot={245282}, -- Silvermoon Library Bookcase
+		related={
+			[40768843] = {loot={265833}, minimap=true, inbag={265833, 265832, any=true}, note="Lower level, on a bridge"}, -- Page 1
+			[33299019] = {loot={265834}, minimap=true, inbag={265834, 265832, any=true}, note="Lower level"}, -- Page 2
+			[39828048] = {loot={265835}, minimap=true, inbag={265835, 265832, any=true},}, -- Page 3
+		},
+		vignette=7499,
+	},
+}, {
+	parent=true,
+})
+
 
 -- Rares
 
 -- A Bloody Song
 ns.RegisterPoints(ns.EVERSONGWOODS, {
-	[51207520] = { -- Warden of Weeds
-		-- [51207520, 51407420, 51607420, 51607460]
-		criteria=110166, quest=91280,
+	[52627532] = { -- Warden of Weeds
+		criteria=110166, quest=91280, -- 94681
 		npc=246332,
 		loot={
 			264520, -- Warden's Leycrook
 			264613, -- Steelbark Bulwark
 		},
+		vignette=7363,
 	},
-	[44607760] = { -- Harried Hawkstrider
-		-- [44607760, 44607860]
+	[45097760] = { -- Harried Hawkstrider
 		criteria=110167, quest=91315,
 		npc=246633,
 		loot={
 			-- 251791, -- Holy Retributor's Order
 			264521, -- Striderplume Focus
 			264522, -- Striderplume Armbands
+			258912, -- Tarnished Dawnlit Spellbinder's Robe
 		},
+		vignette=7002,
+		note="Runs around nearby",
 	},
 	[54806020] = { -- Overfester Hydra
 		criteria=110168, quest=92392,
@@ -108,22 +141,25 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		},
 		vignette=7301,
 	},
-	[40208500] = { -- Terrinor
-		-- [40208500, 40408560]
+	[40408532] = { -- Terrinor
 		criteria=110173, quest=92409,
 		npc=250876,
 		loot={
+			264537, -- Winged Terror Gloves
 			264546, -- Bat Fur Boots
 		},
+		vignette=7306,
 	},
-	[48808800] = { -- Bad Zed
-		criteria=110174, quest=92404,
+	[49048777] = { -- Bad Zed
+		criteria=110174, quest=92404, -- 94690
 		npc=250841,
 		loot={
+			-- 251791, -- Holy Retributor's Order
 			-- 251788, -- Gift of Light
 			264621, -- Bad Zed's Worst Channeler
 			265803, -- Bazaar Bites
 		},
+		vignette=7305,
 	},
 	[34812098] = { -- Waverly
 		criteria=110175, quest=92395,
@@ -136,23 +172,25 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		},
 		vignette=7302,
 	},
-	[56407740] = { -- Banuran
-		-- [56407740, 56407760]
-		criteria=110176, quest=92403,
+	[56427760] = { -- Banuran
+		criteria=110176, quest=92403, -- 94692
 		npc=250826,
 		loot={
 			-- 251788, -- Gift of Light
 			264526, -- Supremely Slimy Sash
 			264552, -- Frogskin Grips
+			-- 265027, -- Lucky Lynx Locket
 		},
+		vignette=7304,
 	},
-	[59207920] = { -- Lost Guardian
-		criteria=110177, quest=92399,
+	[59107924] = { -- Lost Guardian
+		criteria=110177, quest=92399, -- 94693
 		npc=250806,
 		loot={
 			264555, -- Splintered Hexwood Clasps
 			264575, -- Hexwood Helm
 		},
+		vignette=7303,
 	},
 	[42206900] = { -- Duskburn
 		-- [42206900, 42606840, 42606920]

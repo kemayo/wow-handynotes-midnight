@@ -135,13 +135,15 @@ ns.RegisterPoints(ns.ZULAMAN, {
 			264618, -- Strangely Eelastic Blade
 		},
 	},
-	-- [0] = { -- The Decaying Diamondback
-	-- 	criteria=111852, quest=91072,
-	-- 	npc=245691,
-	-- },
-	[45004120] = { -- Ash'an the Empowered / Asha the Empowered
+	[46394339] = { -- The Decaying Diamondback
+		criteria=111852, quest=91072,
+		npc=245691,
+		vignette=6971,
+	},
+	[45284171] = { -- Ash'an the Empowered / Asha the Empowered
 		criteria=111853, quest=91073,
 		npc=245692,
+		vignette=6972,
 	},
 }, {
 	achievement=62122,

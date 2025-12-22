@@ -15,7 +15,7 @@ local GLYPH = ns.nodeMaker{
 
 ns.RegisterPoints(ns.EVERSONGWOODS, {
 	-- [] = {criteria=110335,}, -- The Shining Span, Eversong Woods
-	-- [] = {criteria=110336,}, -- Brightwing Estate, Eversong Woods
+	[65243269] = {criteria=110336,}, -- Brightwing Estate, Eversong Woods
 	-- [] = {criteria=110337,}, -- Silvermoon City, Eversong Woods
 	-- [] = {criteria=110338,}, -- Goldenmist Village, Eversong Woods
 	-- [] = {criteria=110339,}, -- Path of Dawn, Eversong Woods

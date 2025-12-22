@@ -9,11 +9,13 @@ local LORE = {
 -- All get 250 silvermoon court rep
 ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[50524347] = {criteria=111830, quest=93564, vignette=7407}, -- Mirveda's Notes
-	-- [] = {criteria=111828, quest=91841, vignette=}, -- Memorial Plaque
-	-- [] = {criteria=111829, quest=93563, vignette=}, -- Shrine of Dath'remar
+	[47958820] = {criteria=111828, quest=91841, vignette=7141}, -- Memorial Plaque
+	[37601378] = {criteria=111829, quest=93563, vignette=7406}, -- Shrine of Dath'remar
 	[36057251] = {criteria=111831, quest=93565, vignette=7408, note="Upper floor",}, -- Profane Research
-	-- [] = {criteria=111832, quest=93562, vignette=}, -- Hawkstrider Husbandry: Unabridged Edition
-	-- [] = {criteria=111833, quest=93570, vignette=}, -- Unfinished Sheet Music
+	[57815092] = {criteria=111832, quest=93562, vignette=7405}, -- Hawkstrider Husbandry: Unabridged Edition
+}, LORE)
+ns.RegisterPoints(ns.SILVERMOONCITY, {
+	[38107699] = {criteria=111833, quest=93570, vignette=7409, parent=true}, -- Unfinished Sheet Music
 }, LORE)
 
 ns.RegisterPoints(ns.ZULAMAN, {
