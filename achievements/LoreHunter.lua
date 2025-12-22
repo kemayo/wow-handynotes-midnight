@@ -11,7 +11,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[50524347] = {criteria=111830, quest=93564, vignette=7407}, -- Mirveda's Notes
 	-- [] = {criteria=111828, quest=91841, vignette=}, -- Memorial Plaque
 	-- [] = {criteria=111829, quest=93563, vignette=}, -- Shrine of Dath'remar
-	-- [] = {criteria=111831, quest=93565, vignette=}, -- Profane Research
+	[36057251] = {criteria=111831, quest=93565, vignette=7408, note="Upper floor",}, -- Profane Research
 	-- [] = {criteria=111832, quest=93562, vignette=}, -- Hawkstrider Husbandry: Unabridged Edition
 	-- [] = {criteria=111833, quest=93570, vignette=}, -- Unfinished Sheet Music
 }, LORE)
