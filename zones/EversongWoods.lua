@@ -22,7 +22,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 	},
 	[40961945] = { -- Gift of the Phoenix
 		criteria=111473, quest=93544, -- 93545 for placing
-		loot={26311}, -- Gilded Eversong Cup
+		loot={263211}, -- Gilded Eversong Cup
 		note="Take {spell:1264567:Sunstrider Vessel}, catch 5x{spell:1264565:Phoenix Cinders}",
 		vignette=7395,
 	},
