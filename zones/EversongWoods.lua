@@ -210,9 +210,8 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		},
 		vignette=7399,
 	},
-	[44403840] = { -- Dame Bloodshed
-		-- [44403840, 44803860, 45003820, 45603820, 45803900]
-		criteria=110180, quest=93561,
+	[44573817] = { -- Dame Bloodshed
+		criteria=110180, quest=93561, -- 94696
 		npc=255348,
 		loot={
 			-- 251788, -- Gift of Light
@@ -220,6 +219,8 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			264595, -- Lynxhide Shawl
 			264624, -- Fang of the Dame
 		},
+		note="Wanders",
+		vignette=7404,
 	},
 }, {
 	achievement=61507,
