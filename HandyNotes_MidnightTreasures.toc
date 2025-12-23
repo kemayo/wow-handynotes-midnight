@@ -8,7 +8,7 @@
 ## X-Category: Map
 ## X-eMail: kemayo @ gmail DOT com
 ## X-Curse-Project-ID: 934070
-## X-Wago-ID: 
+## X-Wago-ID: kGr0me6y
 ## SavedVariables: HandyNotes_MidnightTreasuresDB
 ## RequiredDeps: HandyNotes
 
