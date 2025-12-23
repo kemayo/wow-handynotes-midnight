@@ -18,14 +18,15 @@ ns.RegisterPoints(ns.SILVERMOONCITY, {
 	[38107699] = {criteria=111833, quest=93570, vignette=7409, parent=true}, -- Unfinished Sheet Music
 }, LORE)
 
+-- All get 250 Amani Tribe rep
 ns.RegisterPoints(ns.ZULAMAN, {
 	-- [] = {criteria=111772, quest=94627, vignette=}, -- Tablet of Akil'zon
-	-- [] = {criteria=111773, quest=94628, vignette=}, -- Tablet of Halazzi
-	-- [] = {criteria=111774, quest=94631, vignette=}, -- Tablet of Jan'alai
+	[32083165] = {criteria=111773, quest=94628, vignette=7488}, -- Tablet of Halazzi
+	[55121761] = {criteria=111774, quest=94631, vignette=7489}, -- Tablet of Jan'alai
 	-- [] = {criteria=111775, quest=94632, vignette=}, -- Tablet of Nalorakk
-	-- [] = {criteria=111776, quest=94633, vignette=}, -- Tablet of the Ruling Family
+	[37502669] = {criteria=111776, quest=94633, vignette=7491}, -- Tablet of the Ruling Family
 	-- [] = {criteria=111777, quest=94673, vignette=}, -- Tablet of Kulzi
-	-- [] = {criteria=111778, quest=94674, vignette=}, -- Tablet of Filo
+	[52933212] = {criteria=111778, quest=94674, vignette=7493}, -- Tablet of Filo
 }, LORE)
 
 ns.RegisterPoints(ns.HARANDAR, {

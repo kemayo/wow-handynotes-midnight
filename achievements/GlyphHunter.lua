@@ -31,11 +31,11 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	-- [] = {criteria=110353,}, -- Revantusk Sedge, Zul'aman
 	-- [] = {criteria=110355,}, -- Shadebasin Watch, Zul'aman
 	-- [] = {criteria=110354,}, -- Temple of Akil'zon, Zul'aman
-	-- [] = {criteria=110356,}, -- Temple of Jan'alai, Zul'aman
+	[51462362] = {criteria=110356,}, -- Temple of Jan'alai, Zul'aman
 	-- [] = {criteria=110357,}, -- Strait of Hexx'alor, Zul'aman
-	-- [] = {criteria=110358,}, -- Witherbark Bluffs, Zul'aman
-	-- [] = {criteria=110359,}, -- Nalorakk's Prowl, Zul'aman
-	-- [] = {criteria=110360,}, -- Zeb'Alar Lumberyard, Zul'aman
+	[39111975] = {criteria=110358, note="In the chasm"}, -- Witherbark Bluffs, Zul'aman
+	[30418473] = {criteria=110359, note="At the top of the waterfall"}, -- Nalorakk's Prowl, Zul'aman
+	[27952858] = {criteria=110360,}, -- Zeb'Alar Lumberyard, Zul'aman
 	-- [] = {criteria=110361,}, -- Amani Pass, Zul'aman
 	-- [] = {criteria=110362,}, -- Solemn Valley, Zul'aman
 	-- [] = {criteria=110363,}, -- Spiritpaw Burrow, Zul'aman

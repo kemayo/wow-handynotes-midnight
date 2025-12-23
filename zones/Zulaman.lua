@@ -6,7 +6,6 @@ A Most Violent Loa: 62267
 Put a Pin in It: 62199
 Gnome Alone: 62200
 The Frog and the Princess: 62201
-Spiritpaw Marathon: 62202
 ]]
 
 ns.RegisterPoints(ns.ZULAMAN, {
@@ -24,6 +23,16 @@ ns.RegisterPoints(ns.ZULAMAN, {
 
 ns.RegisterPoints(ns.ATALAMAN, {})
 
+-- Spiritpaw Marathon
+ns.RegisterPoints(ns.ZULAMAN, {
+	[32292239] = {
+		achievement=62202,
+		note="Talk to {npc:258938:Feeva}",
+		texture=ns.atlas_texture("WildBattlePetCapturable", {r=0.8,g=0,b=1}),
+		minimap=true,
+	},
+})
+
 -- Rares
 
 -- Tallest Tree in the Forest
@@ -37,13 +46,14 @@ ns.RegisterPoints(ns.ZULAMAN, {
 			264611, -- Pendant of Siphoned Vitality
 		},
 	},
-	[51601820] = { -- The Snapping Scourge
-		criteria=111840, quest=89570,
+	[51881875] = { -- The Snapping Scourge
+		criteria=111840, quest=89570, -- 94697
 		npc=242024,
 		loot={
 			264585, -- Snapper Steppers
 			264617, -- Scourge's Spike
 		},
+		vignette=6896,
 	},
 	[51607240] = { -- Skullcrusher Harak
 		-- [51607240, 51607260]
@@ -56,13 +66,14 @@ ns.RegisterPoints(ns.ZULAMAN, {
 			264631, -- Harak's Skullcutter
 		},
 	},
-	[28802440] = { -- Lightwood Borer
-		criteria=111842, quest=89575,
+	[28832450] = { -- Lightwood Borer
+		criteria=111842, quest=89575, -- 94699
 		npc=242028,
 		loot={
 			251784, -- Sylvan Wakrapuku
 			264640, -- Sharpened Borer Claw
 		},
+		vignette=6900,
 	},
 	[50206500] = { -- Mrrlokk
 		-- [50206500, 50806520, 50806580]
@@ -111,21 +122,22 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	-- 	criteria=111848, quest=89581,
 	-- 	npc=242034,
 	-- },
-	[39402040] = { -- The Devouring Invader
-		-- [39402040, 39402060, 39602100]
+	[395922097] = { -- The Devouring Invader
 		criteria=111849, quest=89583,
 		npc=242035,
 		loot={
 			264559, -- Devourer's Visage
 			264638, -- Fangs of the Invader
 		},
+		note="In cave at the bottom of the chasm",
 	},
-	[33608880] = { -- Elder Oaktalon
-		criteria=111850, quest=89572,
+	[33688897] = { -- Elder Oaktalon
+		criteria=111850, quest=89572, -- 94707
 		npc=242026,
 		loot={
 			264547, -- Worn Furbolg Bindings
 		},
+		vignette=6898,
 	},
 	[47602060] = { -- Depthborn Eelamental
 		-- [47602060, 47802040]
