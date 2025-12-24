@@ -9,19 +9,62 @@ The Frog and the Princess: 62201
 ]]
 
 ns.RegisterPoints(ns.ZULAMAN, {
-	-- [] = {criteria=111854, quest=90794}, -- Abandoned Ritual Skull
-	-- [] = {criteria=111855, quest=90793}, -- Honored Warrior's Cache
-	-- [] = {criteria=111856, quest=93871}, -- Sealed Twilight Blade Bounty
-	-- [] = {criteria=111857, quest=90795}, -- Bait and Tackle
-	-- [] = {criteria=111858, quest=90796}, -- Burrow Bounty
-	-- [] = {criteria=111859, quest=90797}, -- Mrruk's Mangy Trove
-	-- [] = {criteria=111860, quest=90798}, -- Secret Formula
-	-- [] = {criteria=111861, quest=90799}, -- Abandoned Nest
+	[44724410] = {criteria=111854, quest=90794, loot={{257444, mount=true}}, vignette=6938, note="In cave on the lower level; gather 1000x{item:259361:Vile Essence} nearby"}, -- Abandoned Ritual Skull, Hexed Vilefeather Eagle
+	[46838186] = { -- Honored Warrior's Cache
+		criteria=111855, quest=90793, -- 93560 for interacting with the cache
+		loot={{257223, mount=true}}, -- Ancestral War Bear
+		note="Fetch the four tokens",
+		related={
+			[32698350] = {label="{npc:255171:Nalorakk's Chosen}", loot={259219}, inbag=259219}, -- Bear Tooth
+			[34553346] = {label="{npc:255232:Halazzi's Chosen}", loot={259223}, inbag=259223}, -- Lynx Claw
+			[54782239] = {label="{npc:255233:Jan'alai's Chosen}", loot={259220}, inbag=259220}, -- Dragonhawk Feather
+			-- This one is looting-bugged, and there's no sign of the item on wowhead via https://www.wowhead.com/beta/items?filter=104;0;Honored+Warrior%27s+Cache
+			[51588492] = {label="{npc:255231:Akil'zon's Chosen}", loot={}, inbag=nil}, -- Akil'zon's Chosen 255231
+			hide_before=ns.conditions.QuestComplete(93560), -- interacted with the cache for the first time
+			note="Use the Honored Warrior's Urn",
+			minimap=true,
+		},
+		vignette=6937,
+	},
+	[21897738] = { -- Sealed Twilight Blade Bounty
+		criteria=111856, quest=93871,
+		loot={{265362, quest=94570}}, -- Arsenal: Twilight Blade
+		note="Solve the {spell:1270357:Sealing Orb} puzzle in each of the nearby towers",
+		related={
+			[26098074] = {quest=93916, label="{spell:1270357:Sealing Orb}", color={r=0.5,g=0,b=1}, minimap=true},
+			[23957895] = {quest=93917, label="{spell:1270357:Sealing Orb}", color={r=0.5,g=0,b=1}, minimap=true},
+			[24027566] = {quest=93918, label="{spell:1270357:Sealing Orb}", color={r=0.5,g=0,b=1}, minimap=true},
+			[26097401] = {quest=93919, label="{spell:1270357:Sealing Orb}", color={r=0.5,g=0,b=1}, minimap=true},
+		},
+		vignette=7419,
+	},
+	[20846654] = { -- Bait and Tackle
+		criteria=111857, quest=90795,
+		loot={
+			255157, -- Abyss Angler's Fish Log
+			241145, -- Lucky Loa Lure
+			255688, -- Achor of the Abyss
+		},
+		vignette=6939,
+	},
+	[41994778] = {criteria=111858, quest=90796, loot={254749}, vignette=6940}, -- Burrow Bounty, Phial of Burrow Balm
+	[52336599] = {criteria=111859, quest=90797, loot={255428}, vignette=6941}, -- Mrruk's Mangy Trove, Tolbani's Medicine Satchel
+	[40483596] = {criteria=111860, quest=90798, loot={256326}, vignette=6942}, -- Secret Formula, Fetid Dartfrog Idol
+	[42645244] = {criteria=111861, quest=90799, loot={{255008, pet=4906}}, vignette=6943, note="Atop the tree"}, -- Abandoned Nest, Weathered Eagle Egg
 }, {
 	achievement=62125,
 })
 
-ns.RegisterPoints(ns.ATALAMAN, {})
+-- ns.RegisterPoints(ns.ATALAMAN, {})
+
+ns.RegisterPoints(ns.ZULAMAN, {
+	-- TODO: this wasn't interactable when I went by on 12/24, so need to check what's in it
+	[44325620] = { -- Ruz'avalt's Prized Tackle
+		label="Ruz'avalt's Prized Tackle",
+		quest=90790,
+		vignette=6934,
+	},
+})
 
 -- Spiritpaw Marathon
 ns.RegisterPoints(ns.ZULAMAN, {
@@ -37,14 +80,16 @@ ns.RegisterPoints(ns.ZULAMAN, {
 
 -- Tallest Tree in the Forest
 ns.RegisterPoints(ns.ZULAMAN, {
-	[34203300] = { -- Necrohexxer Raz'ka
-		criteria=111839, quest=89569,
+	[34393304] = { -- Necrohexxer Raz'ka
+		criteria=111839, quest=89569, -- 94683
 		npc=242023,
 		loot={
 			251783, -- Lost Idol of the Hash'ey
 			264527, -- Vile Hexxer's Mantle
 			264611, -- Pendant of Siphoned Vitality
+			265543, -- Tempered Amani Spearhead
 		},
+		vignette=6895,
 	},
 	[51881875] = { -- The Snapping Scourge
 		criteria=111840, quest=89570, -- 94697
@@ -55,16 +100,17 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		},
 		vignette=6896,
 	},
-	[51607240] = { -- Skullcrusher Harak
-		-- [51607240, 51607260]
-		criteria=111841, quest=89571,
+	[51847292] = { -- Skullcrusher Harak
+		criteria=111841, quest=89571, -- 94698
 		npc=242025,
 		loot={
 			251783, -- Lost Idol of the Hash'ey
 			251784, -- Sylvan Wakrapuku
 			264542, -- Skullcrusher's Mantle
 			264631, -- Harak's Skullcutter
+			265560, -- Toughened Amani Leather Wrap
 		},
+		vignette=6897,
 	},
 	[28832450] = { -- Lightwood Borer
 		criteria=111842, quest=89575, -- 94699
@@ -75,9 +121,8 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		},
 		vignette=6900,
 	},
-	[50206500] = { -- Mrrlokk
-		-- [50206500, 50806520, 50806580]
-		criteria=111843, quest=91174,
+	[50866517] = { -- Mrrlokk
+		criteria=111843, quest=91174, -- 94700
 		npc=245975,
 		loot={
 			251783, -- Lost Idol of the Hash'ey
@@ -85,43 +130,44 @@ ns.RegisterPoints(ns.ZULAMAN, {
 			264580, -- Mrrlokk's Mrgl Grrdle
 			265543, -- Tempered Amani Spearhead
 		},
+		vignette=6977,
 	},
-	[39005020] = { -- Poacher Rav'ik
-		criteria=111844, quest=91634,
-		npc=247976,
-		loot={
-			264627, -- Rav'ik's Spare Hunting Spear
-			264911, -- Forest Hunter's Arc
-		},
-	},
-	[30604500] = { -- Spinefrill
-		criteria=111845, quest=89578,
+	[30574456] = { -- Spinefrill
+		criteria=111845, quest=89578, -- 94702
 		npc=242031,
 		loot={
 			264554, -- Frilly Leather Vest
+			264620, -- Pufferspine Spellpierce
 		},
+		vignette=6903,
 	},
-	[46405140] = { -- Oophaga
-		criteria=111846, quest=89579,
+	[46555127] = { -- Oophaga
+		criteria=111846, quest=89579, -- 94703
 		npc=242032,
 		loot={
 			264528, -- Goop-Coated Leggings
 			264541, -- Egg-Swaddling Sash
 		},
+		vignette=6904,
 	},
-	[47403400] = { -- Tiny Vermin
-		-- [47403400, 47803400]
+	[47763435] = { -- Tiny Vermin
 		criteria=111847, quest=89580,
 		npc=242033,
 		loot={
 			251784, -- Sylvan Wakrapuku
 			264648, -- Verminscale Gavel
+			264597, -- Leechtooth Band
 		},
+		vignette=6905,
 	},
-	-- [0] = { -- Voidtouched Crustacean
-	-- 	criteria=111848, quest=89581,
-	-- 	npc=242034,
-	-- },
+	[21547051] = { -- Voidtouched Crustacean
+		criteria=111848, quest=89581, --94705
+		npc=242034,
+		loot={
+			264586, -- Crustacean Carapace Chestguard
+		},
+		vignette=6906,
+	},
 	[395922097] = { -- The Devouring Invader
 		criteria=111849, quest=89583,
 		npc=242035,
@@ -130,22 +176,25 @@ ns.RegisterPoints(ns.ZULAMAN, {
 			264638, -- Fangs of the Invader
 		},
 		note="In cave at the bottom of the chasm",
+		vignette=6907,
 	},
 	[33688897] = { -- Elder Oaktalon
 		criteria=111850, quest=89572, -- 94707
 		npc=242026,
 		loot={
 			264547, -- Worn Furbolg Bindings
+			264529, -- Cover of the Furbolg Elder
 		},
 		vignette=6898,
 	},
-	[47602060] = { -- Depthborn Eelamental
-		-- [47602060, 47802040]
-		criteria=111851, quest=89573,
+	[47662052] = { -- Depthborn Eelamental
+		criteria=111851, quest=89573, -- 94708
 		npc=242027,
 		loot={
+			251784, -- Sylvan Wakrapuku
 			264618, -- Strangely Eelastic Blade
 		},
+		vignette=6899,
 	},
 	[46394339] = { -- The Decaying Diamondback
 		criteria=111852, quest=91072,
@@ -159,4 +208,19 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	},
 }, {
 	achievement=62122,
+})
+
+ns.RegisterPoints(ns.ATALAMAN, {
+	[82972145] = { -- Poacher Rav'ik
+		criteria=111844, quest=91634, -- 94701
+		npc=247976,
+		loot={
+			264627, -- Rav'ik's Spare Hunting Spear
+			264911, -- Forest Hunter's Arc
+		},
+		vignette=7117,
+	},
+}, {
+	achievement=62122,
+	parent=true,
 })

@@ -2,7 +2,7 @@ local myname, ns = ...
 
 local LORE = {
     achievement=62104,
-    texture=ns.atlas_texture("profession", {r=1, g=1, b=0}),
+    texture=ns.atlas_texture("loreobject-32x32", {r=1, g=1, b=0}),
     -- minimap=true,
 }
 
@@ -20,12 +20,12 @@ ns.RegisterPoints(ns.SILVERMOONCITY, {
 
 -- All get 250 Amani Tribe rep
 ns.RegisterPoints(ns.ZULAMAN, {
-	-- [] = {criteria=111772, quest=94627, vignette=}, -- Tablet of Akil'zon
+	[53118211] = {criteria=111772, quest=94627, vignette=7487}, -- Tablet of Akil'zon
 	[32083165] = {criteria=111773, quest=94628, vignette=7488}, -- Tablet of Halazzi
 	[55121761] = {criteria=111774, quest=94631, vignette=7489}, -- Tablet of Jan'alai
-	-- [] = {criteria=111775, quest=94632, vignette=}, -- Tablet of Nalorakk
+	[30168466] = {criteria=111775, quest=94632, vignette=7490}, -- Tablet of Nalorakk
 	[37502669] = {criteria=111776, quest=94633, vignette=7491}, -- Tablet of the Ruling Family
-	-- [] = {criteria=111777, quest=94673, vignette=}, -- Tablet of Kulzi
+	[39274472] = {criteria=111777, quest=94673, vignette=7492}, -- Tablet of Kulzi
 	[52933212] = {criteria=111778, quest=94674, vignette=7493}, -- Tablet of Filo
 }, LORE)
 
