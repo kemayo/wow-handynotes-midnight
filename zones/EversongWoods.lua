@@ -192,14 +192,14 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		},
 		vignette=7303,
 	},
-	[42206900] = { -- Duskburn
-		-- [42206900, 42606840, 42606920]
-		criteria=110178, quest=93550,
+	[42176897] = { -- Duskburn
+		criteria=110178, quest=93550, -- 94694
 		npc=255302,
 		loot={
 			264569, -- Void-Gorged Kickers
 			264594, -- Netherscale Cloak
 		},
+		vignette=7396,
 	},
 	[51694601] = { -- Malfunctioning Construct
 		criteria=110179, quest=93555,

@@ -14,18 +14,20 @@ local GLYPH = ns.nodeMaker{
 }
 
 ns.RegisterPoints(ns.EVERSONGWOODS, {
-	-- [] = {criteria=110335,}, -- The Shining Span, Eversong Woods
 	[65243269] = {criteria=110336,}, -- Brightwing Estate, Eversong Woods
-	-- [] = {criteria=110337,}, -- Silvermoon City, Eversong Woods
-	-- [] = {criteria=110338,}, -- Goldenmist Village, Eversong Woods
-	-- [] = {criteria=110339,}, -- Path of Dawn, Eversong Woods
-	-- [] = {criteria=110340,}, -- Sunsail Anchorage, Eversong Woods
-	-- [] = {criteria=110341,}, -- Danwstar Spire, Eversong Woods
-	-- [] = {criteria=110342,}, -- Tranquillien, Eversong Woods
+	[58931954] = {criteria=110337, translate={[ns.SILVERMOONCITY]=true}}, -- Silvermoon City, Eversong Woods
+	[39975963] = {criteria=110338,}, -- Goldenmist Village, Eversong Woods
+	[49474803] = {criteria=110339,}, -- Path of Dawn, Eversong Woods
+	[39464560] = {criteria=110340,}, -- Sunsail Anchorage, Eversong Woods
+	[62616277] = {criteria=110341,}, -- Danwstar Spire, Eversong Woods
+	[52466755] = {criteria=110342,}, -- Tranquillien, Eversong Woods
 	[33416524] = {criteria=110343,}, -- Daggerspine Point, Eversong Woods
-	-- [] = {criteria=110344,}, -- Suncrown Tree, Eversong Woods
-	-- [] = {criteria=110345,}, -- Fairbreeze Village, Eversong Woods
+	[58435833] = {criteria=110344, note="In the branches"}, -- Suncrown Tree, Eversong Woods
+	[43214637] = {criteria=110345, note="In the branches"}, -- Fairbreeze Village, Eversong Woods
 }, GLYPH{achievement=61576})
+ns.RegisterPoints(ns.SILVERMOONCITY, {
+	[48350655] = {criteria=110335,}, -- The Shining Span, Eversong Woods
+}, GLYPH{achievement=61576, parent=true})
 
 ns.RegisterPoints(ns.ZULAMAN, {
 	[19267057] = {criteria=110353,}, -- Revantusk Sedge, Zul'aman

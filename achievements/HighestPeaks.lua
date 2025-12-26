@@ -13,9 +13,9 @@ local HIGHEST = ns.nodeMaker{
 }
 
 ns.RegisterPoints(ns.EVERSONGWOODS, {
-	-- [] = {criteria=111573, quest=94536}, -- Telescope Placed
-	-- [] = {criteria=111574, quest=94537}, -- Telescope Placed
-	-- [] = {criteria=111575, quest=94538}, -- Telescope Placed
+	[42982997] = {criteria=111573, quest=94536, vignette=7460, translate={[ns.SILVERMOONCITY]=true}}, -- Telescope Placed
+	[40411010] = {criteria=111574, quest=94537, vignette=7461}, -- Telescope Placed
+	[37414789] = {criteria=111575, quest=94538, vignette=7462}, -- Telescope Placed
 	[54585101] = {criteria=111576, quest=94539, vignette=7463}, -- Telescope Placed
 	[50198543] = {criteria=111577, quest=94540, vignette=7464}, -- Telescope Placed
 }, HIGHEST{achievement=62288})
