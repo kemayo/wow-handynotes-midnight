@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v3
+
+* Finish up Skyriding Glyphs and Peaks in Eversong and Zul'aman
+* Add rares to Isle of Quel'danas
+* Avoid an error during combat with Midnight's new aura-checking restrictions
+
 ## Changed in v2
 
 * Filled out Zul'aman
