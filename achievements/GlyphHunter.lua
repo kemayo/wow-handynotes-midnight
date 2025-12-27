@@ -56,13 +56,13 @@ ns.RegisterPoints(ns.HARANDAR, {
 }, GLYPH{achievement=61582})
 
 ns.RegisterPoints(ns.VOIDSTORM, {
-	-- [] = {criteria=110372,}, -- The Voidspire, Voidstorm
-	-- [] = {criteria=110373,}, -- The Molt, Voidstorm
-	-- [] = {criteria=110374,}, -- The Ingress, Voidstorm
-	-- [] = {criteria=110375,}, -- The Bladeburrows, Voidstorm
+	[51346272] = {criteria=110372,}, -- The Voidspire, Voidstorm
+	[37184998] = {criteria=110373, note="Under the bridge"}, -- The Molt, Voidstorm
+	[35676110] = {criteria=110374,}, -- The Ingress, Voidstorm
+	[39917098] = {criteria=110375,}, -- The Bladeburrows, Voidstorm
 	-- [] = {criteria=110376,}, -- Gnawing Reach, Voidstorm
 	-- [] = {criteria=110377,}, -- Hanaar Outpost, Voidstorm
-	-- [] = {criteria=110378,}, -- Ethereum Refinery, Voidstorm
+	[38907613] = {criteria=110378,}, -- Ethereum Refinery, Voidstorm
 	-- [] = {criteria=110379,}, -- Master's Perch, Voidstorm
 	-- [] = {criteria=110380,}, -- Obscurion Citadel, Voidstorm
 	-- [] = {criteria=110381,}, -- Shadowguard Point, Voidstorm

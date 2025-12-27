@@ -40,7 +40,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 ns.RegisterPoints(ns.VOIDSTORM, {
 	-- [] = {criteria=111834, quest=94389, vignette=}, -- Void Armor
 	-- [] = {criteria=111835, quest=94394, vignette=}, -- Ancient Tablet
-	-- [] = {criteria=111836, quest=94395, vignette=}, -- Abandoned Telescope
+	[40485863] = {criteria=111836, quest=94395, vignette=7450}, -- Abandoned Telescope
 	-- [] = {criteria=111837, quest=94397, vignette=}, -- Tattered Page
 	-- [] = {criteria=111838, quest=94398, vignette=}, -- Shadowgraft Harness
 }, LORE)
