@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v4
+
+* Harandar: most of the treasures, improved rare positions, added all glyphs, lore, and peaks.
+* Harandar: Dust 'em Off achievement added, with partial data for locations, hidden by default because it's A Lot.
+* Added decor completion / notability, flagged the relevant treasures
+
 ## Changed in v3
 
 * Finish up Skyriding Glyphs and Peaks in Eversong and Zul'aman
