@@ -29,17 +29,17 @@ ns.RegisterPoints(ns.ZULAMAN, {
 }, HIGHEST{achievement=62289})
 
 ns.RegisterPoints(ns.HARANDAR, {
-	-- [] = {criteria=111583, quest=94546}, -- Telescope Placed
-	-- [] = {criteria=111584, quest=94547}, -- Telescope Placed
-	-- [] = {criteria=111585, quest=94548}, -- Telescope Placed
-	-- [] = {criteria=111586, quest=94549}, -- Telescope Placed
-	-- [] = {criteria=111587, quest=94550}, -- Telescope Placed
+	[69174638] = {criteria=111583, quest=94546, vignette=7470, note="In the leaves"}, -- Telescope Placed
+	[68162597] = {criteria=111584, quest=94547, vignette=7471, note="On a branch"}, -- Telescope Placed
+	[49417592] = {criteria=111585, quest=94548, vignette=7472}, -- Telescope Placed
+	[69406339] = {criteria=111586, quest=94549, vignette=7473}, -- Telescope Placed
+	[53495856] = {criteria=111587, quest=94550, vignette=7474}, -- Telescope Placed (recheck this one, I lost the vignette-coords because of The Den)
 }, HIGHEST{achievement=62290})
 
 ns.RegisterPoints(ns.VOIDSTORM, {
-	-- [] = {criteria=111588, quest=94551}, -- Telescope Placed
-	-- [] = {criteria=111589, quest=94552}, -- Telescope Placed
-	-- [] = {criteria=111590, quest=94553}, -- Telescope Placed
-	-- [] = {criteria=111591, quest=94554}, -- Telescope Placed
-	-- [] = {criteria=111592, quest=94555}, -- Telescope Placed
+	-- [] = {criteria=111588, quest=94551, vignette=}, -- Telescope Placed
+	-- [] = {criteria=111589, quest=94552, vignette=}, -- Telescope Placed
+	-- [] = {criteria=111590, quest=94553, vignette=}, -- Telescope Placed
+	-- [] = {criteria=111591, quest=94554, vignette=}, -- Telescope Placed
+	-- [] = {criteria=111592, quest=94555, vignette=}, -- Telescope Placed
 }, HIGHEST{achievement=62291})

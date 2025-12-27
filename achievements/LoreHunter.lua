@@ -30,11 +30,11 @@ ns.RegisterPoints(ns.ZULAMAN, {
 }, LORE)
 
 ns.RegisterPoints(ns.HARANDAR, {
-	-- [] = {criteria=111823, quest=93554, vignette=}, -- Tarnished Mural
-	-- [] = {criteria=111824, quest=93556, vignette=}, -- Ancient Runestone
-	-- [] = {criteria=111825, quest=93557, vignette=}, -- Derelict Mural
-	-- [] = {criteria=111826, quest=93558, vignette=}, -- Forgotten Mural
-	-- [] = {criteria=111827, quest=93559, vignette=}, -- A Frayed Scroll
+	[55675403] = {criteria=111823, quest=93554, vignette=7398}, -- Tarnished Mural
+	[33346085] = {criteria=111824, quest=93556, vignette=7400}, -- Ancient Runestone
+	[72453809] = {criteria=111825, quest=93557, vignette=7401}, -- Derelict Mural
+	[68212380] = {criteria=111826, quest=93558, vignette=7402, note="Behind the tent"}, -- Forgotten Mural
+	[47614723] = {criteria=111827, quest=93559, vignette=7403}, -- A Frayed Scroll
 }, LORE)
 
 ns.RegisterPoints(ns.VOIDSTORM, {

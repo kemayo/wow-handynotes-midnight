@@ -44,15 +44,15 @@ ns.RegisterPoints(ns.ZULAMAN, {
 }, GLYPH{achievement=61581})
 
 ns.RegisterPoints(ns.HARANDAR, {
-	-- [] = {criteria=110364,}, -- Blossoming Terrace, Harandar
-	-- [] = {criteria=110365,}, -- The Cradle, Harandar
-	-- [] = {criteria=112628,}, -- Roots of Teldrassil, Harandar
-	-- [] = {criteria=110367,}, -- Roots of Amirdrassil, Harandar
-	-- [] = {criteria=110368,}, -- Blooming Lattice, Harandar
-	-- [] = {criteria=110369,}, -- Roots of Nordrassil, Harandar
-	-- [] = {criteria=110370,}, -- Fungara Village, Harandar
-	-- [] = {criteria=110366,}, -- Roots of Shaladrassil, Harandar
-	-- [] = {criteria=110371,}, -- Rift of Aln, Harandar
+	[60184439] = {criteria=110364,}, -- Blossoming Terrace, Harandar
+	[46675330] = {criteria=110365,}, -- The Cradle, Harandar
+	[34542333] = {criteria=112628,}, -- Roots of Teldrassil, Harandar
+	[69184612] = {criteria=110367,}, -- Roots of Amirdrassil, Harandar
+	[54653555] = {criteria=110368,}, -- Blooming Lattice, Harandar
+	[73082591] = {criteria=110369,}, -- Roots of Nordrassil, Harandar
+	[44556281] = {criteria=110370,}, -- Fungara Village, Harandar
+	[26546139] = {criteria=110366,}, -- Roots of Shaladrassil, Harandar
+	[61876751] = {criteria=110371,}, -- Rift of Aln, Harandar
 }, GLYPH{achievement=61582})
 
 ns.RegisterPoints(ns.VOIDSTORM, {
