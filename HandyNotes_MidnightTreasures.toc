@@ -24,6 +24,7 @@ zones\Voidstorm.lua
 zones\Harandar.lua
 zones\IsleOfQueldanas.lua
 
+achievements\DustEmOff.lua
 achievements\GlyphHunter.lua
 achievements\HighestPeaks.lua
 achievements\LoreHunter.lua

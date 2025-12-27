@@ -48,6 +48,7 @@ ns.defaults.profile.groupsHidden = {
 }
 
 ns.defaults.profile.achievementsHidden = {
+	[61052] = true, -- Dust 'Em Off
 }
 
 ns.groups["junk"] = BAG_FILTER_JUNK
