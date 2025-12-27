@@ -11,7 +11,7 @@ local COURT = ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50)
 
 ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[38907607] = { -- Triple-Locked Safebox
-		criteria=111472, quest=93456, loot={243106, COURT}, vignette=7365, -- Gemmed Eversong Lantern
+		criteria=111472, quest=93456, loot={{243106, decor=true}, COURT}, vignette=7365, -- Gemmed Eversong Lantern
 		note="Pick up the torch, and find three keys in the village",
 		related={
 			[37637481] = {loot={258768},minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Battered Safebox Key
@@ -22,15 +22,15 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 	},
 	[40961945] = { -- Gift of the Phoenix
 		criteria=111473, quest=93544, -- 93545 for placing
-		loot={263211, COURT}, -- Gilded Eversong Cup
+		loot={{263211, decor=true}, COURT}, -- Gilded Eversong Cup
 		note="Take {spell:1264567:Sunstrider Vessel}, catch 5x{spell:1264565:Phoenix Cinders}",
 		vignette=7395,
 	},
-	[43286948] = {criteria=111474, quest=93893, loot={262616, COURT}, vignette=7424, note="Upper floor",}, -- Forgotten Ink and Quill
+	[43286948] = {criteria=111474, quest=93893, loot={{262616, decor=true}, COURT}, vignette=7424, note="Upper floor",}, -- Forgotten Ink and Quill
 	[44624555] = {criteria=111475, quest=93908, loot={265828, COURT}, vignette=7429, note="Upper floor",}, -- Gilded Armillary Sphere
 	[52344543] = {criteria=111476, quest=93455, loot={265814, COURT}, vignette=7364, note="Ground floor",}, -- Antique Nobleman's Signet Ring
 	[60696729] = {criteria=111477, quest=93457, loot={265816, COURT}, vignette=7366,}, -- Farstrider's Lost Quiver
-	[40446090] = {criteria=111478, quest=93061, loot={251912, COURT}, vignette=7344, note="On floating platform; pick 10x{item:256232:Bunch of Ripe Grapes}, then get {item:256397:Packet of Instant Yeast} from {npc:251405:Sheri} nearby"}, -- Stone Vat of Wine (also: 86645)
+	[40446090] = {criteria=111478, quest=93061, loot={{251912, decor=true}, COURT}, vignette=7344, note="On floating platform; pick 10x{item:256232:Bunch of Ripe Grapes}, then get {item:256397:Packet of Instant Yeast} from {npc:251405:Sheri} nearby"}, -- Stone Vat of Wine (also: 86645)
 	[48747544] = {criteria=111479, quest=91358, loot={{246314, pet=4974}, COURT}, vignette=7041,}, -- Burbling Paint Pot
 }, {
 	achievement=61960,
@@ -51,7 +51,7 @@ ns.RegisterPoints(ns.SILVERMOONCITY, {
 	[37805238] = { -- Incomplete Book of Sonnets
 		label="{item:265832:Incomplete Booklet of Sonnets}",
 		quest=94781,
-		loot={245282}, -- Silvermoon Library Bookcase
+		loot={{245282, decor=true}}, -- Silvermoon Library Bookcase
 		related={
 			[40768843] = {loot={265833}, minimap=true, inbag={265833, 265832, any=true}, note="Lower level, on a bridge"}, -- Page 1
 			[33299019] = {loot={265834}, minimap=true, inbag={265834, 265832, any=true}, note="Lower level"}, -- Page 2
