@@ -1,27 +1,43 @@
 local myname, ns = ...
 
+local SINGULARITY = ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50)
+
 ns.RegisterPoints(ns.VOIDSTORM, {
-	-- [] = {criteria=111863, quest=93237, loot={}, vignette=}, -- Final Clutch of Predaxas
+	[49947936] = { -- Final Clutch of Predaxas
+		criteria=111863, quest=93237,
+		loot={{257446, mount=true}, SINGULARITY}, -- Reins of the Insatiable Shredclaw
+		vignette=7355, path=48927833
+	},
 	[25766728] = { -- Void-Shielded Tomb
 		criteria=111864, quest=92414,
-		loot={246951}, -- Stormarion Core x20
+		loot={246951, SINGULARITY}, -- Stormarion Core x20
 		note="Drink the potion, then fetch {item:251519:Key of Fused Darkness} from the adjacent building",
 		nearby={25976863, worldmap=false, label="{item:251519:Key of Fused Darkness}"},
 		vignette=7498,
 	},
-	-- [] = {criteria=111866, quest=93431, loot={}, vignette=}, -- Bloody Sack
+	[64537547] = { -- Bloody Sack
+		criteria=111866, quest=93431,
+		loot={{267139, toy=true}, SINGULARITY}, -- Hungry Black Hole
+		note="Feed it meat",
+		vignette=7359, -- Forgotten Oubliette, then 7360 Bloody Sack
+	},
 	-- [] = {criteria=111867, quest=93840, loot={}, vignette=}, -- Malignant Chest
 	-- [] = {criteria=111868, quest=93996, loot={}, vignette=}, -- Stellar Stash
-	-- [] = {criteria=111869, quest=94454, loot={}, vignette=}, -- Forgotten Researcher's Cache
+	[46927989] = {criteria=111869, quest=94454, loot={{250319, toy=true}, SINGULARITY}, vignette=7455, path=47987850}, -- Forgotten Researcher's Cache, Researcher's Shadowgraft
 	-- [] = {criteria=111870, quest=94387, loot={}, vignette=}, -- Scout's Pack
-	-- [] = {criteria=111871, quest=93553, loot={}, vignette=}, -- Embedded Spear
-	[31514450] = {criteria=111872, quest=93500, loot={{266076, pet=true}}, vignette=7393}, -- Quivering Egg, Nether Siphoner
-	[28337289] = {criteria=111873, quest=93498, loot={266099}, vignette=7392, note="Drink the potion, loot the sword"}, -- Exaliburn, Extinguished Exaliburn
-	-- [] = {criteria=111874, quest=93496, loot={}, vignette=}, -- Discarded Energy Pike
-	-- [] = {criteria=111875, quest=93493, loot={}, vignette=}, -- Faindel's Quiver
-	[37696976] = {criteria=111876, quest=93467, loot={{264303, pet=true}}, vignette=7367, path=38076874, note="In cave; on upper level"}, -- Half-Digested Viscera
+	[55367542] = {criteria=111871, quest=93553, loot={266075, SINGULARITY}, vignette=7397}, -- Embedded Spear, Harpoon of Extirpation
+	[31514450] = {criteria=111872, quest=93500, loot={{266076, pet=true}, SINGULARITY}, vignette=7393}, -- Quivering Egg, Nether Siphoner
+	[28337289] = {criteria=111873, quest=93498, loot={266099, SINGULARITY}, vignette=7392, note="Drink the potion, loot the sword"}, -- Exaliburn, Extinguished Exaliburn
+	[35774141] = {criteria=111874, quest=93496, loot={266100, SINGULARITY}, vignette=7391}, -- Discarded Energy Pike, Barbed Riftwalker Dirk
+	[43018194] = {criteria=111875, quest=93493, loot={266098, SINGULARITY}, vignette=7368}, -- Faindel's Quiver / Slain Scout's Quiver, Faindel's Longbow
+	[37696976] = {criteria=111876, quest=93467, loot={{264303, pet=true}, SINGULARITY}, vignette=7367, path=38076874, note="In cave; on upper level"}, -- Half-Digested Viscera
 }, {
 	achievement=62126,
+})
+ns.RegisterPoints(2527, { -- Lair of Predaxas
+	[23088392] = {criteria=111869, quest=94454, loot={{250319, toy=true}, SINGULARITY}, vignette=7455}, -- Forgotten Researcher's Cache, Researcher's Shadowgraft
+}, {
+	achievement=62126
 })
 
 ns.RegisterPoints(ns.VOIDSTORM, {
@@ -43,12 +59,14 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 
 -- The Ultimate Predator
 ns.RegisterPoints(ns.VOIDSTORM, {
-	[29405020] = { -- Sundereth the Caller
-		criteria=111877, quest=90805,
+	[29515008] = { -- Sundereth the Caller
+		criteria=111877, quest=90805, -- 94728
 		npc=244272,
 		loot={
 			264619, -- Nethersteel Spellblade
+			264539, -- Robes of the Voidcaller
 		},
+		vignette=6949,
 	},
 	[34028218] = { -- Territorial Voidscythe
 		criteria=111878, quest=91050, -- 94729
@@ -77,12 +95,14 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		},
 		vignette=7436,
 	},
-	[47008060] = { -- Bane of the Vilebloods
-		criteria=111881, quest=93946,
+	[47058063] = { -- Bane of the Vilebloods
+		criteria=111881, quest=93946, -- 94732
 		npc=256923,
 		loot={
 			264572, -- Netherplate Clasp
 		},
+		note="In cave",
+		vignette=7433,
 	},
 	[39246394] = { -- Aeonelle Blackstar
 		criteria=111882, quest=93944, -- 94751
@@ -104,15 +124,16 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		},
 		vignette=7434,
 	},
-	[55407940] = { -- Queen o' War
-		-- [55407940, 55607920, 55607960]
-		criteria=111884, quest=93934,
+	[55727945] = { -- Queen o' War
+		criteria=111884, quest=93934, -- 94761
 		npc=256926,
 		loot={
 			251786, -- Ever-Collapsing Void Fissure
 			264533, -- Queen's Tentacle Sash
 			264601, -- Queen's Eye Band
 		},
+		note="Use the Crown",
+		vignette=7430,
 	},
 	[48815317] = { -- Ravengerus
 		criteria=111885, quest=93895,

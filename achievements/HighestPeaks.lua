@@ -38,7 +38,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 
 ns.RegisterPoints(ns.VOIDSTORM, {
 	[39686116] = {criteria=111588, quest=94551, vignette=7475}, -- Telescope Placed
-	-- [] = {criteria=111589, quest=94552, vignette=}, -- Telescope Placed
+	[36504430] = {criteria=111589, quest=94552, vignette=7476}, -- Telescope Placed
 	[55466717] = {criteria=111590, quest=94553, vignette=7477}, -- Telescope Placed
 	[41767022] = {criteria=111591, quest=94554, vignette=7478}, -- Telescope Placed
 	[37815497] = {criteria=111592, quest=94555, vignette=7479}, -- Telescope Placed

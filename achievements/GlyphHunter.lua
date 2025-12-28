@@ -64,7 +64,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	-- [] = {criteria=110377,}, -- Hanaar Outpost, Voidstorm
 	[38907613] = {criteria=110378,}, -- Ethereum Refinery, Voidstorm
 	-- [] = {criteria=110379,}, -- Master's Perch, Voidstorm
-	-- [] = {criteria=110380,}, -- Obscurion Citadel, Voidstorm
-	-- [] = {criteria=110381,}, -- Shadowguard Point, Voidstorm
-	-- [] = {criteria=110382,}, -- The Gorging Pit, Voidstorm
+	[64977190] = {criteria=110380,}, -- Obscurion Citadel, Voidstorm
+	[36083725] = {criteria=110381,}, -- Shadowguard Point, Voidstorm
+	[49268752] = {criteria=110382,}, -- The Gorging Pit, Voidstorm
 }, GLYPH{achievement=61583})
