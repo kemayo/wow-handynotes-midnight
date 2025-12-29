@@ -157,9 +157,11 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		vignette=7430,
 	},
 	[48815317] = { -- Ravengerus
-		criteria=111885, quest=93895,
+		criteria=111885, quest=93895, -- 94763
 		npc=256808,
-		loot={},
+		loot={
+			264535, -- Leggings of the Cosmic Harrower
+		},
 		vignette=7426,
 	},
 	[35485023] = { -- Bilemaw the Gluttonous
