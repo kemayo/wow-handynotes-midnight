@@ -1,7 +1,6 @@
 local myname, ns = ...
 
 --[[ TODO:
-Shadowpine Scattered: 61455
 A Most Violent Loa: 62267
 Put a Pin in It: 62199
 Gnome Alone: 62200
@@ -74,6 +73,21 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		texture=ns.atlas_texture("WildBattlePetCapturable", {r=0.8,g=0,b=1}),
 		minimap=true,
 	},
+})
+
+-- Shadowpine Scattered
+ns.RegisterPoints(ns.ZULAMAN, {
+	[52687933] = {criteria=109749, label="{npc:254808:Songseeker Baz'wa}"},
+	[47328190] = {criteria=109750, label="{npc:254807:Songseeker Far'lan}"},
+	[31624653] = {
+		criteria=109751, label="{npc:254840:Songseeker Jebanda}",
+		route={31624653, 33074390, 33204354, 33184061, 33214041, 33184004, 33023952, 32943936, 32613903, 32493896, 32363893, 32293875, 31973841, 31893824, 31763817, 31623813},
+	},
+	-- [] = {criteria=109752, label="{npc:254839:Songseeker Dova}"},
+	[55031798] = {criteria=109753, label="{npc:254841:Songseeker Ikaja}"},
+}, {
+	achievement=61455,
+	texture=ns.atlas_texture("AncientMana", {r=0, g=1, b=0.5})
 })
 
 -- Rares
