@@ -194,7 +194,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	achievement=62130,
 })
 
-ns.RegisterPoints(ns.SLAYERSRISE, { -- Slayer's Rise
+ns.RegisterPoints(ns.SLAYERSRISE, {
 	[41268981] = { -- Eruundi
 		criteria=111888, quest=91047, -- 94754
 		npc=245182,
@@ -243,7 +243,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	},
 })
 
-ns.RegisterPoints(ns.SLAYERSRISE, { -- Slayer's Rise
+ns.RegisterPoints(ns.SLAYERSRISE, {
 	[28465684] = { -- Hardin Steellock
 		quest=94461, -- v
 		npc=257199,
