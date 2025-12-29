@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v6
+
+* Fixes for checking whether transmog loot is available
+
 ## Changed in v5
 
 * Voidstorm: all the treasures, glyphs, lore, and a bunch of rare data
