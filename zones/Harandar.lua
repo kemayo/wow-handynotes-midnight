@@ -25,14 +25,14 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[73666536] = {criteria=109035, quest=92427, loot={263289, HARATI}, vignette=7311}, -- Sporelord's Fight Prize, Sporelord's Authority
 	[62915125] = {criteria=109036, quest=92431, loot={263287, HARATI}, vignette=7312}, -- Reliquary's Lost Paintbrush, Reliquary-Keeper's Lost Shortbow
 	[55633942] = {criteria=109037, quest=92436, loot={{258903, pet=true}, HARATI}, vignette=7313}, -- Kemet's Simmering Cauldron, Percival
-	-- [] = {criteria=110254, quest=93144, loot={, HARATI}, vignette=}, -- Gift of the Cycle
+	-- [] = {criteria=110254, quest=93144, loot={{259084, toy=true}, HARATI}, vignette=7351}, -- Gift of the Cycle
 	[26736759] = { -- Impenatrably Sealed Gourd
 		criteria=110255, quest=93508,
 		loot={{260730, pet=true}, HARATI}, -- Perturbed Sporebat
 		note="Collect {item:260250:Mysterious Purple Fluid}, {item:260251:Mysterious Red Fluid}, combine in the Durable Vase, use to open the Gourd",
 		vignette=7394,
 	},
-	-- [] = {criteria=110256, quest=93650, loot={, HARATI}, vignette=}, -- Sporespawned Cache
+	-- [] = {criteria=110256, quest=93650, loot={{256423, mount=true}, HARATI}, vignette=7411}, -- Sporespawned Cache, Untainted Grove Crawler
 	[40642802] = {criteria=110257, quest=93587, loot={{252017, mount=true}, HARATI}, vignette=7410, note="Gather 150x {item:260531:Crystallized Resin Fragment} in the water nearby"}, -- Peculiar Cauldron, Ruddy Sporeglider
 }, {
 	achievement=61263,
@@ -86,17 +86,23 @@ ns.RegisterPoints(ns.HARANDAR, {
 		},
 		vignette=7159,
 	},
-	[64604800] = { -- Chlorokyll
-		criteria=109044, quest=92161,
+	[64904810] = { -- Chlorokyll
+		criteria=109044, quest=92161, -- 94717
 		npc=249997,
 		loot={
 			264626, -- Scepter of Radiant Conversion
 		},
+		vignette=7161,
 	},
-	-- [0] = { -- Stumpy
-	-- 	criteria=109045, quest=92168,
-	-- 	npc=250086,
-	-- },
+	[65653279] = { -- Stumpy
+		criteria=109045, quest=92168,
+		npc=250086,
+		loot={
+			264635, -- Stumpy's Stump
+			264578, -- Stumpy's Terrorplate
+		},
+		vignette=7162,
+	},
 	[56783422] = { -- Serrasa
 		criteria=109046, quest=92170,
 		npc=250180,
@@ -126,7 +132,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		criteria=109049, quest=92183, -- 94722
 		npc=250246,
 		loot={
-			{246735,mount=true,}, -- Rootstalker Grimlynx
+			-- {246735,mount=true,}, -- Rootstalker Grimlynx (all zone rares?)
 			264633, -- Treetop Battlestave
 			264968, -- Telluric Leyblossom
 			264581, -- Bloombark Spaulders
@@ -160,10 +166,11 @@ ns.RegisterPoints(ns.HARANDAR, {
 		},
 		vignette=7171,
 	},
-	-- [] = { -- Annulus the Worldshaker
-	-- 	criteria=109053, quest=92194,
-	-- 	npc=250358,
-	-- },
+	[44501610] = { -- Annulus the Worldshaker
+		criteria=109053, quest=92194,
+		npc=250358,
+		vignette=7172,
+	},
 }, {
 	achievement=61264,
 })
