@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v5
+
+* Voidstorm: all the treasures, glyphs, lore, and a bunch of rare data
+
 ## Changed in v4
 
 * Harandar: most of the treasures, improved rare positions, added all glyphs, lore, and peaks.
