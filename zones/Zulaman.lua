@@ -4,7 +4,6 @@ local myname, ns = ...
 A Most Violent Loa: 62267
 Put a Pin in It: 62199
 Gnome Alone: 62200
-The Frog and the Princess: 62201
 ]]
 
 ns.RegisterPoints(ns.ZULAMAN, {
@@ -87,8 +86,26 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	[55031798] = {criteria=109753, label="{npc:254841:Songseeker Ikaja}"},
 }, {
 	achievement=61455,
-	texture=ns.atlas_texture("AncientMana", {r=0, g=1, b=0.5})
+	texture=ns.atlas_texture("AncientMana", {r=0, g=1, b=0.5}),
+	minimap=true,
 })
+
+-- The Frog and the Princesses
+local FROG = {
+	achievement=62201,
+	texture=ns.atlas_texture("AncientMana", {r=0, g=1, b=0}),
+	minimap=true,
+	note=EMOTE59_CMD1,
+}
+ns.RegisterPoints(ns.ZULAMAN, {
+	[31702263] = {criteria=112041, label="{npc:258937:Princess Fita}"},
+	[68281931] = {criteria=112445, label="{npc:259684:Princess Gabiku}"},
+	[53945957] = {criteria=112447, label="{npc:259683:Princess Tafiki}"},
+	[29827915] = {criteria=112448, label="{npc:259685:Princess Zambina}"},
+}, FROG)
+ns.RegisterPoints(ns.ATALAMAN, {
+	[27514003] = {criteria=112446, label="{npc:259682:Princess Jakobu}", parent=true},
+}, FROG)
 
 -- Rares
 
