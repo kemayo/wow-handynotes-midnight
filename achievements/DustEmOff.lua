@@ -10,10 +10,10 @@ local MOTH = ns.nodeMaker{
 -- Dust 'Em Off
 -- quest=93559 for the initial loot the intro-quest object
 ns.RegisterPoints(ns.HARANDAR, {
-	-- [] = {quest=92196, vignette=7173},
+	[36354839] = {quest=92196, vignette=7173},
 	[36112640] = {quest=92197, vignette=7175},
 	[49882551] = {quest=92198, vignette=7176},
-	-- [] = {quest=92199, vignette=7177},
+	[55002755] = {quest=92199, vignette=7177},
 	[66316282] = {quest=92200, vignette=7178},
 	[33386349] = {quest=92201, vignette=7179},
 	[33387560] = {quest=92202, vignette=7180},
@@ -25,8 +25,8 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[40443446] = {quest=92300, vignette=7186},
 	[41592743] = {quest=92301, vignette=7187}, -- c
 	[50634062] = {quest=92302, vignette=7188},
-	-- [] = {quest=92303, vignette=7189},
-	-- [] = {quest=92304, vignette=7190},
+	[65432712] = {quest=92303, vignette=7189},
+	[69033120] = {quest=92304, vignette=7190},
 	[59984305] = {quest=92305, vignette=7191},
 	[67736886] = {quest=92306, vignette=7192},
 	[59435432] = {quest=92206, vignette=7193, note="Under the mushroom cap"},
@@ -38,8 +38,8 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[43215365] = {quest=92210, vignette=7199},
 	[60354859] = {quest=92209, vignette=7200},
 	-- [] = {quest=92208, vignette=7201},
-	-- [] = {quest=92207, vignette=7202},
-	-- [] = {quest=92226, vignette=7203},
+	[38344740] = {quest=92207, vignette=7202},
+	[62353714] = {quest=92226, vignette=7203},
 	[49267553] = {quest=92235, vignette=7204},
 	[50266965] = {quest=92234, vignette=7205},
 	[68693633] = {quest=92233, vignette=7206},
@@ -48,7 +48,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[41614011] = {quest=92230, vignette=7209}, -- c
 	[53775910] = {quest=92229, vignette=7210},
 	-- [] = {quest=92228, vignette=7211},
-	-- [] = {quest=92227, vignette=7212},
+	[55143288] = {quest=92227, vignette=7212},
 	[46382488] = {quest=92225, vignette=7213},
 	-- [] = {quest=92224, vignette=7214},
 	-- [] = {quest=92223, vignette=7215},
