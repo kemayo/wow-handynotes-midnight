@@ -9,6 +9,7 @@ ns.ATALAMAN = 2536
 ns.HARANDAR = 2413
 ns.VOIDSTORM = 2405
 ns.SLAYERSRISE = 2444
+ns.ARCANTINA = 2541
 
 -- ns.WORLDQUESTS = ns.conditions.QuestComplete(79573)
 

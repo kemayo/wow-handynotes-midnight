@@ -23,6 +23,7 @@ zones\Zulaman.lua
 zones\Voidstorm.lua
 zones\Harandar.lua
 zones\IsleOfQueldanas.lua
+zones\Arcantina.lua
 
 achievements\DustEmOff.lua
 achievements\GlyphHunter.lua
