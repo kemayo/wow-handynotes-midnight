@@ -15,6 +15,15 @@ a tattered ball 256882 @ 51085048
 returned to altar: 93130
 ]]
 
+ns.RegisterPoints(ns.HARANDARDEN, {
+	[64677095] = {label=("{zone:%d:Silvermoon City}"):format(ns.SILVERMOONCITY),},
+	[61747344] = {label=("{zone:%d:Voidstorm}"):format(ns.VOIDSTORM),},
+}, {
+	atlas="TaxiNode_Continent_Neutral",
+	minimap=true, scale=1.5,
+	group=TUTORIAL_TITLE35, -- Travel
+})
+
 local HARATI = ns.rewards.Currency(ns.CURRENCY_HARATI, 50)
 
 -- Treasure
