@@ -13,6 +13,10 @@ returned to altar: 93145
 altar of innocence @ 51134751, child-like spirit 254030
 a tattered ball 256882 @ 51085048
 returned to altar: 93130
+
+altar of wisdom @ 51155855, "unknown" 254116
+bugged as of dec 2025
+wowhead thinks: rolled up pillow 257054 @ 51355599
 ]]
 
 ns.RegisterPoints(ns.HARANDARDEN, {
@@ -142,6 +146,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		npc=250246,
 		loot={
 			-- {246735,mount=true,}, -- Rootstalker Grimlynx (all zone rares?)
+			-- 251782, -- Withered Saptor's Paw
 			264633, -- Treetop Battlestave
 			264968, -- Telluric Leyblossom
 			264581, -- Bloombark Spaulders

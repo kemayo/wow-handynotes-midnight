@@ -19,7 +19,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[33387560] = {quest=92202, vignette=7180},
 	[31848177] = {quest=92203, vignette=7181},
 	[42186652] = {quest=92204, vignette=7182},
-	-- [] = {quest=92205, vignette=7183},
+	[52418077] = {quest=92205, vignette=7183},
 	[48545536] = {quest=92307, vignette=7184},
 	[56584765] = {quest=92299, vignette=7185},
 	[40443446] = {quest=92300, vignette=7186},
@@ -37,7 +37,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[30317340] = {quest=92211, vignette=7198},
 	[43215365] = {quest=92210, vignette=7199},
 	[60354859] = {quest=92209, vignette=7200},
-	-- [] = {quest=92208, vignette=7201},
+	[33954404] = {quest=92208, vignette=7201},
 	[38344740] = {quest=92207, vignette=7202},
 	[62353714] = {quest=92226, vignette=7203},
 	[49267553] = {quest=92235, vignette=7204},
@@ -47,7 +47,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[47634696] = {quest=92231, vignette=7208}, -- c
 	[41614011] = {quest=92230, vignette=7209}, -- c
 	[53775910] = {quest=92229, vignette=7210},
-	-- [] = {quest=92228, vignette=7211},
+	[66965657] = {quest=92228, vignette=7211},
 	[55143288] = {quest=92227, vignette=7212},
 	[46382488] = {quest=92225, vignette=7213},
 	-- [] = {quest=92224, vignette=7214},
