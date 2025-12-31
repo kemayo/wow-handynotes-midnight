@@ -30,7 +30,7 @@ achievements\GlyphHunter.lua
 achievements\HighestPeaks.lua
 achievements\LoreHunter.lua
 
-#shared\Delves.lua
+shared\Delves.lua
 shared\WorldBosses.lua
 
 #profession_knowledge\Masters.lua
