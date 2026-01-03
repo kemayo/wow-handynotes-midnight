@@ -1,5 +1,12 @@
 # Changelog
 
+## Changed in v8
+
+* Delves: achievement progress and showing on the continent-map, no chests yet
+* World boss loot in Eversong and Zul'aman
+* Harandar: show the portals in the Den
+* Harandar: last of the phase 1 moths
+
 ## Changed in v7
 
 * Add the Arcantina
