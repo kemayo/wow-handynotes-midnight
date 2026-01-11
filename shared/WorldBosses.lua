@@ -39,3 +39,21 @@ ns.RegisterPoints(ns.ZULAMAN, {
         },
     },
 }, boss)
+
+ns.RegisterPoints(ns.HARANDAR, {
+    [39026691] = { -- Thorm'belan
+        quest=92034,
+        worldquest=92034,
+        npc=249776,
+        loot={
+            250449, -- Skulking Nettledirk
+            250452, -- Blooming Thornblade
+            250455, -- Beastly Blossombarb
+            250456, -- Wretched Scholar's Gilded Robe
+            250457, -- Devouring Outrider's Chausses
+            250458, -- Host Commander's Casque
+            250459, -- Bramblestalker's Feathered Cowl
+            250462, -- Forgotten Farstrider's Insignia
+        },
+    },
+})
