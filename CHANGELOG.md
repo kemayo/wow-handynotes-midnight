@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v9
+
+* Harandar: add the loot for Thorm'belan
+
 ## Changed in v8
 
 * Delves: achievement progress and showing on the continent-map, no chests yet
