@@ -10,16 +10,18 @@ local STURDY = ns.nodeMaker{
     minimap=true,
 }
 
--- local CRYSTAL = {ns.rewards.Currency(ns.CURRENCY_RESONANCE, 250)}
+local VOIDLIGHT = {ns.rewards.Currency(ns.CURRENCY_VOIDLIGHT, 100)}
 
--- ns.RegisterPoints(2269, { -- Earthcrawl Mines
---     [45341512] = {quest=83440, loot=CRYSTAL}, -- Resonance Crystals
---     [43522692] = {quest=83438, loot={226002}}, -- Expensive-Looking Find
---     [32824004] = {quest=83451, loot={221756}}, -- Vial of Kaheti Oils
---     [36293302] = {quest=83441, loot={211062, 211033}, note="Jump down from above, onto the crane"}, -- Treasure-Seeker's Shawl, Secret-Dredger's Legguards
---     [53158208] = {quest=83439, loot={226109, 226107}}, -- Squirming Swarm Sac, Homebrewed Blink Vial
+ns.RegisterPoints(2504, { -- Twilight Crypts, Twilight Crypts
+    [46855002] = {quest=94037, loot=VOIDLIGHT},
+    [56928569] = {quest=94020, loot={263517}}, -- Ancient Text
+    [21703623] = {quest=94034, loot=VOIDLIGHT},
+}, STURDY{
+    achievement=61896, -- Discoveries
+})
+-- ns.RegisterPoints(2506, { -- Twilight Crypts, Entrance Hall
 -- }, STURDY{
---     achievement=40806, -- Discoveries
+--     achievement=61896, -- Discoveries
 -- })
 
 ----
