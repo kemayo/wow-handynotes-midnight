@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v10
+
+* Voidstorm: add the loot for Predaxas
+
 ## Changed in v9
 
 * Harandar: add the loot for Thorm'belan
