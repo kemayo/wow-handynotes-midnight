@@ -24,6 +24,14 @@ ns.RegisterPoints(2504, { -- Twilight Crypts, Twilight Crypts
 --     achievement=61896, -- Discoveries
 -- })
 
+ns.RegisterPoints(2535, { -- Atal'aman
+    [53065795] = {quest=94000, loot={263519}, note="Under the bridge"}, -- Snake Oil
+    [48335052] = {quest=94014, loot={{252265, toy=true}}}, -- Hexed Potatoad Mucus
+    [53026535] = {quest=94038, loot=VOIDLIGHT},
+}, STURDY{
+    achievement=61863, -- Discoveries
+})
+
 ----
 
 EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
