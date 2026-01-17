@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v11
+
+* Added delves: Twilight Crypts, Atal'aman
+
 ## Changed in v10
 
 * Voidstorm: add the loot for Predaxas
