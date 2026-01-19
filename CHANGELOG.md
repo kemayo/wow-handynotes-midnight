@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v12:
+
+* Added delve: Collegiate Calamity
+
 ## Changed in v11
 
 * Added delves: Twilight Crypts, Atal'aman
