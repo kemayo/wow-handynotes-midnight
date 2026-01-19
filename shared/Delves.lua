@@ -32,6 +32,16 @@ ns.RegisterPoints(2535, { -- Atal'aman
     achievement=61863, -- Discoveries
 })
 
+ns.RegisterPoints(2547, { -- Collegiate Calamity
+    [31001243] = {quest=94018, loot={263516}, note="Behind the pillar"}, -- Cosmic Ritual Bowl
+    [81273206] = {quest=94029, loot=VOIDLIGHT, path={81424579, 77415126}},
+    [29535394] = {quest=94030, loot=VOIDLIGHT},
+})
+-- ns.RegisterPoints(2577, { -- Collegiate Calamity, Thalassian Library
+-- })
+-- ns.RegisterPoints(2578, { -- Collegiate Calamity, Thalassian University
+-- })
+
 ----
 
 EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
