@@ -24,6 +24,14 @@ ns.RegisterPoints(2504, { -- Twilight Crypts, Twilight Crypts
 --     achievement=61896, -- Discoveries
 -- })
 
+ns.RegisterPoints(2525, { -- The Darkway
+    [53004306] = {quest=94026, loot={263516}}, -- Cosmic Ritual Bowl
+    [41524774] = {quest=94027, loot={263518}}, -- Expensive-Looking Find
+    [45594540] = {quest=94045, loot=VOIDLIGHT},
+}, {
+    achievement=61895,
+})
+
 ns.RegisterPoints(2535, { -- Atal'aman
     [53065795] = {quest=94000, loot={263519}, note="Under the bridge"}, -- Snake Oil
     [48335052] = {quest=94014, loot={{252265, toy=true}}}, -- Hexed Potatoad Mucus
