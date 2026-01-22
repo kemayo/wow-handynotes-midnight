@@ -61,3 +61,7 @@ ns.groups["delves"] = DELVES_LABEL
 ns.groups["delveentrances"] = DELVES_SHOW_ENTRACES_ON_MAP_TEXT
 ns.groups["races"] = "{spell:369968:Racing}"
 ns.groups["worldboss"] = MAP_LEGEND_WORLDBOSS
+
+--[[
+first herb knowledge: 81425
+--]]
