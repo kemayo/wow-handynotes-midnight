@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v13:
+
+* Added delve: The Darkway
+* Fixed the achievement ID on Collegiate Calamity discoveries
+* Fixed adding loot to area POI pins
+
 ## Changed in v12:
 
 * Added delve: Collegiate Calamity
