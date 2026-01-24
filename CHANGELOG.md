@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v14:
+
+* Added delve: Shadow Enclave
+* Fixed some issues with adding information to Blizzard's map pins
+
 ## Changed in v13:
 
 * Added delve: The Darkway
