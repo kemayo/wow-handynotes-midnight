@@ -12,7 +12,7 @@ local STURDY = ns.nodeMaker{
 
 local VOIDLIGHT = {ns.rewards.Currency(ns.CURRENCY_VOIDLIGHT, 100)}
 
-ns.RegisterPoints)2502, { -- Shadow Enclave
+ns.RegisterPoints(2502, { -- Shadow Enclave
     [54628493] = {quest=94001, loot={263518}}, -- Expensive-Looking Find
     [54624878] = {quest=94002, loot={263518}}, -- Expensive-Looking Find
     [55903437] = {quest=94028, loot=VOIDLIGHT},
