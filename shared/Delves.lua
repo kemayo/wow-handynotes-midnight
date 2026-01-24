@@ -12,6 +12,14 @@ local STURDY = ns.nodeMaker{
 
 local VOIDLIGHT = {ns.rewards.Currency(ns.CURRENCY_VOIDLIGHT, 100)}
 
+ns.RegisterPoints)2502, { -- Shadow Enclave
+    [54628493] = {quest=94001, loot={263518}}, -- Expensive-Looking Find
+    [54624878] = {quest=94002, loot={263518}}, -- Expensive-Looking Find
+    [55903437] = {quest=94028, loot=VOIDLIGHT},
+}, STURDY{
+    achievement=61892, -- Discoveries
+})
+
 ns.RegisterPoints(2504, { -- Twilight Crypts, Twilight Crypts
     [46855002] = {quest=94037, loot=VOIDLIGHT},
     [56928569] = {quest=94020, loot={263517}}, -- Ancient Text
@@ -28,7 +36,7 @@ ns.RegisterPoints(2525, { -- The Darkway
     [53004306] = {quest=94026, loot={263516}}, -- Cosmic Ritual Bowl
     [41524774] = {quest=94027, loot={263518}}, -- Expensive-Looking Find
     [45594540] = {quest=94045, loot=VOIDLIGHT},
-}, {
+}, STURDY{
     achievement=61895,
 })
 
@@ -44,7 +52,7 @@ ns.RegisterPoints(2547, { -- Collegiate Calamity
     [31001243] = {quest=94018, loot={263516}, note="Behind the pillar"}, -- Cosmic Ritual Bowl
     [81273206] = {quest=94029, loot=VOIDLIGHT, path={81424579, 77415126}},
     [29535394] = {quest=94030, loot=VOIDLIGHT},
-}, {
+}, STURDY{
     achievement=61894, -- Discoveries
 })
 -- ns.RegisterPoints(2577, { -- Collegiate Calamity, Thalassian Library
