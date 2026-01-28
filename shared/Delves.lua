@@ -32,6 +32,19 @@ ns.RegisterPoints(2504, { -- Twilight Crypts, Twilight Crypts
 --     achievement=61896, -- Discoveries
 -- })
 
+ns.RegisterPoints(2505, { -- Gulf of Memory / Upper Rootway
+    [55502618] = {quest=94041, loot=VOIDLIGHT, note="Up on the branch"},
+    [54242518] = {quest=94023, loot={263519}, note="On the ground"}, -- Snake Oil
+    -- Couldn't find #3 during Alnmoth Munchies; think it probably has to be up on the ledge around 35,50 which isn't accessible in that variant
+    -- [] = {quest=, loot=}, -- 
+}, STURDY{
+    achievement=61898, -- Discoveries
+})
+-- ns.RegisterPoints(2575, { -- Gulf of Memory / Lower Rootway
+-- }, STURDY{
+--     achievement=61898, -- Discoveries
+-- })
+
 ns.RegisterPoints(2525, { -- The Darkway
     [53004306] = {quest=94026, loot={263516}}, -- Cosmic Ritual Bowl
     [41524774] = {quest=94027, loot={263518}}, -- Expensive-Looking Find
