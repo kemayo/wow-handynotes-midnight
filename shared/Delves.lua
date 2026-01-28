@@ -33,10 +33,9 @@ ns.RegisterPoints(2504, { -- Twilight Crypts, Twilight Crypts
 -- })
 
 ns.RegisterPoints(2505, { -- Gulf of Memory / Upper Rootway
+    [39882667] = {quest=94016, loot={{264805, toy=true}}}, -- Brann-O-Vision 3000
     [55502618] = {quest=94041, loot=VOIDLIGHT, note="Up on the branch"},
     [54242518] = {quest=94023, loot={263519}, note="On the ground"}, -- Snake Oil
-    -- Couldn't find #3 during Alnmoth Munchies; think it probably has to be up on the ledge around 35,50 which isn't accessible in that variant
-    -- [] = {quest=, loot=}, -- 
 }, STURDY{
     achievement=61898, -- Discoveries
 })
