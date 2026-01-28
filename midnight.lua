@@ -48,6 +48,7 @@ ns.hiddenConfig = {}
 
 ns.defaults.profile.groupsHidden = {
     worldboss = true, -- we get their loot in the POI, without showing the points when you can't see them...
+    delveentrances = true, -- unlike in WarWithin, they're putting the bountiful on the continent
 }
 
 ns.defaults.profile.achievementsHidden = {

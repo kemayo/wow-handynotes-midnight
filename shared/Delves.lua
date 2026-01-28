@@ -77,7 +77,7 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
         [8443] = {61729, 61863}, -- Atal'Aman
         [8445] = {}, -- Torment's Rise
     }
-    -- Bountiful:
+    -- Bountiful in their own zones:
     delves[8426] = delves[8425] -- Collegiate Calamity
     delves[8428] = delves[8427] -- Parhelion Plaza
     delves[8430] = delves[8429] -- Sunkiller Sanctum
@@ -88,6 +88,17 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
     delves[8440] = delves[8439] -- The Darkway
     delves[8442] = delves[8441] -- Twilight Crypts
     delves[8444] = delves[8443] -- Atal'Aman
+    -- Bountiful on the continent map:
+    delves[8665] = delves[8427] -- Parhelion Plaza
+    delves[8666] = delves[8431] -- Shadowguard Point
+    delves[8667] = delves[8429] -- Sunkiller Sanctum
+    delves[8668] = delves[8435] -- The Gulf of Memory
+    delves[8669] = delves[8433] -- The Grudge Pit
+    delves[8670] = delves[8425] -- Collegiate Calamity
+    delves[8673] = delves[8437] -- The Shadow Enclave
+    delves[8674] = delves[8439] -- The Darkway
+    delves[8677] = delves[8443] -- Atal'Aman
+    delves[8678] = delves[8441] -- Twilight Crypts
 
     --
     local function addToTooltip(tooltip, areaPoiID)
