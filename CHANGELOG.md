@@ -1,5 +1,13 @@
 # Changelog
 
+## Changed in v15:
+
+* Zul'Aman: finally found Songseeker Dova
+* Added delve: Gulf of Memory... missing one chest
+* Delves: there's a whole new set of bountiful POIs now for the continent-level, so add their IDs to hook and display info on
+* Tweak checks for knowable transmog items with Midnight's changes
+* Adjust how I'm adding information to Blizzard's map pins
+
 ## Changed in v14:
 
 * Added delve: Shadow Enclave
