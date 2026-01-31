@@ -89,14 +89,15 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		vignette=7002,
 		note="Runs around nearby",
 	},
-	[54806020] = { -- Overfester Hydra
-		criteria=110168, quest=92392,
+	[54716019] = { -- Overfester Hydra
+		criteria=110168, quest=92392, -- 94684
 		npc=240129,
 		loot={
 			-- 251791, -- Holy Retributor's Order
 			264523, -- Hydrafang Blade
 			264524, -- Lightblighted Verdant Vest
 		},
+		vignette=7300, -- Dormant Lightbloom Hydra
 	},
 	[36566407] = { -- Bloated Snapdragon
 		criteria=110169, quest=92366, -- 94685
