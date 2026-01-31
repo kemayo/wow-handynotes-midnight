@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v16:
+
+* Delves: add the remaining chest to Gulf of Memory
+* Don't try to show a comparison tooltip if GameTooltip has become secret
+
 ## Changed in v15:
 
 * Zul'Aman: finally found Songseeker Dova
