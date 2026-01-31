@@ -28,10 +28,11 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		loot={{265362, quest=94570}}, -- Arsenal: Twilight Blade
 		note="Solve the {spell:1270357:Sealing Orb} puzzle in each of the nearby towers",
 		related={
-			[26098074] = {quest=93916, label="{spell:1270357:Sealing Orb}", color={r=0.5,g=0,b=1}, minimap=true},
-			[23957895] = {quest=93917, label="{spell:1270357:Sealing Orb}", color={r=0.5,g=0,b=1}, minimap=true},
-			[24027566] = {quest=93918, label="{spell:1270357:Sealing Orb}", color={r=0.5,g=0,b=1}, minimap=true},
-			[26097401] = {quest=93919, label="{spell:1270357:Sealing Orb}", color={r=0.5,g=0,b=1}, minimap=true},
+			[26098074] = {quest=93916, label="{spell:1270357:Sealing Orb}"},
+			[23957895] = {quest=93917, label="{spell:1270357:Sealing Orb}"},
+			[24027566] = {quest=93918, label="{spell:1270357:Sealing Orb}"},
+			[26097401] = {quest=93919, label="{spell:1270357:Sealing Orb}"},
+			color={r=0.5,g=0,b=1}, minimap=true,
 		},
 		vignette=7419,
 	},
