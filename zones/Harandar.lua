@@ -4,19 +4,6 @@ local myname, ns = ...
 From the Cradle to the Grave: 61860
 Oh, No You Don't!: 61861
 More Than Just Their Roots: 62188
-
--- Altars
-altar of vigor @ 47175314, huntress spirit 254104
-lost hunting knife 257024 @ 45105412
-returned to altar: 93145
-
-altar of innocence @ 51134751, child-like spirit 254030
-a tattered ball 256882 @ 51085048
-returned to altar: 93130
-
-altar of wisdom @ 51155855, "unknown" 254116
-bugged as of dec 2025
-wowhead thinks: rolled up pillow 257054 @ 51355599
 ]]
 
 ns.RegisterPoints(ns.HARANDARDEN, {
@@ -38,18 +25,39 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[73666536] = {criteria=109035, quest=92427, loot={263289, HARATI}, vignette=7311}, -- Sporelord's Fight Prize, Sporelord's Authority
 	[62915125] = {criteria=109036, quest=92431, loot={263287, HARATI}, vignette=7312}, -- Reliquary's Lost Paintbrush, Reliquary-Keeper's Lost Shortbow
 	[55633942] = {criteria=109037, quest=92436, loot={{258903, pet=true}, HARATI}, vignette=7313}, -- Kemet's Simmering Cauldron, Percival
-	-- [] = {criteria=110254, quest=93144, loot={{259084, toy=true}, HARATI}, vignette=7351}, -- Gift of the Cycle
 	[26736759] = { -- Impenatrably Sealed Gourd
 		criteria=110255, quest=93508,
 		loot={{260730, pet=true}, HARATI}, -- Perturbed Sporebat
 		note="Collect {item:260250:Mysterious Purple Fluid}, {item:260251:Mysterious Red Fluid}, combine in the Durable Vase, use to open the Gourd",
 		vignette=7394,
 	},
+	[51215293] = { -- Gift of the Cycle
+		criteria=110254, quest=93144,
+		loot={{259084, toy=true}, HARATI},
+		vignette=7351,
+		note="Fetch an item at each of the three altars atop the mountains",
+		related={
+			[51134751] = {label="Altar of Innocence", quest=93130, nearby={51085048, label="{item:256882:A Tattered Ball}"}, color={r=0,g=0.6,b=1}}, -- Child-like Spirit 254030
+			[47175314] = {label="Altar of Vigor", quest=93145, nearby={45105412, label="{item:257024:Lost Hunting Knife}"}, color={r=0.6,g=0.6,b=1}}, -- Huntress Spirit 254104
+			[51155855] = {label="Altar of Wisdom", quest=93146, nearby={51355599, label="{item:257054:A Rolled-up Pillow}"}, color={r=1,g=0,b=1}}, -- Elder Spirit 254116
+			atlas="poi-soulspiritghost", minimap=true,
+			note="Fetch the nearby item and give it to the spirit",
+		},
+	},
 	-- [] = {criteria=110256, quest=93650, loot={{256423, mount=true}, HARATI}, vignette=7411}, -- Sporespawned Cache, Untainted Grove Crawler
 	[40642802] = {criteria=110257, quest=93587, loot={{252017, mount=true}, HARATI}, vignette=7410, note="Gather 150x {item:260531:Crystallized Resin Fragment} in the water nearby"}, -- Peculiar Cauldron, Ruddy Sporeglider
 }, {
 	achievement=61263,
 })
+ns.RegisterPoints(ns.HARANDARDEN, {
+	[47235078] = {
+		criteria=110254, quest=93144,
+		loot={{259084, toy=true}, HARATI},
+		vignette=7351,
+		note="Find altars outside the Den",
+		-- translate plays poorly with all the related points
+	},
+}, {achievement=61263})
 
 -- Rares
 
