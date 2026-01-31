@@ -44,7 +44,17 @@ ns.RegisterPoints(ns.HARANDAR, {
 			note="Fetch the nearby item and give it to the spirit",
 		},
 	},
-	-- [] = {criteria=110256, quest=93650, loot={{256423, mount=true}, HARATI}, vignette=7411}, -- Sporespawned Cache, Untainted Grove Crawler
+	[46656778] = { -- Sporespawned Cache, Untainted Grove Crawler
+		criteria=110256, quest=93650, -- 93652 for ringing the gong
+		loot={{256423, mount=true}, HARATI},
+		vignette=7411,
+		related={
+			[46636784] = {label="Mycelium Gong", quest=93652, note="Grab the {spell:1266347:Fungal Mallet} and ring this", active=ns.conditions.AuraActive(1266347)},
+			[41316800] = {label="{spell:1266347:Fungal Mallet}", quest=93652, note="Lower level; take to the Mycelium Gong within 5m"},
+			minimap=true,
+		},
+		note="Fetch the {spell:1266347:Fungal Mallet} and ring the Mycelium Gong",
+	},
 	[40642802] = {criteria=110257, quest=93587, loot={{252017, mount=true}, HARATI}, vignette=7410, note="Gather 150x {item:260531:Crystallized Resin Fragment} in the water nearby"}, -- Peculiar Cauldron, Ruddy Sporeglider
 }, {
 	achievement=61263,
