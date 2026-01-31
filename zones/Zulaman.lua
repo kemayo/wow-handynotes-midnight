@@ -14,10 +14,9 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		note="Fetch the four tokens",
 		related={
 			[32698350] = {label="{npc:255171:Nalorakk's Chosen}", loot={259219}, inbag=259219}, -- Bear Tooth
-			[34553346] = {label="{npc:255232:Halazzi's Chosen}", loot={259223}, inbag=259223}, -- Lynx Claw
 			[54782239] = {label="{npc:255233:Jan'alai's Chosen}", loot={259220}, inbag=259220}, -- Dragonhawk Feather
-			-- This one is looting-bugged, and there's no sign of the item on wowhead via https://www.wowhead.com/beta/items?filter=104;0;Honored+Warrior%27s+Cache
-			[51588492] = {label="{npc:255231:Akil'zon's Chosen}", loot={}, inbag=nil}, -- Akil'zon's Chosen 255231
+			[51588492] = {label="{npc:255231:Akil'zon's Chosen}", loot={259221}, inbag=259221}, -- Eagle Talon
+			[34553346] = {label="{npc:255232:Halazzi's Chosen}", loot={259223}, inbag=259223}, -- Lynx Claw
 			hide_before=ns.conditions.QuestComplete(93560), -- interacted with the cache for the first time
 			note="Use the Honored Warrior's Urn",
 			minimap=true,
