@@ -137,9 +137,48 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
     if C_AddOns.IsAddOnLoaded("DelverView") then
         return
     end
+    local extractVariantFromWidgetSet = function(widgetSetID)
+        -- This is basically ripped from the chain of calls that GameTooltip_AddWidgetSet does
+        local widgets = widgetSetID and C_UIWidgetManager.GetAllWidgetsBySetID(widgetSetID)
+        if not widgets then return end
+        local variant, fullVariant, description, isBountiful
+        for _, widget in ipairs(widgets) do
+            -- this is the only type I've ever seen for delve entrances, but just in case...
+            if widget.widgetType == Enum.UIWidgetVisualizationType.TextWithState then
+                local info = C_UIWidgetManager.GetTextWithStateWidgetVisualizationInfo(widget.widgetID)
+                -- orderIndex is the only way to work out which is which; 0 is
+                -- the variant, 1 is the description with your coffer keys
+                -- and the timer. Annoyingly, this timer isn't mirrored into
+                -- GetAreaPOISecondsLeft...
+                -- That said, presence of the second widget is currently a
+                -- semi-useful proxy for whether the delve is bountiful
+                if info and info.orderIndex == 0 then
+                    -- text="Story Variant: |cnWHITE_FONT_COLOR:Waygate Wiles",
+                    fullVariant = info.text
+                    -- TODO: work out whether there's *actually* any
+                    -- localization where looking for the |r terminated
+                    -- version is necessary
+                    variant = string.match(fullVariant, "|cnWHITE_FONT_COLOR:(.+)|r") or string.match(fullVariant, "|cnWHITE_FONT_COLOR:(.+)$") or fullVariant
+                elseif info and info.orderIndex == 1 then
+                    description = info.text
+                    isBountiful = true
+                end
+            end
+        end
+        return variant, isBountiful, fullVariant, description
+    end
     local OnTooltipShow = function(point, tooltip)
-        if point._tooltipWidgetSet then
-            GameTooltip_AddWidgetSet(tooltip, point._tooltipWidgetSet, 10)
+        if point._description then
+            tooltip:AddLine(point._description)
+        end
+        -- GameTooltip_AddWidgetSet runs into secret issues, so we're going to extract some useful information...
+        local variant, isBountiful, fullVariant, description = extractVariantFromWidgetSet(point._tooltipWidgetSet)
+        if variant then
+            -- TODO: Could check completion against the relevant achievement's criteria, I guess?
+            tooltip:AddLine(fullVariant)
+        end
+        if description then
+            GameTooltip_AddColoredLine(tooltip, description, NORMAL_FONT_COLOR, true)
         end
         addToTooltip(tooltip, point._areaPoiID)
     end
@@ -168,11 +207,11 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
                             points[HandyNotes:getCoord(tx, ty)] = {
                                 label=info.name,
                                 atlas=info.atlasName, scale=1.5,
-                                note=info.description,
                                 group="delveentrances",
                                 OnTooltipShow=OnTooltipShow,
                                 _tooltipWidgetSet = info.tooltipWidgetSet,
                                 _areaPoiID = delveID,
+                                _description=info.description,
                             }
                         end
                     end
