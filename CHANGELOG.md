@@ -1,11 +1,21 @@
 # Changelog
 
-## Changed in v16:
+## Changed in v17
+
+* Latest beta fixed several broken treasures, so now we have actual locations for:
+	* Zul'aman: Honored Warrior's Chest
+	* Harandar: Gift of the Cycle
+* Harandar: found the Sporespawned Cache (this wasn't bugged, I just hadn't found it)
+* Start prep work for adding profession knowledge treasures
+* Delves: avoid a potential secret issue by not using Blizzard's widgets
+* Performance improvement: only start caching points on-load if you're in a relevant zone
+
+## Changed in v16
 
 * Delves: add the remaining chest to Gulf of Memory
 * Don't try to show a comparison tooltip if GameTooltip has become secret
 
-## Changed in v15:
+## Changed in v15
 
 * Zul'Aman: finally found Songseeker Dova
 * Added delve: Gulf of Memory... missing one chest
@@ -13,18 +23,18 @@
 * Tweak checks for knowable transmog items with Midnight's changes
 * Adjust how I'm adding information to Blizzard's map pins
 
-## Changed in v14:
+## Changed in v14
 
 * Added delve: Shadow Enclave
 * Fixed some issues with adding information to Blizzard's map pins
 
-## Changed in v13:
+## Changed in v13
 
 * Added delve: The Darkway
 * Fixed the achievement ID on Collegiate Calamity discoveries
 * Fixed adding loot to area POI pins
 
-## Changed in v12:
+## Changed in v12
 
 * Added delve: Collegiate Calamity
 
