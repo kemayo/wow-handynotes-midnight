@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v18
+
+* Highest Peaks: better icon, and note the rep rewards
+* Attempting to insulate against some secret issues with comparison tooltips
+* Further changes to how information is added to Blizzard's map pins
+
 ## Changed in v17
 
 * Latest beta fixed several broken treasures, so now we have actual locations for:
