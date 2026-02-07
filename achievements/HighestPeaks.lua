@@ -18,7 +18,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[37414789] = {criteria=111575, quest=94538, vignette=7462}, -- Telescope Placed
 	[54585101] = {criteria=111576, quest=94539, vignette=7463}, -- Telescope Placed
 	[50198543] = {criteria=111577, quest=94540, vignette=7464}, -- Telescope Placed
-}, HIGHEST{achievement=62288})
+}, HIGHEST{achievement=62288, loot={ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT)}})
 
 ns.RegisterPoints(ns.ZULAMAN, {
 	[27797001] = {criteria=111578, quest=94541, vignette=7437}, -- Telescope Placed
@@ -26,7 +26,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	[57692123] = {criteria=111580, quest=94543, vignette=7467}, -- Telescope Placed
 	[24635830] = {criteria=111581, quest=94544, vignette=7468, translate={[ns.EVERSONGWOODS]=true}}, -- Telescope Placed
 	[41864164] = {criteria=111582, quest=94545, vignette=7469}, -- Telescope Placed
-}, HIGHEST{achievement=62289})
+}, HIGHEST{achievement=62289, loot={ns.rewards.Currency(ns.CURRENCY_AMANI)}})
 
 ns.RegisterPoints(ns.HARANDAR, {
 	[69174638] = {criteria=111583, quest=94546, vignette=7470, note="In the leaves"}, -- Telescope Placed
@@ -34,7 +34,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[49417592] = {criteria=111585, quest=94548, vignette=7472}, -- Telescope Placed
 	[69406339] = {criteria=111586, quest=94549, vignette=7473}, -- Telescope Placed
 	[53495856] = {criteria=111587, quest=94550, vignette=7474}, -- Telescope Placed (recheck this one, I lost the vignette-coords because of The Den)
-}, HIGHEST{achievement=62290})
+}, HIGHEST{achievement=62290, loot={ns.rewards.Currency(ns.CURRENCY_HARATI)}})
 
 ns.RegisterPoints(ns.VOIDSTORM, {
 	[39686116] = {criteria=111588, quest=94551, vignette=7475}, -- Telescope Placed
@@ -42,4 +42,4 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	[55466717] = {criteria=111590, quest=94553, vignette=7477}, -- Telescope Placed
 	[41767022] = {criteria=111591, quest=94554, vignette=7478}, -- Telescope Placed
 	[37815497] = {criteria=111592, quest=94555, vignette=7479}, -- Telescope Placed
-}, HIGHEST{achievement=62291})
+}, HIGHEST{achievement=62291, loot={ns.rewards.Currency(ns.CURRENCY_SINGULARITY)}})
