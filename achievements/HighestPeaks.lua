@@ -4,7 +4,7 @@ local HIGHEST = ns.nodeMaker{
 	achievement=62057, -- Midnight: The Highest Peaks
 	achievementNotFound=true,
 	minimap=false, -- there's a flag once they're unlocked
-	texture=ns.atlas_texture("racing", {r=0, g=1, b=0}),
+	atlas="Warfronts-FieldMapIcons-Alliance-Banner-Minimap",
 	-- requires=ns.DRAGONRIDING,
 	-- hide_before={
 	-- 	ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 6),
