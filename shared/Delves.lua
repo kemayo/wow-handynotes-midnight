@@ -44,6 +44,14 @@ ns.RegisterPoints(2505, { -- Gulf of Memory / Upper Rootway
 --     achievement=61898, -- Discoveries
 -- })
 
+ns.RegisterPoints(2510, { -- The Grudge Pit
+    [37062871] = {quest=94039, loot=VOIDLIGHT},
+    [69903161] = {quest=94022, loot={263517}}, -- Ancient Text
+    [67665992] = {quest=94021, loot={263519}, note="Up on the mushrooms"}, -- Snake Oil
+}, STURDY{
+    achievement=61897, -- Discoveries
+})
+
 ns.RegisterPoints(2525, { -- The Darkway
     [53004306] = {quest=94026, loot={263516}}, -- Cosmic Ritual Bowl
     [41524774] = {quest=94027, loot={263518}}, -- Expensive-Looking Find
