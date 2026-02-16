@@ -1,5 +1,12 @@
 # Changelog
 
+## Changed in v19
+
+* Delves: add The Grudge Pit
+* Delves: don't double-show bountiful delves on the continent map
+* A few avoidances of uncommon secret-value issues
+* Adjust display so that tooltip titles use normal blizzard color
+
 ## Changed in v18
 
 * Highest Peaks: better icon, and note the rep rewards
