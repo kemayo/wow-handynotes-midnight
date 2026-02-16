@@ -190,6 +190,17 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
         end
         addToTooltip(tooltip, point._areaPoiID)
     end
+    local ShouldShow = function(point)
+        -- Bountiful delves are now shown on the continent map, *and* are
+        -- sometimes placed away from where the translated point will show.
+        if not C_CVar.GetCVarBool("showDelveEntrancesOnMap") then
+            return
+        end
+        local variant, isBountiful, fullVariant, description = extractVariantFromWidgetSet(point._tooltipWidgetSet)
+        if isBountiful then
+            return false
+        end
+    end
     local already = {}
     EventRegistry:RegisterCallback("MapCanvas.MapSet", function(_, mapID)
         if mapID ~= ns.QUELTHALAS then
@@ -216,6 +227,7 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
                                 label=info.name,
                                 atlas=info.atlasName, scale=1.5,
                                 group="delveentrances",
+                                ShouldShow=ShouldShow,
                                 OnTooltipShow=OnTooltipShow,
                                 _tooltipWidgetSet = info.tooltipWidgetSet,
                                 _areaPoiID = delveID,
@@ -230,4 +242,10 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
             ns.RegisterPoints(mapID, points)
         end
     end, myname)
+
+    EventRegistry:RegisterFrameEventAndCallback("CVAR_UPDATE", function(_, cvar, value)
+        if cvar == "showDelveEntrancesOnMap" and WorldMapFrame:IsVisible() then
+            ns.HL:Refresh()
+        end
+    end)
 end)
