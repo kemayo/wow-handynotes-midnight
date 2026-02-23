@@ -68,6 +68,14 @@ ns.RegisterPoints(2535, { -- Atal'aman
     achievement=61863, -- Discoveries
 })
 
+ns.RegisterPoints(2545, { -- Parhelion Plaza
+    [22436105] = {quest=94015, loot={{262964, quest=93868}}}, -- Death's Hope
+    [09615033] = {quest=94019, loot={263516}}, -- Cosmic Ritual Bowl
+    [41138680] = {quest=94033, loot=VOIDLIGHT},
+}, STURDY{
+    achievement=61893, -- Discoveries
+})
+
 ns.RegisterPoints(2547, { -- Collegiate Calamity
     [31001243] = {quest=94018, loot={263516}, note="Behind the pillar"}, -- Cosmic Ritual Bowl
     [81273206] = {quest=94029, loot=VOIDLIGHT, path={81424579, 77415126}},
