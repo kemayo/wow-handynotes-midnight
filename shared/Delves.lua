@@ -44,6 +44,14 @@ ns.RegisterPoints(2505, { -- Gulf of Memory / Upper Rootway
 --     achievement=61898, -- Discoveries
 -- })
 
+ns.RegisterPoints(2506, { -- Shadowguard Point
+    [58646052] = {quest=94044, loot=VOIDLIGHT},
+    [58254153] = {quest=94025, loot={263518}}, -- Expensive-Looking Find
+    [41805376] = {quest=94017, loot={245526}}, -- Bloodmarked Phasebound Visor
+}, STURDY{
+    achievement=61900, -- Discoveries
+})
+
 ns.RegisterPoints(2510, { -- The Grudge Pit
     [37062871] = {quest=94039, loot=VOIDLIGHT},
     [69903161] = {quest=94022, loot={263517}}, -- Ancient Text
