@@ -60,6 +60,19 @@ ns.RegisterPoints(2525, { -- The Darkway
     achievement=61895,
 })
 
+ns.RegisterPoints(2528, { -- Sunkiller Sanctum, Upper Sanctum
+    [38114901] = {quest=94042, loot=VOIDLIGHT}, -- intersection of lower/upper
+}, STURDY{
+    achievement=61899, -- Discoveries
+})
+ns.RegisterPoints(2571, { -- Sunkiller Sanctum, Lower Sanctum
+    [60134075] = {quest=94024, loot={263515}}, -- Broken Soulstealing Mirror
+    [38114901] = {quest=94042, loot=VOIDLIGHT}, -- intersection of lower/upper
+    [49765049] = {quest=94043, loot=VOIDLIGHT},
+}, STURDY{
+    achievement=61899, -- Discoveries
+})
+
 ns.RegisterPoints(2535, { -- Atal'aman
     [53065795] = {quest=94000, loot={263519}, note="Under the bridge"}, -- Snake Oil
     [48335052] = {quest=94014, loot={{252265, toy=true}}}, -- Hexed Potatoad Mucus
