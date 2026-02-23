@@ -1,5 +1,12 @@
 # Changelog
 
+## Changed in v20
+
+* Delves: add Parhelion Plaza, Sunkiller Sanctum, and Shadowguard Point
+* Change the default tooltip anchor to be on the point rather than at the corner of the map frame
+* Improvements to secret handling errors
+* Integrate with DelverView if it's present
+
 ## Changed in v19
 
 * Delves: add The Grudge Pit
