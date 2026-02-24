@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v21
+
+* Override reward item tooltip display to not use a MoneyFrame
+
 ## Changed in v20
 
 * Delves: add Parhelion Plaza, Sunkiller Sanctum, and Shadowguard Point
