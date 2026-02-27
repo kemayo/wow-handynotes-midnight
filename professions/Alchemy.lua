@@ -11,14 +11,26 @@ local KNOWLEDGE = {
     border=ns.atlas_texture("AutoQuest-badgeborder", 1.1),
     -- minimap = true,
 }
-
--- ns.RegisterPoints(ns.SILVERMOONCITY, {
--- }, KNOWLEDGE)
+ns.RegisterPoints(ns.SILVERMOONCITY, {
+    [47805160] = {quest=89117, loot={238538}, vignette=6842}, -- Pristine Potion
+    [49107560] = {quest=89115, loot={238536}, vignette=6844}, -- Freshly Plucked Peacebloom
+}, KNOWLEDGE)
 -- ns.RegisterPoints(ns.EVERSONGWOODS, {
+--     [] = {quest=nil, loot={238532}, vignette=nil}, -- Vial of Eversong Oddities
 -- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.ZULAMAN, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.HARANDAR, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.VOIDSTORM, {
--- }, KNOWLEDGE)
+ns.RegisterPoints(ns.ZULAMAN, {
+    [41704050] = {quest=89114, loot={238535}, vignette=6845}, -- Vial of Zul'Aman Oddities
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.ATALAMAN, {
+    [49102310] = {quest=89116, loot={238537}, vignette=6843}, -- Measured Ladle
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.HARANDAR, {
+    [34702470] = {quest=89113, loot={238534}, vignette=6846}, -- Vial of Rootlands Oddities
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.VOIDSTORM, {
+    [32804330] = {quest=89118, loot={238539}, vignette=6841}, -- Failed Experiment
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.SLAYERSRISE, {
+    -- 40494422?
+    [41804050] = {quest=89112, loot={238533}, vignette=6847}, -- Vial of Voidstorm Oddities
+}, KNOWLEDGE)

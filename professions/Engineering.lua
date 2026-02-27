@@ -11,14 +11,23 @@ local KNOWLEDGE = {
     border=ns.atlas_texture("AutoQuest-badgeborder", 1.1),
     -- minimap = true,
 }
-
--- ns.RegisterPoints(ns.SILVERMOONCITY, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.EVERSONGWOODS, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.ZULAMAN, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.HARANDAR, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.VOIDSTORM, {
--- }, KNOWLEDGE)
+ns.RegisterPoints(ns.SILVERMOONCITY, {
+    [51205710] = {quest=89139, loot={238562}, vignette=6818}, -- What To Do When Nothing Works
+    [51407460] = {quest=89133, loot={238556}, vignette=6824}, -- One Engineer's Junk
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.EVERSONGWOODS, {
+    [39504580] = {quest=89135, loot={238558}, vignette=6822}, -- Manual of Mistakes and Mishaps
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.ZULAMAN, {
+    [34208790] = {quest=89140, loot={238563}, vignette=6817}, -- Handy Wrench
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.ATALAMAN, {
+    [65103450] = {quest=89138, loot={238561}, vignette=6819}, -- Offline Helper Bot
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.HARANDAR, {
+    [67904980] = {quest=89136, loot={238559}, vignette=6821}, -- Expeditious Pylon
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.SLAYERSRISE, {
+    [29003920] = {quest=89134, loot={238557}, vignette=6823}, -- Miniaturized Transport Skiff
+    [54005100] = {quest=89137, loot={238560}, vignette=6820}, -- Ethereal Stormwrench
+}, KNOWLEDGE)

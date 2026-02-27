@@ -11,14 +11,25 @@ local KNOWLEDGE = {
     border=ns.atlas_texture("AutoQuest-badgeborder", 1.1),
     -- minimap = true,
 }
-
 -- ns.RegisterPoints(ns.SILVERMOONCITY, {
 -- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.EVERSONGWOODS, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.ZULAMAN, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.HARANDAR, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.VOIDSTORM, {
--- }, KNOWLEDGE)
+ns.RegisterPoints(ns.EVERSONGWOODS, {
+    [38004530] = {quest=89147, loot={238599}, vignette=6857}, -- Solid Ore Punchers
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.ZULAMAN, {
+    [41904630] = {quest=89145, loot={238597}, vignette=6859}, -- Spelunker's Lucky Charm
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.HARANDAR, {
+    [38806590] = {quest=89151, loot={238603}, vignette=6801}, -- Spare Expedition Torch
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.VOIDSTORM, {
+    [41803820] = {quest=89150, loot={238602}, vignette=6802}, -- Star Metal Deposit
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.ATALAMAN, {
+    [33606600] = {quest=89149, loot={238601}, vignette=6803}, -- Amani Expert's Chisel
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.SLAYERSRISE, {
+    [28733856] = {quest=89148, loot={238600}, vignette=6804}, -- Glimmering Void Pearl
+    [30006900] = {quest=89144, loot={238596}, vignette=6860}, -- Miner's Guide to Voidstorm
+    [54245159] = {quest=89146, loot={238598}, vignette=6858}, -- Lost Voidstorm Satchel
+}, KNOWLEDGE)

@@ -12,14 +12,22 @@ local KNOWLEDGE = {
     -- minimap = true,
 }
 
+-- [] = {quest=nil, loot={238577}, vignette=nil}, -- Half-Baked Techniques
+
 ns.RegisterPoints(ns.SILVERMOONCITY, {
     [47595040] = {quest=89073, loot={238578}, vignette=6870}, -- Songwriter's Pen
 }, KNOWLEDGE)
--- ns.RegisterPoints(ns.EVERSONGWOODS, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.ZULAMAN, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.HARANDAR, {
--- }, KNOWLEDGE)
--- ns.RegisterPoints(ns.VOIDSTORM, {
--- }, KNOWLEDGE)
+ns.RegisterPoints(ns.EVERSONGWOODS, {
+    [40406130] = {quest=89074, loot={238579}, vignette=6869}, -- Songwriter's Quill
+    [48307560] = {quest=89069, loot={238574}, vignette=6814}, -- Spare Ink
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.ZULAMAN, {
+    [40504940] = {quest=89068, loot={238573}, vignette=6815}, -- Leather-Bound Techniques
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.HARANDAR, {
+    [52405260] = {quest=89070, loot={238575}, vignette=6813}, -- Intrepid Explorer's Marker
+    [52705000] = {quest=89071, loot={238576}, vignette=6872}, -- Leftover Sanguithorn Pigment
+}, KNOWLEDGE)
+ns.RegisterPoints(ns.SLAYERSRISE, {
+    [60708410] = {quest=89067, loot={238572}, vignette=6816}, -- Void-Touched Quill
+}, KNOWLEDGE)
