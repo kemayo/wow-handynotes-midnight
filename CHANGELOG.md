@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v22
+
+* Isle of Quel'danas: add Artisan's Cache treasures
+
 ## Changed in v21
 
 * Override reward item tooltip display to not use a MoneyFrame
