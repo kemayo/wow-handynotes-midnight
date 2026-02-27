@@ -3,10 +3,10 @@ local myname, ns = ...
 local KNOWLEDGE = {
     note = "This can only be looted once per character.",
     currency=2789,
-    requires = ns.conditions.Profession(ns.PROF_MIDNIGHT_HERBALISM),
-    -- active = ns.conditions.Profession(ns.PROF_MIDNIGHT_HERBALISM, 25),
+    requires = ns.conditions.Profession(ns.PROF_MIDNIGHT_SKINNING),
+    -- active = ns.conditions.Profession(ns.PROF_MIDNIGHT_SKINNING, 25),
     group = "professionknowledge",
-    atlas="worldquest-icon-herbalism",
+    atlas="worldquest-icon-skinning",
     backdrop=ns.atlas_texture("CircleMask", {r=0.5, g=1, b=1}),
     border=ns.atlas_texture("AutoQuest-badgeborder", 1.1),
     -- minimap = true,
