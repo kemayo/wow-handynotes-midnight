@@ -13,6 +13,7 @@ local GLYPH = ns.nodeMaker{
     note="Collect all the glyphs for the {item:257145:Crimson Dragonhawk}",
 }
 
+-- hide before silvermoon rep unlock? 86733 Silvermoon Negotations / 93817 hidden flag at same time
 ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[65243269] = {criteria=110336,}, -- Brightwing Estate, Eversong Woods
 	[58931954] = {criteria=110337, translate={[ns.SILVERMOONCITY]=true}}, -- Silvermoon City, Eversong Woods

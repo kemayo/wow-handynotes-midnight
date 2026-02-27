@@ -12,8 +12,9 @@ local KNOWLEDGE = {
     -- minimap = true,
 }
 
--- ns.RegisterPoints(ns.SILVERMOONCITY, {
--- }, KNOWLEDGE)
+ns.RegisterPoints(ns.SILVERMOONCITY, {
+    [47595040] = {quest=89073, loot={238578}, vignette=6870}, -- Songwriter's Pen
+}, KNOWLEDGE)
 -- ns.RegisterPoints(ns.EVERSONGWOODS, {
 -- }, KNOWLEDGE)
 -- ns.RegisterPoints(ns.ZULAMAN, {
