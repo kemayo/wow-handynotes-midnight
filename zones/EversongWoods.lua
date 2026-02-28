@@ -1,9 +1,5 @@
 local myname, ns = ...
 
---[[ TODO:
-Ever Painting: 62185
-]]
-
 local COURT = ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50)
 
 -- Treasures
@@ -95,7 +91,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 
 -- A Bloody Song
 ns.RegisterPoints(ns.EVERSONGWOODS, {
-	[52627532] = { -- Warden of Weeds
+	[51397502] = { -- Warden of Weeds
 		criteria=110166, quest=91280, -- 94681
 		npc=246332,
 		loot={
@@ -103,6 +99,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			264613, -- Steelbark Bulwark
 		},
 		vignette=7363,
+		note="Wanders",
 	},
 	[45097760] = { -- Harried Hawkstrider
 		criteria=110167, quest=91315,
@@ -220,7 +217,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		},
 		vignette=7303,
 	},
-	[42176897] = { -- Duskburn
+	[42436906] = { -- Duskburn
 		criteria=110178, quest=93550, -- 94694
 		npc=255302,
 		loot={
