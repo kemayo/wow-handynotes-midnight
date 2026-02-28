@@ -62,10 +62,12 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	[35676110] = {criteria=110374,}, -- The Ingress, Voidstorm
 	[39917098] = {criteria=110375,}, -- The Bladeburrows, Voidstorm
 	[55124556] = {criteria=110376,}, -- Gnawing Reach, Voidstorm
-	[36084456] = {criteria=110377,}, -- Hanaar Outpost, Voidstorm
 	[38907613] = {criteria=110378,}, -- Ethereum Refinery, Voidstorm
 	[45285225] = {criteria=110379,}, -- Master's Perch, Voidstorm
 	[64977190] = {criteria=110380,}, -- Obscurion Citadel, Voidstorm
 	[36083725] = {criteria=110381,}, -- Shadowguard Point, Voidstorm
 	[49268752] = {criteria=110382,}, -- The Gorging Pit, Voidstorm
 }, GLYPH{achievement=61583})
+ns.RegisterPoints(ns.SLAYERSRISE, {
+	[36084456] = {criteria=110377,}, -- Hanaar Outpost, Voidstorm
+}, GLYPH{achievement=61583, parent=true})
