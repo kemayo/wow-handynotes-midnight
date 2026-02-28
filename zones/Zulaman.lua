@@ -6,6 +6,8 @@ Put a Pin in It: 62199
 Gnome Alone: 62200
 ]]
 
+local AMANI = ns.rewards.Currency(ns.CURRENCY_AMANI, 50)
+
 ns.RegisterPoints(ns.ZULAMAN, {
 	[44724410] = {criteria=111854, quest=90794, loot={{257444, mount=true}}, vignette=6938, note="In cave on the lower level; gather 1000x{item:259361:Vile Essence} nearby"}, -- Abandoned Ritual Skull, Hexed Vilefeather Eagle
 	[46838186] = { -- Honored Warrior's Cache
@@ -112,27 +114,29 @@ ns.RegisterPoints(ns.ATALAMAN, {
 -- Tallest Tree in the Forest
 ns.RegisterPoints(ns.ZULAMAN, {
 	[34393304] = { -- Necrohexxer Raz'ka
-		criteria=111839, quest=89569, -- 94683
+		criteria=111839, quest=89569,
 		npc=242023,
 		loot={
 			251783, -- Lost Idol of the Hash'ey
 			264527, -- Vile Hexxer's Mantle
 			264611, -- Pendant of Siphoned Vitality
 			265543, -- Tempered Amani Spearhead
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94683}),
 		},
 		vignette=6895,
 	},
 	[51881875] = { -- The Snapping Scourge
-		criteria=111840, quest=89570, -- 94697
+		criteria=111840, quest=89570,
 		npc=242024,
 		loot={
 			264585, -- Snapper Steppers
 			264617, -- Scourge's Spike
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94697}),
 		},
 		vignette=6896,
 	},
 	[51847292] = { -- Skullcrusher Harak
-		criteria=111841, quest=89571, -- 94698
+		criteria=111841, quest=89571,
 		npc=242025,
 		loot={
 			251783, -- Lost Idol of the Hash'ey
@@ -140,44 +144,49 @@ ns.RegisterPoints(ns.ZULAMAN, {
 			264542, -- Skullcrusher's Mantle
 			264631, -- Harak's Skullcutter
 			265560, -- Toughened Amani Leather Wrap
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94698}),
 		},
 		vignette=6897,
 	},
 	[28832450] = { -- Lightwood Borer
-		criteria=111842, quest=89575, -- 94699
+		criteria=111842, quest=89575,
 		npc=242028,
 		loot={
 			251784, -- Sylvan Wakrapuku
 			264640, -- Sharpened Borer Claw
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94699}),
 		},
 		vignette=6900,
 	},
 	[50866517] = { -- Mrrlokk
-		criteria=111843, quest=91174, -- 94700
+		criteria=111843, quest=91174,
 		npc=245975,
 		loot={
 			251783, -- Lost Idol of the Hash'ey
 			264570, -- Reinforced Chainmrrl
 			264580, -- Mrrlokk's Mrgl Grrdle
 			265543, -- Tempered Amani Spearhead
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94700}),
 		},
 		vignette=6977,
 	},
 	[30574456] = { -- Spinefrill
-		criteria=111845, quest=89578, -- 94702
+		criteria=111845, quest=89578,
 		npc=242031,
 		loot={
 			264554, -- Frilly Leather Vest
 			264620, -- Pufferspine Spellpierce
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94702}),
 		},
 		vignette=6903,
 	},
 	[46555127] = { -- Oophaga
-		criteria=111846, quest=89579, -- 94703
+		criteria=111846, quest=89579,
 		npc=242032,
 		loot={
 			264528, -- Goop-Coated Leggings
 			264541, -- Egg-Swaddling Sash
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94703}),
 		},
 		vignette=6904,
 	},
@@ -188,14 +197,16 @@ ns.RegisterPoints(ns.ZULAMAN, {
 			251784, -- Sylvan Wakrapuku
 			264648, -- Verminscale Gavel
 			264597, -- Leechtooth Band
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94704}),
 		},
 		vignette=6905,
 	},
 	[21547051] = { -- Voidtouched Crustacean
-		criteria=111848, quest=89581, --94705
+		criteria=111848, quest=89581,
 		npc=242034,
 		loot={
 			264586, -- Crustacean Carapace Chestguard
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94705}),
 		},
 		vignette=6906,
 	},
@@ -205,25 +216,28 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		loot={
 			264559, -- Devourer's Visage
 			264638, -- Fangs of the Invader
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94706}),
 		},
 		note="In cave at the bottom of the chasm",
 		vignette=6907,
 	},
 	[33688897] = { -- Elder Oaktalon
-		criteria=111850, quest=89572, -- 94707
+		criteria=111850, quest=89572,
 		npc=242026,
 		loot={
 			264547, -- Worn Furbolg Bindings
 			264529, -- Cover of the Furbolg Elder
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94707}),
 		},
 		vignette=6898,
 	},
 	[47662052] = { -- Depthborn Eelamental
-		criteria=111851, quest=89573, -- 94708
+		criteria=111851, quest=89573,
 		npc=242027,
 		loot={
 			251784, -- Sylvan Wakrapuku
 			264618, -- Strangely Eelastic Blade
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94708}),
 		},
 		vignette=6899,
 	},
@@ -243,11 +257,12 @@ ns.RegisterPoints(ns.ZULAMAN, {
 
 ns.RegisterPoints(ns.ATALAMAN, {
 	[82972145] = { -- Poacher Rav'ik
-		criteria=111844, quest=91634, -- 94701
+		criteria=111844, quest=91634,
 		npc=247976,
 		loot={
 			264627, -- Rav'ik's Spare Hunting Spear
 			264911, -- Forest Hunter's Arc
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94701}),
 		},
 		vignette=7117,
 	},
