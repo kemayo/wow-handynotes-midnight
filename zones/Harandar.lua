@@ -74,54 +74,60 @@ ns.RegisterPoints(ns.HARANDARDEN, {
 -- Leaf None Behind
 ns.RegisterPoints(ns.HARANDAR, {
 	[51174530] = { -- Rhazul
-		criteria=109039, quest=91832, -- 94712
+		criteria=109039, quest=91832,
 		npc=248741,
 		loot={
 			264530, -- Grimfur Mittens
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94712}),
 		},
 		vignette=7139,
 	},
 	[68014033] = { -- Chironex
-		criteria=109040, quest=92137, -- 94713
+		criteria=109040, quest=92137,
 		npc=249844,
 		loot={
 			264538, -- Translucent Membrane Slippers
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94713}),
 		},
 		vignette=7156,
 	},
 	[67696228] = { -- Ha'kalawe
-		criteria=109041, quest=92142, -- 94714
+		criteria=109041, quest=92142,
 		npc=249849,
 		loot={
 			252957, -- Tangle of Vibrant Vines
 			264553, -- Deepspore Leather Galoshes
 			264592, -- Ka'kalawe's Flawless Wing
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94714}),
 		},
 		note="Wanders",
 		vignette=7157,
 	},
 	[72636926] = { -- Tallcap the Truthspreader
-		criteria=109042, quest=92148, -- 94715
+		criteria=109042, quest=92148,
 		npc=249902,
 		loot={
 			264650, -- Truthspreader's Truth Spreader
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94715}),
 		},
 		vignette=7158,
 	},
 	[60104701] = { -- Queen Lashtongue
-		criteria=109043, quest=92154, -- 94716
+		criteria=109043, quest=92154,
 		npc=249962,
 		loot={
 			251782, -- Withered Saptor's Paw
 			264895, -- Trials of the Florafaun Hunter
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94716}),
 		},
 		vignette=7159,
 	},
 	[64904810] = { -- Chlorokyll
-		criteria=109044, quest=92161, -- 94717
+		criteria=109044, quest=92161,
 		npc=249997,
 		loot={
 			264626, -- Scepter of Radiant Conversion
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94717}),
 		},
 		vignette=7161,
 	},
@@ -131,6 +137,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		loot={
 			264635, -- Stumpy's Stump
 			264578, -- Stumpy's Terrorplate
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94718}), --v
 		},
 		vignette=7162,
 	},
@@ -139,28 +146,31 @@ ns.RegisterPoints(ns.HARANDAR, {
 		npc=250180,
 		loot={
 			264568, -- Serrated Scale Gauntlets
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94719}), --v
 		},
 		vignette=7163,
 	},
 	[46353284] = { -- Mindrot
-		criteria=109047, quest=92172, -- 94720
+		criteria=109047, quest=92172,
 		npc=250226,
 		loot={
 			264649, -- Mindrot Claw-Hammer
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94720}),
 		},
 		vignette=7164,
 	},
 	[40654299] = { -- Dracaena
-		criteria=109048, quest=92176, -- 94721
+		criteria=109048, quest=92176,
 		npc=250231,
 		loot={
 			264562, -- Plated Grove Vest
 			264644, -- Crawler's Mindscythe
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94721}),
 		},
 		vignette=7165,
 	},
 	[36597516] = { -- Treetop
-		criteria=109049, quest=92183, -- 94722
+		criteria=109049, quest=92183,
 		npc=250246,
 		loot={
 			-- {246735,mount=true,}, -- Rootstalker Grimlynx (all zone rares?)
@@ -168,6 +178,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 			264633, -- Treetop Battlestave
 			264968, -- Telluric Leyblossom
 			264581, -- Bloombark Spaulders
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94722}),
 		},
 		vignette=7166,
 	},
@@ -177,24 +188,27 @@ ns.RegisterPoints(ns.HARANDAR, {
 		loot={
 			264591, -- Radiant Petalwing's Feather
 			264616, -- Lightblighted Sapdrinker
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94723}), --v
 		},
 		vignette=7167,
 	},
 	[27197021] = { -- Pterrock
-		criteria=109051, quest=92191, -- 94724
+		criteria=109051, quest=92191,
 		npc=250321,
 		loot={
 			259896, -- Bark of the Guardian Tree
 			264576, -- Slatescale Grips
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94724}),
 		},
 		vignette=7168,
 	},
 	[39696070] = { -- Ahl'ua'huhi
-		criteria=109052, quest=92193, -- 94725
+		criteria=109052, quest=92193,
 		npc=250347,
 		loot={
 			264534, -- Bogvine Shoulderguards
 			264540, -- Mirevine Wristguards
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94725}),
 		},
 		vignette=7171,
 	},
