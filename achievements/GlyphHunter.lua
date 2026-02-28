@@ -27,7 +27,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[43214637] = {criteria=110345, note="In the branches"}, -- Fairbreeze Village, Eversong Woods
 }, GLYPH{achievement=61576})
 ns.RegisterPoints(ns.SILVERMOONCITY, {
-	[48350655] = {criteria=110335,}, -- The Shining Span, Eversong Woods
+	[48350655] = {criteria=110335, note="Doesn't appear until you're done with the intro quests"}, -- The Shining Span, Eversong Woods
 }, GLYPH{achievement=61576, parent=true})
 
 ns.RegisterPoints(ns.ZULAMAN, {
