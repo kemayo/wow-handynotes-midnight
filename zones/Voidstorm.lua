@@ -81,112 +81,124 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 -- The Ultimate Predator
 ns.RegisterPoints(ns.VOIDSTORM, {
 	[29515008] = { -- Sundereth the Caller
-		criteria=111877, quest=90805, -- 94728
+		criteria=111877, quest=90805,
 		npc=244272,
 		loot={
 			264619, -- Nethersteel Spellblade
 			264539, -- Robes of the Voidcaller
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94728}),
 		},
 		vignette=6949,
 	},
 	[34028218] = { -- Territorial Voidscythe
-		criteria=111878, quest=91050, -- 94729
+		criteria=111878, quest=91050,
 		npc=238498,
 		loot={
 			264565, -- Voidscale Shoulderpads
 			264642, -- Carving Voidscythe
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94729}),
 		},
 		vignette=6961,
 	},
 	[36308373] = { -- Tremora
-		criteria=111879, quest=91048, -- 94730
+		criteria=111879, quest=91048,
 		npc=241443,
 		loot={
 			251786, -- Ever-Collapsing Void Fissure
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94730}),
 		},
 		path=37498452, -- or 35678113
 		note="In the tunnel",
 		vignette=6962,
 	},
 	[43685151] = { -- Screammaxa the Matriarch
-		criteria=111880, quest=93966, -- 94731
+		criteria=111880, quest=93966,
 		npc=256922,
 		loot={
 			264583, -- Barbute of the Winged Hunter
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94731}),
 		},
 		vignette=7436,
 	},
 	[47058063] = { -- Bane of the Vilebloods
-		criteria=111881, quest=93946, -- 94732
+		criteria=111881, quest=93946,
 		npc=256923,
 		loot={
 			264572, -- Netherplate Clasp
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94732}),
 		},
 		note="In cave",
 		vignette=7433,
 	},
 	[39246394] = { -- Aeonelle Blackstar
-		criteria=111882, quest=93944, -- 94751
+		criteria=111882, quest=93944,
 		npc=256924,
 		loot={
 			264549, -- Ever-Devouring Shoulderguards
 			264637, -- Cosmic Hunter's Glaive
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94751}),
 		},
 		note="In cave at lowest level",
 		vignette=7432,
 	},
 	[37887178] = { -- Lotus Darkblossom
-		criteria=111883, quest=93947, -- 94758
+		criteria=111883, quest=93947,
 		npc=256925,
 		loot={
 			251786, -- Ever-Collapsing Void Fissure
 			264632, -- Darkblossom's Crook
 			264548, -- Sash of Cosmic Tranquility
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94758}),
 		},
 		vignette=7434,
 	},
 	[55727945] = { -- Queen o' War
-		criteria=111884, quest=93934, -- 94761
+		criteria=111884, quest=93934,
 		npc=256926,
 		loot={
 			251786, -- Ever-Collapsing Void Fissure
 			264533, -- Queen's Tentacle Sash
 			264601, -- Queen's Eye Band
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94761}),
 		},
 		note="Use the Crown",
 		vignette=7430,
 	},
 	[48815317] = { -- Ravengerus
-		criteria=111885, quest=93895, -- 94763
+		criteria=111885, quest=93895,
 		npc=256808,
 		loot={
 			264535, -- Leggings of the Cosmic Harrower
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94763}),
 		},
 		vignette=7426,
 	},
 	[35485023] = { -- Bilemaw the Gluttonous
-		criteria=111887, quest=93884, -- 94752
+		criteria=111887, quest=93884,
 		npc=256770,
 		loot={
 			264623, -- Shredding Fang
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94752}),
 		},
 		path=35604931,
 		vignette=7422,
 	},
 	[40154119] = { -- Nightbrood
-		criteria=111889, quest=91051, -- 94759
+		criteria=111889, quest=91051,
 		npc=245044,
 		loot={
 			251786, -- Ever-Collapsing Void Fissure
 			264574, -- Netherterror's Legplates
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94759}),
 		},
 		vignette=6964,
 	},
 	[53946272] = { -- Far'thana the Mad
-		criteria=111890, quest=93896, -- 94755
+		criteria=111890, quest=93896,
 		npc=256821,
 		loot={
 			251786, -- Ever-Collapsing Void Fissure
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94755}),
 		},
 		vignette=7428,
 	},
@@ -196,18 +208,20 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 
 ns.RegisterPoints(ns.SLAYERSRISE, {
 	[41268981] = { -- Eruundi
-		criteria=111888, quest=91047, -- 94754
+		criteria=111888, quest=91047,
 		npc=245182,
 		loot={
 			264701, -- Cosmic Bell
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94754}),
 		},
 		vignette=6963, -- vignette position APIs don't work on this one...
 	},
 	[46384093] = { -- Rakshur the Bonegrinder
-		criteria=111886, quest=93953, -- 94762
+		criteria=111886, quest=93953,
 		npc=257027,
 		loot={
 			264630, -- Colossal Voidsunderer
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94762}),
 		},
 		vignette=7435,
 	},
