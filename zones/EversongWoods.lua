@@ -9,9 +9,9 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=111472, quest=93456, loot={{243106, decor=true}, COURT}, vignette=7365, -- Gemmed Eversong Lantern
 		note="Pick up the torch, and find three keys in the village",
 		related={
-			[37637481] = {loot={258768},minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Battered Safebox Key
-			[38467346] = {loot={258769}, minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Worn Safebox Key
-			[40257582] = {loot={258770}, minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Tarnished Safebox Key
+			[37637481] = {loot={258768}, inbag=258768, minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Battered Safebox Key
+			[38467346] = {loot={258769}, inbag=258769, minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Worn Safebox Key
+			[40257582] = {loot={258770}, inbag=258770, minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Tarnished Safebox Key
 			color={r=0.6,g=0.6,b=1},
 		},
 	},
