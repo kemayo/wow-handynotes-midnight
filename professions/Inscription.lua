@@ -18,7 +18,7 @@ ns.RegisterPoints(ns.SILVERMOONCITY, {
     [47595040] = {quest=89073, loot={238578}, vignette=6870}, -- Songwriter's Pen
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.EVERSONGWOODS, {
-    [40406130] = {quest=89074, loot={238579}, vignette=6869}, -- Songwriter's Quill
+    [40356123] = {quest=89074, loot={238579}, vignette=6869}, -- Songwriter's Quill
     [48307560] = {quest=89069, loot={238574}, vignette=6814}, -- Spare Ink
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ZULAMAN, {

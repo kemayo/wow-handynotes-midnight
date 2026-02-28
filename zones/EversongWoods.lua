@@ -76,6 +76,21 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 	atlas="poi-saltherilssoiree", scale=1.2, minimap=true,
 })
 
+-- Ever Painting
+ns.RegisterPoints(ns.EVERSONGWOODS, {
+	[53967561] = {criteria=111993, --[[object=621707]]}, -- Sway of Red and Gold
+	[41805634] = {criteria=112030, --[[object=621734]]}, -- Lost Lamppost
+	[50754126] = {criteria=112031, --[[object=621762]]}, -- Anar'alah Belore
+	[55135967] = {criteria=112032, --[[object=621732]]}, -- Light Consuming
+	[46066428] = {criteria=112033, --[[object=621700]]}, -- Babble and Brook
+	[39007823] = {criteria=112034, --[[object=621709]]}, -- Memories of Ghosts
+	[42636262] = {criteria=112035, --[[object=621711]]}, -- Elrendar's Song
+}, {
+	achievement=62185,
+	texture=ns.atlas_texture("Vehicle-SilvershardMines-MineCartBlue", {r=1, g=1, b=0}), scale=1.2, minimap=true,
+})
+
+
 -- Rares
 
 -- A Bloody Song
