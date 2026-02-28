@@ -92,11 +92,12 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 -- A Bloody Song
 ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[51397502] = { -- Warden of Weeds
-		criteria=110166, quest=91280, -- 94681
+		criteria=110166, quest=91280,
 		npc=246332,
 		loot={
 			264520, -- Warden's Leycrook
 			264613, -- Steelbark Bulwark
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94681}),
 		},
 		vignette=7363,
 		note="Wanders",
@@ -109,28 +110,31 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			264521, -- Striderplume Focus
 			264522, -- Striderplume Armbands
 			258912, -- Tarnished Dawnlit Spellbinder's Robe
+			-- ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94682 or 94683}), --v
 		},
 		vignette=7002,
 		note="Runs around nearby",
 	},
 	[54716019] = { -- Overfester Hydra
-		criteria=110168, quest=92392, -- 94684
+		criteria=110168, quest=92392,
 		npc=240129,
 		loot={
 			-- 251791, -- Holy Retributor's Order
 			264523, -- Hydrafang Blade
 			264524, -- Lightblighted Verdant Vest
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94684}),
 		},
 		vignette=7300, -- Dormant Lightbloom Hydra
 	},
 	[36566407] = { -- Bloated Snapdragon
-		criteria=110169, quest=92366, -- 94685
+		criteria=110169, quest=92366,
 		npc=250582,
 		loot={
 			-- 251788, -- Gift of Light
 			264543, -- Snapdragon Pantaloons
 			264560, -- Sharpclaw Gauntlets
 			260647, -- Digested Human Hand
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94685}),
 		},
 		vignette=7294,
 	},
@@ -142,6 +146,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			264573, -- Taskmaster's Sadistic Shoulderguards
 			264647, -- Cre'van's Punisher
 			265803, -- Bazaar Bites
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94686}), --v
 		},
 		vignette=7299, -- Cre'van, Cruel Taskmaster
 		note="Wanders the camp a bit",
@@ -152,17 +157,19 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		loot={
 			264602, -- Abyss Coral Band
 			264629, -- Coralfang's Hefty Fin
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94687}),
 		},
 		vignette=7298,
 	},
 	[36657719] = { -- Lady Liminus
-		criteria=110172, quest=92393, -- 94688
+		criteria=110172, quest=92393,
 		npc=250754,
 		loot={
 			-- 251791, -- Holy Retributor's Order
 			264612, -- Tarnished Gold Locket
 			264645, -- Aged Farstrider Bow
 			260655, -- Decaying Humanoid Flesh
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94688}),
 		},
 		vignette=7301,
 	},
@@ -172,17 +179,19 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		loot={
 			264537, -- Winged Terror Gloves
 			264546, -- Bat Fur Boots
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94689}), --v
 		},
 		vignette=7306,
 	},
 	[49048777] = { -- Bad Zed
-		criteria=110174, quest=92404, -- 94690
+		criteria=110174, quest=92404,
 		npc=250841,
 		loot={
 			-- 251791, -- Holy Retributor's Order
 			-- 251788, -- Gift of Light
 			264621, -- Bad Zed's Worst Channeler
 			265803, -- Bazaar Bites
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94690}),
 		},
 		vignette=7305,
 	},
@@ -194,35 +203,39 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			260694, -- Foul Kelp
 			264608, -- String of Lovely Blossoms
 			264910, -- Shell-Cleaving Poleaxe
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94691}), --v
 		},
 		vignette=7302,
 	},
 	[56427760] = { -- Banuran
-		criteria=110176, quest=92403, -- 94692
+		criteria=110176, quest=92403,
 		npc=250826,
 		loot={
 			-- 251788, -- Gift of Light
 			264526, -- Supremely Slimy Sash
 			264552, -- Frogskin Grips
 			-- 265027, -- Lucky Lynx Locket
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94692}),
 		},
 		vignette=7304,
 	},
 	[59107924] = { -- Lost Guardian
-		criteria=110177, quest=92399, -- 94693
+		criteria=110177, quest=92399,
 		npc=250806,
 		loot={
 			264555, -- Splintered Hexwood Clasps
 			264575, -- Hexwood Helm
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94693}),
 		},
 		vignette=7303,
 	},
 	[42436906] = { -- Duskburn
-		criteria=110178, quest=93550, -- 94694
+		criteria=110178, quest=93550,
 		npc=255302,
 		loot={
 			264569, -- Void-Gorged Kickers
 			264594, -- Netherscale Cloak
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94694}),
 		},
 		vignette=7396,
 	},
@@ -232,17 +245,19 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		loot={
 			264584, -- Stonecarved Smashers
 			264603, -- Guardian's Gemstone Loop
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94695}), --v
 		},
 		vignette=7399,
 	},
 	[44573817] = { -- Dame Bloodshed
-		criteria=110180, quest=93561, -- 94696
+		criteria=110180, quest=93561,
 		npc=255348,
 		loot={
 			-- 251788, -- Gift of Light
 			-- 251791, -- Holy Retributor's Order
 			264595, -- Lynxhide Shawl
 			264624, -- Fang of the Dame
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94696}),
 		},
 		note="Wanders",
 		vignette=7404,
