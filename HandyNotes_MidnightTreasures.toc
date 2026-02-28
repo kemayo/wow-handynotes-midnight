@@ -1,4 +1,4 @@
-## Interface: 110207, 120001, 120000
+## Interface: 120001, 120000
 ## Title: HandyNotes: Midnight Treasures and Rares
 ## Notes: Where are the hidden treasures in Midnight?
 ## Author: Kemayo
