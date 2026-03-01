@@ -22,7 +22,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	[32083165] = {criteria=111773, quest=94628, vignette=7488}, -- Tablet of Halazzi
 	[55121761] = {criteria=111774, quest=94631, vignette=7489}, -- Tablet of Jan'alai
 	[30168466] = {criteria=111775, quest=94632, vignette=7490}, -- Tablet of Nalorakk
-	[37502669] = {criteria=111776, quest=94633, vignette=7491}, -- Tablet of the Ruling Family
+	-- [37502669] = {criteria=111776, quest=94633, vignette=7491}, -- Tablet of the Ruling Family (removed after beta)
 	[39274472] = {criteria=111777, quest=94673, vignette=7492}, -- Tablet of Kulzi
 	[52933212] = {criteria=111778, quest=94674, vignette=7493}, -- Tablet of Filo
 }, LORE{loot={ns.rewards.Currency(ns.CURRENCY_AMANI, 250)}})
