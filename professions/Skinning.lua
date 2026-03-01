@@ -33,3 +33,41 @@ ns.RegisterPoints(ns.HARANDAR, {
 ns.RegisterPoints(ns.SLAYERSRISE, {
     [44204595] = {quest=89169, loot={238631}, vignette=6789}, -- Voidstorm Leather Sample
 }, KNOWLEDGE)
+
+-- Lures
+
+local LURE = {
+    requires=ns.conditions.Profession(ns.PROF_MIDNIGHT_SKINNING),
+    atlas="Vehicle-Trap-Gold",
+    loot={238530}, -- Majestic Fin
+    note="Place the lure once you have {spell:1239151:Sixth Sense}",
+}
+
+ns.RegisterPoints(ns.EVERSONGWOODS, {
+    [42007994] = {
+        quest=245688, -- Gloomclaw
+        npc=nil,
+        active=ns.conditions.Item(238652), -- Majestic Eversong Lure
+    },
+}, LURE)
+ns.RegisterPoints(ns.ZULAMAN, {
+    [47825332] = {
+        quest=nil,
+        npc=245699, -- Silverscale
+        active=ns.conditions.Item(238653), -- Majestic Zul'Aman Lure
+    },
+}, LURE)
+ns.RegisterPoints(ns.HARANDAR, {
+    [66854771] = {
+        quest=nil,
+        npc=245690, -- Lumenfin
+        active=ns.conditions.Item(238654), -- Majestic Harandar Lure
+    },
+}, LURE)
+ns.RegisterPoints(ns.VOIDSTORM, {
+    [54006500] = {
+        quest=nil,
+        npc=247096, -- Umbrafang
+        active=ns.conditions.Item(238655), -- Majestic  Voidstorm Lure
+    },
+}, LURE)
