@@ -70,9 +70,14 @@ ns.RegisterPoints(ns.ZULAMAN, {
 ns.RegisterPoints(ns.ZULAMAN, {
 	[32292239] = {
 		achievement=62202,
-		note="Talk to {npc:258938:Feeva}",
+		note="Talk to {npc:258938:Feeva}, then pick up {npc:261115:Kapara Pup}. With {spell:1285642:Escorting Kapara Pup}, run to {area:16204:Shrine of Filo}. {gc:red:You cannot mount up}.",
 		texture=ns.atlas_texture("WildBattlePetCapturable", {r=0.8,g=0,b=1}),
 		minimap=true,
+		path={
+			32282239, 32572344, 32652387, 32932442, 32882488, 33152497, 33992603, 35542652, 38903019, 39323142, 40273265, 41903311, 43303282, 44503333, 44893368, 45363365, 46363472, 48783528, 49933455, 50423397, 50873380, 51363293,
+			r=0.8, g=0, b=1,
+			atlas="Vehicle-TempleofKotmogu-GreenBall", label="Destination",
+		},
 	},
 })
 
