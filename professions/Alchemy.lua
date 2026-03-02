@@ -19,7 +19,7 @@ ns.RegisterPoints(ns.SILVERMOONCITY, {
 --     [] = {quest=nil, loot={238532}, vignette=nil}, -- Vial of Eversong Oddities
 -- }, KNOWLEDGE)
 ns.RegisterPoints(ns.ZULAMAN, {
-    [41704050] = {quest=89114, loot={238535}, vignette=6845}, -- Vial of Zul'Aman Oddities
+    [40385108] = {quest=89114, loot={238535}, vignette=6845}, -- Vial of Zul'Aman Oddities
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ATALAMAN, {
     [49102310] = {quest=89116, loot={238537}, vignette=6843, parent=true}, -- Measured Ladle
