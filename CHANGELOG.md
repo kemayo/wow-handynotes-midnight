@@ -1,5 +1,16 @@
 # Changelog
 
+## Changed in v27
+
+* Zul'Aman:
+	* Add the Put a Pin in It achievement
+	* Better distinguish Shadowpine Scattered and Frog and the Princesses (they were both using off-green circles)
+* Profession knowledge (again):
+	* Made all the Slayer's Rise / Atal'Aman items show on their parent maps, so they're not hidden away
+	* The associated currency was showing as Khaz Algar, not Midnight
+	* Fix location of Vial of Zul'Aman Oddities
+	* Ethereal Leatherworking Knife is in Voidstorm not Slayers Rise
+
 ## Changed in v26
 
 * Eversong Woods: finally add currency quest to Harried Hawkstrider
