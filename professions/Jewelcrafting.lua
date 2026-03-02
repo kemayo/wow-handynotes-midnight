@@ -25,7 +25,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 -- ns.RegisterPoints(ns.HARANDAR, {
 -- }, KNOWLEDGE)
 ns.RegisterPoints(ns.SLAYERSRISE, {
-    [30606900] = {quest=89123, loot={238581}, vignette=6867}, -- Speculative Voidstorm Crystal
-    [54205120] = {quest=89128, loot={238586}, vignette=6810}, -- Ethereal Gem Pliers
-    [62905350] = {quest=89126, loot={238584}, vignette=6812}, -- Shattered Glass
+    [30606900] = {quest=89123, loot={238581}, vignette=6867, parent=true}, -- Speculative Voidstorm Crystal
+    [54205120] = {quest=89128, loot={238586}, vignette=6810, parent=true}, -- Ethereal Gem Pliers
+    [62905350] = {quest=89126, loot={238584}, vignette=6812, parent=true}, -- Shattered Glass
 }, KNOWLEDGE)

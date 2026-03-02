@@ -22,12 +22,12 @@ ns.RegisterPoints(ns.ZULAMAN, {
     [34208790] = {quest=89140, loot={238563}, vignette=6817}, -- Handy Wrench
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ATALAMAN, {
-    [65103450] = {quest=89138, loot={238561}, vignette=6819}, -- Offline Helper Bot
+    [65103450] = {quest=89138, loot={238561}, vignette=6819, parent=true}, -- Offline Helper Bot
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.HARANDAR, {
     [67904980] = {quest=89136, loot={238559}, vignette=6821}, -- Expeditious Pylon
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.SLAYERSRISE, {
-    [29003920] = {quest=89134, loot={238557}, vignette=6823}, -- Miniaturized Transport Skiff
-    [54005100] = {quest=89137, loot={238560}, vignette=6820}, -- Ethereal Stormwrench
+    [29003920] = {quest=89134, loot={238557}, vignette=6823, parent=true}, -- Miniaturized Transport Skiff
+    [54005100] = {quest=89137, loot={238560}, vignette=6820, parent=true}, -- Ethereal Stormwrench
 }, KNOWLEDGE)

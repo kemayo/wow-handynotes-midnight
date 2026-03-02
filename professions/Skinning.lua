@@ -22,7 +22,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
     [40403600] = {quest=89170, loot={238632}, vignette=6788}, -- Amani Tanning Oil
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ATALAMAN, {
-    [45004470] = {quest=89167, loot={238629}, vignette=6791}, -- Cadre Skinning Knife
+    [45004470] = {quest=89167, loot={238629}, vignette=6791, parent=true}, -- Cadre Skinning Knife
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.HARANDAR, {
     [69504920] = {quest=89168, loot={238630}, vignette=6790}, -- Primal Hide
@@ -31,7 +31,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 -- ns.RegisterPoints(ns.VOIDSTORM, {
 -- }, KNOWLEDGE)
 ns.RegisterPoints(ns.SLAYERSRISE, {
-    [44204595] = {quest=89169, loot={238631}, vignette=6789}, -- Voidstorm Leather Sample
+    [44204595] = {quest=89169, loot={238631}, vignette=6789, parent=true}, -- Voidstorm Leather Sample
 }, KNOWLEDGE)
 
 -- Lures

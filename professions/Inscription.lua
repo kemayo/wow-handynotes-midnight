@@ -29,5 +29,5 @@ ns.RegisterPoints(ns.HARANDAR, {
     [52705000] = {quest=89071, loot={238576}, vignette=6872}, -- Leftover Sanguithorn Pigment
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.SLAYERSRISE, {
-    [60708410] = {quest=89067, loot={238572}, vignette=6816}, -- Void-Touched Quill
+    [60708410] = {quest=89067, loot={238572}, vignette=6816, parent=true}, -- Void-Touched Quill
 }, KNOWLEDGE)

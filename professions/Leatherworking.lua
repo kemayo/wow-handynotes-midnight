@@ -21,7 +21,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
     [33107890] = {quest=89089, loot={238588}, vignette=6808}, -- Amani Leatherworker's Tool
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ATALAMAN, {
-    [45204530] = {quest=89092, loot={238591}, vignette=6805}, -- Bundle of Tanner's Trinkets
+    [45204530] = {quest=89092, loot={238591}, vignette=6805, parent=true}, -- Bundle of Tanner's Trinkets
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.HARANDAR, {
     [36102520] = {quest=89095, loot={238594}, vignette=6862}, -- Haranir Leatherworking Knife

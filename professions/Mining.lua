@@ -26,10 +26,10 @@ ns.RegisterPoints(ns.VOIDSTORM, {
     [41803820] = {quest=89150, loot={238602}, vignette=6802}, -- Star Metal Deposit
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ATALAMAN, {
-    [33606600] = {quest=89149, loot={238601}, vignette=6803}, -- Amani Expert's Chisel
+    [33606600] = {quest=89149, loot={238601}, vignette=6803, parent=true}, -- Amani Expert's Chisel
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.SLAYERSRISE, {
-    [28733856] = {quest=89148, loot={238600}, vignette=6804}, -- Glimmering Void Pearl
-    [30006900] = {quest=89144, loot={238596}, vignette=6860}, -- Miner's Guide to Voidstorm
-    [54245159] = {quest=89146, loot={238598}, vignette=6858}, -- Lost Voidstorm Satchel
+    [28733856] = {quest=89148, loot={238600}, vignette=6804, parent=true}, -- Glimmering Void Pearl
+    [30006900] = {quest=89144, loot={238596}, vignette=6860, parent=true}, -- Miner's Guide to Voidstorm
+    [54245159] = {quest=89146, loot={238598}, vignette=6858, parent=true}, -- Lost Voidstorm Satchel
 }, KNOWLEDGE)

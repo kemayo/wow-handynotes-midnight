@@ -26,6 +26,6 @@ ns.RegisterPoints(ns.HARANDAR, {
     [70505080] = {quest=89078, loot={238612}, vignette=6800}, -- A Child's Stuffy
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.SLAYERSRISE, {
-    [61408500] = {quest=89083, loot={238617}, vignette=6795}, -- Satin Throw Pillow
-    [61908370] = {quest=89082, loot={238616}, vignette=6796}, -- Book of Sin'dorei Stitches
+    [61408500] = {quest=89083, loot={238617}, vignette=6795, parent=true}, -- Satin Throw Pillow
+    [61908370] = {quest=89082, loot={238616}, vignette=6796, parent=true}, -- Book of Sin'dorei Stitches
 }, KNOWLEDGE)

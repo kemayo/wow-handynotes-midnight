@@ -21,7 +21,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
     [40405120] = {quest=89106, loot={238554}, vignette=6826}, -- Loa-Blessed Dust
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ATALAMAN, {
-    [49102270] = {quest=89100, loot={238548}, vignette=6832}, -- Enchanted Amani Mask
+    [49102270] = {quest=89100, loot={238548}, vignette=6832, parent=true}, -- Enchanted Amani Mask
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.HARANDAR, {
     [37706530] = {quest=89104, loot={238552}, vignette=6828}, -- Entropic Shard
