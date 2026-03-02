@@ -2,7 +2,6 @@ local myname, ns = ...
 
 --[[ TODO:
 A Most Violent Loa: 62267
-Put a Pin in It: 62199
 Gnome Alone: 62200
 ]]
 
@@ -113,6 +112,30 @@ ns.RegisterPoints(ns.ZULAMAN, {
 ns.RegisterPoints(ns.ATALAMAN, {
 	[27514003] = {criteria=112446, label="{npc:259682:Princess Jakobu}", parent=true},
 }, FROG)
+
+-- Put a Pin in It
+ns.RegisterPoints(ns.ZULAMAN, {
+	[59247107] = {
+		quest=95005,
+		label="{npc:258933:Chu'ke}",
+		note="Talk, then go to {npc:258884:Kalika} in {area:16186:Temple of Halazzi}",
+	},
+	[38662378] = {
+		quest=95045,
+		label="{npc:258884:Kalika}",
+		hide_before=ns.conditions.QuestComplete(95005),
+		note="Talk, pick up the Forgotten Button she points out, then go to {npc:258933:Chu'ke} in {area:16196:Funerary Coast}",
+	},
+	[37809011] = {
+		quest=95046,
+		label="{npc:258933:Chu'ke}",
+		hide_before=ns.conditions.QuestComplete(95045),
+		note="Give him the button. It'll be fine.",
+	},
+}, {
+	achievement=62199,
+	atlas="BuildanAbomination-32x32",
+})
 
 -- Rares
 
