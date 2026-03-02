@@ -93,7 +93,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	[55031798] = {criteria=109753, label="{npc:254841:Songseeker Ikaja}"},
 }, {
 	achievement=61455,
-	texture=ns.atlas_texture("AncientMana", {r=0, g=1, b=0.5}),
+	texture=ns.atlas_texture("AncientMana", {r=0, g=0, b=1}),
 	minimap=true,
 })
 
