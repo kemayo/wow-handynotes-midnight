@@ -279,17 +279,17 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		loot={
 			264525, -- Wrapped Antenna Cuffs
 			264582, -- Diamondback-Scale Legguards
-			-- ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94709}),
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94709}),
 		},
 		vignette=6971,
 	},
-	[45284171] = { -- Ash'an the Empowered / Asha the Empowered
+	[45284171] = { -- Ash'an the Empowered
 		criteria=111853, quest=91073,
 		npc=245692,
 		loot={
 			264593, -- Warcloak of the Butcher
 			264643, -- Ash'an's Spare Cleaver
-			-- ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94710}),
+			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94710}),
 		},
 		vignette=6972,
 	},
