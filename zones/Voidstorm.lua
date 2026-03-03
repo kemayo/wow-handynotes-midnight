@@ -78,15 +78,14 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 
 -- Rares
 
---[[
-All the rares will drop:
-246951, -- Stormarion Core
-251786, -- Ever-Collapsing Void Fissure
-264694, -- Ultradon Cuirass
-264701, -- Cosmic Bell
-{257085, mount=true,}, -- Augmented Stormray
-{260635, mount=true,}, -- Sanguine Harrower
-]]
+local loot_shared = {
+	246951, -- Stormarion Core
+	251786, -- Ever-Collapsing Void Fissure
+	264694, -- Ultradon Cuirass
+	264701, -- Cosmic Bell
+	{257085, mount=true,}, -- Augmented Stormray
+	{260635, mount=true,}, -- Sanguine Harrower
+}
 
 -- The Ultimate Predator
 ns.RegisterPoints(ns.VOIDSTORM, {
@@ -218,6 +217,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	},
 }, {
 	achievement=62130,
+	loot_shared=loot_shared,
 })
 
 ns.RegisterPoints(ns.SLAYERSRISE, {
@@ -244,6 +244,7 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 }, {
 	achievement=62130,
 	parent=true,
+	loot_shared=loot_shared,
 })
 
 ns.RegisterPoints(ns.VOIDSTORM, {
@@ -297,6 +298,8 @@ ns.RegisterPoints(ns.VOIDSTORM, {
         },
         vignette=7142,
 	},
+}, {
+	loot_shared=loot_shared,
 })
 
 ns.RegisterPoints(ns.SLAYERSRISE, {
@@ -326,4 +329,5 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 	},
 }, {
 	parent=true,
+	loot_shared=loot_shared,
 })

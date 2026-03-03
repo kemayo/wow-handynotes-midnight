@@ -71,14 +71,6 @@ ns.RegisterPoints(ns.HARANDARDEN, {
 
 -- Rares
 
---[[
-All the rares will drop:
-251782, -- Withered Saptor's Paw
-255826, -- Mysterious Skyshards
-{246735, mount=true}, -- Rootstalker Grimlynx
-{252012, mount=true}, -- Vibrant Petalwing
-]]
-
 -- Leaf None Behind
 ns.RegisterPoints(ns.HARANDAR, {
 	[51174530] = { -- Rhazul
@@ -238,4 +230,10 @@ ns.RegisterPoints(ns.HARANDAR, {
 	},
 }, {
 	achievement=61264,
+	loot_shared={
+		251782, -- Withered Saptor's Paw
+		255826, -- Mysterious Skyshards
+		{246735, mount=true}, -- Rootstalker Grimlynx
+		{252012, mount=true}, -- Vibrant Petalwing
+	}
 })

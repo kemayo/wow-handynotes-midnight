@@ -89,14 +89,6 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 
 -- Rares
 
---[[
-All the rares will drop:
-251788, -- Gift of Light
-251791, -- Holy Retributor's Order
-{257147, mount=true}, -- Cobalt Dragonhawk
-{257156, mount=true}, -- Cerulean Hawkstrider
-]]
-
 -- A Bloody Song
 ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[51397502] = { -- Warden of Weeds
@@ -257,4 +249,10 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 	},
 }, {
 	achievement=61507,
+	loot_shared={
+		251788, -- Gift of Light
+		251791, -- Holy Retributor's Order
+		{257147, mount=true}, -- Cobalt Dragonhawk
+		{257156, mount=true}, -- Cerulean Hawkstrider
+	},
 })

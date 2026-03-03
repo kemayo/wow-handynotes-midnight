@@ -139,16 +139,16 @@ ns.RegisterPoints(ns.ZULAMAN, {
 
 -- Rares
 
---[[
-All the rares will drop:
-251783, -- Lost Idol of the Hash'ey
-251784, -- Sylvan Wakrapuku
-265543, -- Tempered Amani Spearhead
-265554, -- Reinforced Amani Haft
-265560, -- Toughened Amani Leather Wrap
-{257152, mount=true}, -- Amani Sharptalon
-{257200, mount=true}, -- Escaped Witherbark Pango
-]]
+local loot_shared = {
+	251783, -- Lost Idol of the Hash'ey
+	251784, -- Sylvan Wakrapuku
+	265543, -- Tempered Amani Spearhead
+	265554, -- Reinforced Amani Haft
+	265560, -- Toughened Amani Leather Wrap
+	-- Combine into: 265562, -- Amani Warrior's Spear
+	{257152, mount=true}, -- Amani Sharptalon
+	{257200, mount=true}, -- Escaped Witherbark Pango
+}
 
 -- Tallest Tree in the Forest
 ns.RegisterPoints(ns.ZULAMAN, {
@@ -295,6 +295,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	},
 }, {
 	achievement=62122,
+	loot_shared=loot_shared,
 })
 
 ns.RegisterPoints(ns.ATALAMAN, {
@@ -311,4 +312,5 @@ ns.RegisterPoints(ns.ATALAMAN, {
 }, {
 	achievement=62122,
 	parent=true,
+	loot_shared=loot_shared,
 })
