@@ -28,6 +28,7 @@ ns.RegisterPoints(ns.ISLEOFQUELDANAS, {
 		quest=95010,
 		npc=239864,
 		loot={
+			267268, -- Dripping Silk Footwraps
 			267270, -- Shadow-Drenched Legguards
 		},
 		vignette=7155,

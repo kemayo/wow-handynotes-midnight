@@ -78,6 +78,16 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 
 -- Rares
 
+--[[
+All the rares will drop:
+246951, -- Stormarion Core
+251786, -- Ever-Collapsing Void Fissure
+264694, -- Ultradon Cuirass
+264701, -- Cosmic Bell
+{257085, mount=true,}, -- Augmented Stormray
+{260635, mount=true,}, -- Sanguine Harrower
+]]
+
 -- The Ultimate Predator
 ns.RegisterPoints(ns.VOIDSTORM, {
 	[29515008] = { -- Sundereth the Caller
@@ -104,7 +114,8 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		criteria=111879, quest=91048,
 		npc=241443,
 		loot={
-			251786, -- Ever-Collapsing Void Fissure
+			264610, -- Escaped Specimen's ID Tag
+			264646, -- Specimen Sinew Longbow
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94730}),
 		},
 		path=37498452, -- or 35678113
@@ -115,6 +126,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		criteria=111880, quest=93966,
 		npc=256922,
 		loot={
+			264545, -- Harrower-Claw Grips
 			264583, -- Barbute of the Winged Hunter
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94731}),
 		},
@@ -124,6 +136,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		criteria=111881, quest=93946,
 		npc=256923,
 		loot={
+			264558, -- Vileblood Resistant Sabatons
 			264572, -- Netherplate Clasp
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94732}),
 		},
@@ -145,7 +158,6 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		criteria=111883, quest=93947,
 		npc=256925,
 		loot={
-			251786, -- Ever-Collapsing Void Fissure
 			264632, -- Darkblossom's Crook
 			264548, -- Sash of Cosmic Tranquility
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94758}),
@@ -156,7 +168,6 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		criteria=111884, quest=93934,
 		npc=256926,
 		loot={
-			251786, -- Ever-Collapsing Void Fissure
 			264533, -- Queen's Tentacle Sash
 			264601, -- Queen's Eye Band
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94761}),
@@ -169,6 +180,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		npc=256808,
 		loot={
 			264535, -- Leggings of the Cosmic Harrower
+			264589, -- Voidfused Wing Cloak
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94763}),
 		},
 		vignette=7426,
@@ -177,6 +189,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		criteria=111887, quest=93884,
 		npc=256770,
 		loot={
+			264579, -- Hungering Wristplates
 			264623, -- Shredding Fang
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94752}),
 		},
@@ -187,7 +200,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		criteria=111889, quest=91051,
 		npc=245044,
 		loot={
-			251786, -- Ever-Collapsing Void Fissure
+			264551, -- Nightbrood's Jaw
 			264574, -- Netherterror's Legplates
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94759}),
 		},
@@ -197,7 +210,8 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		criteria=111890, quest=93896,
 		npc=256821,
 		loot={
-			251786, -- Ever-Collapsing Void Fissure
+			264912, -- Void-Channeler's Spire
+            264913, -- Focused Netherslicer
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94755}),
 		},
 		vignette=7428,
@@ -211,7 +225,8 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 		criteria=111888, quest=91047,
 		npc=245182,
 		loot={
-			264701, -- Cosmic Bell
+			264563, -- Eruundi's Wristguards
+			264600, -- Ancient Argussian Band
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94754}),
 		},
 		vignette=6963, -- vignette position APIs don't work on this one...
@@ -220,6 +235,7 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 		criteria=111886, quest=93953,
 		npc=257027,
 		loot={
+			264561, -- Primal Bonestompers
 			264630, -- Colossal Voidsunderer
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94762}),
 		},
@@ -234,26 +250,52 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	[30576661] = { -- Voidseer Orivane
 		quest=94459, -- v
 		npc=248791,
-		loot={},
+		loot={
+			264556, -- Voidforged Cinch
+			264628, -- Spear of Nothingness
+			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+		},
 		vignette=7140,
 	},
 	[28827024] = { -- The Many-Broken
 		quest=94458, -- v
 		npc=248459, -- 248461, 248462
-		loot={},
+		loot={
+			264577, -- Crystalforged Boots
+			264651, -- Resonating Traumatizer
+			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+		},
 		vignette=7133,
 	},
 	[28156593] = { -- Abysslick
 		quest=94462, -- v
 		npc=248700,
-		loot={},
+		loot={
+			264596, -- Voidthread Veil
+			264634, -- Spire of Flowing Void
+			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+		},
 		vignette=7138,
 	},
 	[29806787] = { -- Nullspiral
 		quest=94460, -- v
 		npc=248068,
-		loot={},
+		loot={
+			264531, -- Shadowthread Slippers
+			264588, -- Shawl of Cosmic Whispers
+			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+		},
 		vignette=7129,
+	},
+	[24806780] = { -- Blackcore
+        quest=94463, -- v
+        npc=248823,
+        loot={
+            264519, -- Repurposed Voidwalker's Chestplate
+            264606, -- Netherlocus Amulet
+            -- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+        },
+        vignette=7142,
 	},
 })
 
@@ -262,7 +304,10 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 		quest=94461, -- v
 		npc=257199,
 		loot={
+			-- 264364, -- Hardin Steellock's Head
+			264599, -- Kul'Tiran Signet Ring
 			264615, -- Hardin's Backup Blade
+			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
 		},
 		faction="Horde",
 		vignette=7442,
@@ -271,7 +316,10 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 		quest=94461, -- v
 		npc=257231,
 		loot={
+			-- 264363, -- Gar'chak Skullcleave's Head
 			264609, -- Gar'chak's Mark of Honor
+			264641, -- Sharpened Skullcleaver
+			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
 		},
 		faction="Alliance",
 		vignette=7445,

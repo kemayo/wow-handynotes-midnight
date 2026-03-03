@@ -139,16 +139,25 @@ ns.RegisterPoints(ns.ZULAMAN, {
 
 -- Rares
 
+--[[
+All the rares will drop:
+251783, -- Lost Idol of the Hash'ey
+251784, -- Sylvan Wakrapuku
+265543, -- Tempered Amani Spearhead
+265554, -- Reinforced Amani Haft
+265560, -- Toughened Amani Leather Wrap
+{257152, mount=true}, -- Amani Sharptalon
+{257200, mount=true}, -- Escaped Witherbark Pango
+]]
+
 -- Tallest Tree in the Forest
 ns.RegisterPoints(ns.ZULAMAN, {
 	[34393304] = { -- Necrohexxer Raz'ka
 		criteria=111839, quest=89569,
 		npc=242023,
 		loot={
-			251783, -- Lost Idol of the Hash'ey
 			264527, -- Vile Hexxer's Mantle
 			264611, -- Pendant of Siphoned Vitality
-			265543, -- Tempered Amani Spearhead
 			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94683}),
 		},
 		vignette=6895,
@@ -167,11 +176,8 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		criteria=111841, quest=89571,
 		npc=242025,
 		loot={
-			251783, -- Lost Idol of the Hash'ey
-			251784, -- Sylvan Wakrapuku
 			264542, -- Skullcrusher's Mantle
 			264631, -- Harak's Skullcutter
-			265560, -- Toughened Amani Leather Wrap
 			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94698}),
 		},
 		vignette=6897,
@@ -180,7 +186,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		criteria=111842, quest=89575,
 		npc=242028,
 		loot={
-			251784, -- Sylvan Wakrapuku
+			264557, -- Borerplate Pauldrons
 			264640, -- Sharpened Borer Claw
 			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94699}),
 		},
@@ -190,10 +196,8 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		criteria=111843, quest=91174,
 		npc=245975,
 		loot={
-			251783, -- Lost Idol of the Hash'ey
 			264570, -- Reinforced Chainmrrl
 			264580, -- Mrrlokk's Mrgl Grrdle
-			265543, -- Tempered Amani Spearhead
 			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94700}),
 		},
 		vignette=6977,
@@ -222,7 +226,6 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		criteria=111847, quest=89580,
 		npc=242033,
 		loot={
-			251784, -- Sylvan Wakrapuku
 			264648, -- Verminscale Gavel
 			264597, -- Leechtooth Band
 			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94704}),
@@ -233,6 +236,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		criteria=111848, quest=89581,
 		npc=242034,
 		loot={
+			264564, -- Crab Wrangling Harness
 			264586, -- Crustacean Carapace Chestguard
 			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94705}),
 		},
@@ -263,7 +267,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		criteria=111851, quest=89573,
 		npc=242027,
 		loot={
-			251784, -- Sylvan Wakrapuku
+			264598, -- Eelectrum Signet
 			264618, -- Strangely Eelastic Blade
 			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94708}),
 		},
@@ -272,11 +276,21 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	[46394339] = { -- The Decaying Diamondback
 		criteria=111852, quest=91072,
 		npc=245691,
+		loot={
+			264525, -- Wrapped Antenna Cuffs
+			264582, -- Diamondback-Scale Legguards
+			-- ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94709}),
+		},
 		vignette=6971,
 	},
 	[45284171] = { -- Ash'an the Empowered / Asha the Empowered
 		criteria=111853, quest=91073,
 		npc=245692,
+		loot={
+			264593, -- Warcloak of the Butcher
+			264643, -- Ash'an's Spare Cleaver
+			-- ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94710}),
+		},
 		vignette=6972,
 	},
 }, {

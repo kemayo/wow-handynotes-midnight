@@ -71,6 +71,14 @@ ns.RegisterPoints(ns.HARANDARDEN, {
 
 -- Rares
 
+--[[
+All the rares will drop:
+251782, -- Withered Saptor's Paw
+255826, -- Mysterious Skyshards
+{246735, mount=true}, -- Rootstalker Grimlynx
+{252012, mount=true}, -- Vibrant Petalwing
+]]
+
 -- Leaf None Behind
 ns.RegisterPoints(ns.HARANDAR, {
 	[51174530] = { -- Rhazul
@@ -78,6 +86,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		npc=248741,
 		loot={
 			264530, -- Grimfur Mittens
+			264622, -- Grimfang Shank
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94712}),
 		},
 		vignette=7139,
@@ -87,6 +96,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		npc=249844,
 		loot={
 			264538, -- Translucent Membrane Slippers
+			264544, -- Grounded Death Cap
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94713}),
 		},
 		vignette=7156,
@@ -95,9 +105,9 @@ ns.RegisterPoints(ns.HARANDAR, {
 		criteria=109041, quest=92142,
 		npc=249849,
 		loot={
-			252957, -- Tangle of Vibrant Vines
 			264553, -- Deepspore Leather Galoshes
-			264592, -- Ka'kalawe's Flawless Wing
+			264592, -- Ha'kalawe's Flawless Wing
+			{264895, class="HUNTER"}, -- Trials of the Florafaun Hunter
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94714}),
 		},
 		note="Wanders",
@@ -107,6 +117,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		criteria=109042, quest=92148,
 		npc=249902,
 		loot={
+			264532, -- Robes of Flowing Truths
 			264650, -- Truthspreader's Truth Spreader
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94715}),
 		},
@@ -116,8 +127,9 @@ ns.RegisterPoints(ns.HARANDAR, {
 		criteria=109043, quest=92154,
 		npc=249962,
 		loot={
-			251782, -- Withered Saptor's Paw
-			264895, -- Trials of the Florafaun Hunter
+			264566, -- Lashtongue's Leaffroggers
+            264571, -- Ironleaf Wristguards
+			{264895, class="HUNTER"}, -- Trials of the Florafaun Hunter
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94716}),
 		},
 		vignette=7159,
@@ -126,6 +138,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		criteria=109044, quest=92161,
 		npc=249997,
 		loot={
+			264604, -- Sludgy Verdant Signet
 			264626, -- Scepter of Radiant Conversion
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94717}),
 		},
@@ -146,6 +159,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		npc=250180,
 		loot={
 			264568, -- Serrated Scale Gauntlets
+			264639, -- Razorfang Hacker
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94719}), --v
 		},
 		vignette=7163,
@@ -154,6 +168,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		criteria=109047, quest=92172,
 		npc=250226,
 		loot={
+			264550, -- Fungal Stalker's Stockings
 			264649, -- Mindrot Claw-Hammer
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94720}),
 		},
@@ -165,6 +180,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		loot={
 			264562, -- Plated Grove Vest
 			264644, -- Crawler's Mindscythe
+			{264895, class="HUNTER"}, -- Trials of the Florafaun Hunter
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94721}),
 		},
 		vignette=7165,
@@ -173,10 +189,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		criteria=109049, quest=92183,
 		npc=250246,
 		loot={
-			-- {246735,mount=true,}, -- Rootstalker Grimlynx (all zone rares?)
-			-- 251782, -- Withered Saptor's Paw
 			264633, -- Treetop Battlestave
-			264968, -- Telluric Leyblossom
 			264581, -- Bloombark Spaulders
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94722}),
 		},
@@ -188,6 +201,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		loot={
 			264591, -- Radiant Petalwing's Feather
 			264616, -- Lightblighted Sapdrinker
+			{264895, class="HUNTER"}, -- Trials of the Florafaun Hunter
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94723}), --v
 		},
 		vignette=7167,
@@ -196,8 +210,9 @@ ns.RegisterPoints(ns.HARANDAR, {
 		criteria=109051, quest=92191,
 		npc=250321,
 		loot={
-			259896, -- Bark of the Guardian Tree
+			264567, -- Rockscale Hood
 			264576, -- Slatescale Grips
+			{264895, class="HUNTER"}, -- Trials of the Florafaun Hunter
 			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94724}),
 		},
 		vignette=7168,
@@ -215,6 +230,10 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[44501610] = { -- Annulus the Worldshaker
 		criteria=109053, quest=92194,
 		npc=250358,
+		loot={
+			264607, -- Spore-Laden Choker
+			264614, -- Fungal Cap Guard
+		},
 		vignette=7172,
 	},
 }, {

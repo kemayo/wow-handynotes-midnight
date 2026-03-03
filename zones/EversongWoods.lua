@@ -89,6 +89,14 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 
 -- Rares
 
+--[[
+All the rares will drop:
+251788, -- Gift of Light
+251791, -- Holy Retributor's Order
+{257147, mount=true}, -- Cobalt Dragonhawk
+{257156, mount=true}, -- Cerulean Hawkstrider
+]]
+
 -- A Bloody Song
 ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[51397502] = { -- Warden of Weeds
@@ -106,10 +114,8 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=110167, quest=91315,
 		npc=246633,
 		loot={
-			-- 251791, -- Holy Retributor's Order
 			264521, -- Striderplume Focus
 			264522, -- Striderplume Armbands
-			258912, -- Tarnished Dawnlit Spellbinder's Robe
 			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94682}),
 		},
 		vignette=7002,
@@ -119,7 +125,6 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=110168, quest=92392,
 		npc=240129,
 		loot={
-			-- 251791, -- Holy Retributor's Order
 			264523, -- Hydrafang Blade
 			264524, -- Lightblighted Verdant Vest
 			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94684}),
@@ -130,7 +135,6 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=110169, quest=92366,
 		npc=250582,
 		loot={
-			-- 251788, -- Gift of Light
 			264543, -- Snapdragon Pantaloons
 			264560, -- Sharpclaw Gauntlets
 			260647, -- Digested Human Hand
@@ -142,10 +146,8 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=110170, quest=92391,
 		npc=250719,
 		loot={
-			-- 251791, -- Holy Retributor's Order
 			264573, -- Taskmaster's Sadistic Shoulderguards
 			264647, -- Cre'van's Punisher
-			265803, -- Bazaar Bites
 			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94686}), --v
 		},
 		vignette=7299, -- Cre'van, Cruel Taskmaster
@@ -165,7 +167,6 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=110172, quest=92393,
 		npc=250754,
 		loot={
-			-- 251791, -- Holy Retributor's Order
 			264612, -- Tarnished Gold Locket
 			264645, -- Aged Farstrider Bow
 			260655, -- Decaying Humanoid Flesh
@@ -187,10 +188,8 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=110174, quest=92404,
 		npc=250841,
 		loot={
-			-- 251791, -- Holy Retributor's Order
-			-- 251788, -- Gift of Light
+			264536, -- Zedling Summoning Collar
 			264621, -- Bad Zed's Worst Channeler
-			265803, -- Bazaar Bites
 			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94690}),
 		},
 		vignette=7305,
@@ -199,8 +198,6 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=110175, quest=92395,
 		npc=250780, -- 250788 for Lovely Sunflower
 		loot={
-			-- 251788, -- Gift of Light
-			260694, -- Foul Kelp
 			264608, -- String of Lovely Blossoms
 			264910, -- Shell-Cleaving Poleaxe
 			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94691}), --v
@@ -211,10 +208,8 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=110176, quest=92403,
 		npc=250826,
 		loot={
-			-- 251788, -- Gift of Light
 			264526, -- Supremely Slimy Sash
 			264552, -- Frogskin Grips
-			-- 265027, -- Lucky Lynx Locket
 			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94692}),
 		},
 		vignette=7304,
@@ -253,8 +248,6 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		criteria=110180, quest=93561,
 		npc=255348,
 		loot={
-			-- 251788, -- Gift of Light
-			-- 251791, -- Holy Retributor's Order
 			264595, -- Lynxhide Shawl
 			264624, -- Fang of the Dame
 			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94696}),
