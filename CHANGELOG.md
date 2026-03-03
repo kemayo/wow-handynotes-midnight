@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v28
+
+* New loot has been added to all zones
+* A new section has been added to the tooltips for shared loot, which is being used for the rare-exclusive drops each zone's rares share
+
 ## Changed in v27
 
 * Zul'Aman:
