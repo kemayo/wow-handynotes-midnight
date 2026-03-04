@@ -32,7 +32,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[33346085] = {criteria=111824, quest=93556, vignette=7400}, -- Ancient Runestone
 	[72453809] = {criteria=111825, quest=93557, vignette=7401}, -- Derelict Mural
 	[68212380] = {criteria=111826, quest=93558, vignette=7402, note="Behind the tent"}, -- Forgotten Mural
-	[47614723] = {criteria=111827, quest=93559, vignette=7403}, -- A Frayed Scroll
+	-- [47614723] = {criteria=111827, quest=93559, vignette=7403}, -- A Frayed Scroll (removed after beta in hotfix)
 }, LORE{loot={ns.rewards.Currency(ns.CURRENCY_HARATI, 250)}})
 
 ns.RegisterPoints(ns.VOIDSTORM, {
