@@ -22,7 +22,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
     [48307560] = {quest=89069, loot={238574}, vignette=6814}, -- Spare Ink
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ZULAMAN, {
-    [40504940] = {quest=89068, loot={238573}, vignette=6815}, -- Leather-Bound Techniques
+    [40484935] = {quest=89068, loot={238573}, vignette=6815}, -- Leather-Bound Techniques
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.HARANDAR, {
     [52405260] = {quest=89070, loot={238575}, vignette=6813}, -- Intrepid Explorer's Marker
