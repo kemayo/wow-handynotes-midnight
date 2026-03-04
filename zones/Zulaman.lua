@@ -2,7 +2,6 @@ local myname, ns = ...
 
 --[[ TODO:
 A Most Violent Loa: 62267
-Gnome Alone: 62200
 ]]
 
 local AMANI = ns.rewards.Currency(ns.CURRENCY_AMANI, 50)
@@ -135,6 +134,20 @@ ns.RegisterPoints(ns.ZULAMAN, {
 }, {
 	achievement=62199,
 	atlas="BuildanAbomination-32x32",
+})
+
+-- Gnome Alone
+ns.RegisterPoints(ns.ZULAMAN, {
+	[54873240] = {criteria=112039, --[[object=258936,]]}, -- Message in a Bottle
+	[46364135] = {criteria=112845, --[[object=260878,]] note="Behind the hut"}, -- Hastily-Scribbled Note
+	[54312061] = {criteria=112846, --[[object=260879,]] note="Behind the pillar"}, -- Scrap of Singed Paper
+	[35682520] = {criteria=112844, --[[object=260880,]] note="Under the hammock"}, -- Moldy Diary Found
+	[45906599] = {criteria=112847, --[[object=260881,]] note="Under the building"}, -- Discarded Scroll
+	[34791716] = {criteria=112848, --[[object=260882,]]}, -- Parting Note
+}, {
+	achievement=62200,
+	atlas="poi-workorders",
+	minimap=true,
 })
 
 -- Rares
