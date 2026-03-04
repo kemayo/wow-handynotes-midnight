@@ -1,5 +1,13 @@
 # Changelog
 
+## Changed in v29
+
+* Zul'Aman:
+	* Reputation quests on Ash'an and Diamondback
+	* Add the Gnome Alone achievement
+* Lore Hunter: A Frayed Scroll has been hotfixed out of the achievement
+* Highest Peaks: note the decor reward for each zone achievement
+
 ## Changed in v28
 
 * New loot has been added to all zones
