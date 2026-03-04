@@ -55,14 +55,14 @@ ns.RegisterPoints(ns.ZULAMAN, {
 
 -- ns.RegisterPoints(ns.ATALAMAN, {})
 
-ns.RegisterPoints(ns.ZULAMAN, {
-	-- TODO: this wasn't interactable when I went by on 12/24, so need to check what's in it
-	[44325620] = { -- Ruz'avalt's Prized Tackle
-		label="Ruz'avalt's Prized Tackle",
-		quest=90790,
-		vignette=6934,
-	},
-})
+-- ns.RegisterPoints(ns.ZULAMAN, {
+-- 	-- TODO: this wasn't interactable when I went by on 12/24, so need to check what's in it
+-- 	[44325620] = { -- Ruz'avalt's Prized Tackle
+-- 		label="Ruz'avalt's Prized Tackle",
+-- 		quest=90790,
+-- 		vignette=6934,
+-- 	},
+-- })
 
 -- Spiritpaw Marathon
 ns.RegisterPoints(ns.ZULAMAN, {
