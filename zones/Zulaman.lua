@@ -7,7 +7,6 @@ A Most Violent Loa: 62267
 local AMANI = ns.rewards.Currency(ns.CURRENCY_AMANI, 50)
 
 ns.RegisterPoints(ns.ZULAMAN, {
-	[44724410] = {criteria=111854, quest=90794, loot={{257444, mount=true}}, vignette=6938, note="In cave on the lower level; gather 1000x{item:259361:Vile Essence} nearby"}, -- Abandoned Ritual Skull, Hexed Vilefeather Eagle
 	[46838186] = { -- Honored Warrior's Cache
 		criteria=111855, quest=90793, -- 93560 for interacting with the cache
 		loot={{257223, mount=true}}, -- Ancestral War Bear
@@ -51,6 +50,17 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	[42645244] = {criteria=111861, quest=90799, loot={{255008, pet=4906}}, vignette=6943, note="Atop the tree"}, -- Abandoned Nest, Weathered Eagle Egg
 }, {
 	achievement=62125,
+})
+
+ns.RegisterPoints(ns.ZULAMAN, {
+	-- This was removed from the treasures achievement around 20260305:
+	[44724410] = { -- Abandoned Ritual Skull, Hexed Vilefeather Eagle
+		-- criteria=111854,
+		quest=90794,
+		loot={{257444, mount=true}},
+		vignette=6938,
+		note="In cave on the lower level; gather 1000x{item:259361:Vile Essence} nearby"
+	},
 })
 
 -- ns.RegisterPoints(ns.ATALAMAN, {})
