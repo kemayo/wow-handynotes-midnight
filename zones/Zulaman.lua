@@ -56,6 +56,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	-- This was removed from the treasures achievement around 20260305:
 	[44724410] = { -- Abandoned Ritual Skull, Hexed Vilefeather Eagle
 		-- criteria=111854,
+		label="Abandoned Ritual Skull",
 		quest=90794,
 		loot={{257444, mount=true}},
 		vignette=6938,
