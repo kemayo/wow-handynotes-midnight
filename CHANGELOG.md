@@ -1,5 +1,12 @@
 # Changelog
 
+## Changed in v30
+
+* Harandar: add the rest of the Dust'em Off moths (so many moths)
+* Eversong Woods: Dame Bloodshed moved to her spawn point (thanks Vlad!)
+* Silvermoon City: show the clothing ensembles on Andra
+* Zul'Aman: Ruz'avalt's Prized Tackle isn't there at all post-beta
+
 ## Changed in v29
 
 * Zul'Aman:
