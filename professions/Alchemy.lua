@@ -14,9 +14,9 @@ local KNOWLEDGE = {
 ns.RegisterPoints(ns.SILVERMOONCITY, {
     [47805160] = {quest=89117, loot={238538}, vignette=6842}, -- Pristine Potion
     [49107560] = {quest=89115, loot={238536}, vignette=6844}, -- Freshly Plucked Peacebloom
+    [45074489] = {quest=89111, loot={238532}, vignette=6848, note="Inconsistently available"}, -- Vial of Eversong Oddities (c)
 }, KNOWLEDGE)
 -- ns.RegisterPoints(ns.EVERSONGWOODS, {
---     [] = {quest=nil, loot={238532}, vignette=nil}, -- Vial of Eversong Oddities
 -- }, KNOWLEDGE)
 ns.RegisterPoints(ns.ZULAMAN, {
     [40385108] = {quest=89114, loot={238535}, vignette=6845}, -- Vial of Zul'Aman Oddities
