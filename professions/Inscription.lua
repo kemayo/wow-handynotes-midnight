@@ -25,8 +25,8 @@ ns.RegisterPoints(ns.ZULAMAN, {
     [40484935] = {quest=89068, loot={238573}, vignette=6815}, -- Leather-Bound Techniques
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.HARANDAR, {
-    [52405260] = {quest=89070, loot={238575}, vignette=6813}, -- Intrepid Explorer's Marker
-    [52705000] = {quest=89071, loot={238576}, vignette=6872}, -- Leftover Sanguithorn Pigment
+    [52435261] = {quest=89070, loot={238575}, vignette=6813, note="Up on the root"}, -- Intrepid Explorer's Marker
+    [52754998] = {quest=89071, loot={238576}, vignette=6872}, -- Leftover Sanguithorn Pigment
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.SLAYERSRISE, {
     [60708410] = {quest=89067, loot={238572}, vignette=6816, parent=true}, -- Void-Touched Quill
