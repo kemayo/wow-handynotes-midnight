@@ -14,6 +14,7 @@ local KNOWLEDGE = {
 -- ns.RegisterPoints(ns.SILVERMOONCITY, {
 -- }, KNOWLEDGE)
 ns.RegisterPoints(ns.EVERSONGWOODS, {
+    [40196121] = {quest=89101, loot={238549}, vignette=6831}, -- Enchanted Sunfire Silk
     [60805310] = {quest=89103, loot={238551}, vignette=6829}, -- Everblazing Sunmote
     [63403260] = {quest=89107, loot={238555}, vignette=6825}, -- Sin'dorei Enchanting Rod
 }, KNOWLEDGE)
