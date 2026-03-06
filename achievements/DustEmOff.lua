@@ -47,7 +47,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[50266965] = {quest=92234, vignette=7205},
 	[68693633] = {quest=92233, vignette=7206},
 	[50353360] = {quest=92232, vignette=7207},
-	[47634696] = {quest=92231, vignette=7208}, -- c
+	[47634696] = {quest=92231, vignette=7208},
 	[41614011] = {quest=92230, vignette=7209}, -- c
 	[53775910] = {quest=92229, vignette=7210},
 	[66965657] = {quest=92228, vignette=7211},
