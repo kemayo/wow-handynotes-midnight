@@ -18,17 +18,13 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
     [64253046] = {quest=89158, loot={238472}, vignette=6853}, -- A Spade
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ZULAMAN, {
-    -- [41804590] = {quest=89161, loot={238469}, vignette=6850}, -- Sweeping Harvester's Scythe
-    -- Sickle is currently here *and* in Harandar...
-    [41804590] = {quest=89157, loot={238473}, vignette=6854}, -- Harvester's Sickle
+    [41804590] = {quest=89161, loot={238469}, vignette=6850, note="Inconsistently available"}, -- Sweeping Harvester's Scythe
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.HARANDAR, {
     [51115571] = {quest=89155, loot={238475}, vignette=6856}, -- Planting Shovel
     [38326704] = {quest=89162, loot={238468}, vignette=6849}, -- Bloomed Bud
     [36602500] = {quest=89159, loot={238471}, vignette=6852}, -- Lightbloom Root
-    -- [76105110] = {quest=89161, loot={238469}, vignette=6850}, -- Sweeping Harvester's Scythe
-    -- Sickle is currently here *and* in Zul'Aman...
-    [76105110] = {quest=89157, loot={238473}, vignette=6854}, -- Harvester's Sickle(?)
+    [76105110] = {quest=89157, loot={238473}, vignette=6854}, -- Harvester's Sickle
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.VOIDSTORM, {
     [34605700] = {quest=89156, loot={238474}, vignette=6855}, -- Peculiar Lotus
