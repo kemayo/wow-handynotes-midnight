@@ -53,10 +53,17 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[66965657] = {quest=92228, vignette=7211},
 	[55143288] = {quest=92227, vignette=7212},
 	[46382488] = {quest=92225, vignette=7213},
-}, MOTH{requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 1)})
+}, MOTH{
+	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 1),
+	minimap=ns.conditions.NotMajorFaction(ns.FACTION_HARATI, 2),
+})
 ns.RegisterPoints(2576, { -- The Den
 	[61273228] = {quest=92214, vignette=7195, note="In the Den"}, -- => 52945066
-}, MOTH{parent=true, requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 1)})
+}, MOTH{
+	parent=true,
+	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 1),
+	minimap=ns.conditions.NotMajorFaction(ns.FACTION_HARATI, 2),
+})
 
 ns.RegisterPoints(ns.HARANDAR, {
 	-- PlayerConditionID: 144440 (presumably: Big Moth Hunter I @ renown 4 + Moth-Watching II @ renown 6)
@@ -100,7 +107,10 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[67971999] = {quest=92257, vignette=7251}, -- c
 	[36974830] = {quest=92256, vignette=7252}, -- c
 	[39095510] = {quest=92266, vignette=7253}, -- c
-}, MOTH{requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 4)})
+}, MOTH{
+	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 4),
+	minimap=ns.conditions.NotMajorFaction(ns.FACTION_HARATI, 6),
+})
 
 ns.RegisterPoints(ns.HARANDAR, {
 	-- PlayerConditionID: 144441 (presumably: Big Moth Hunter II @ renown 9 + Moth Watching III @ renown 11)
@@ -144,4 +154,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[29848765] = {quest=92288, vignette=7291}, -- c
 	[27397032] = {quest=92287, vignette=7292}, -- c
 	[39211835] = {quest=92297, vignette=7293}, -- c
-}, MOTH{requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 6)})
+}, MOTH{
+	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 6),
+	minimap=ns.conditions.NotMajorFaction(ns.FACTION_HARATI, 11),
+})
