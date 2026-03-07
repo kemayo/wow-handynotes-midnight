@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v32
+
+* Profession knowledge: various treasures missing on initial launch have started showing up; they seem inconsistent, so there's a note saying that they won't always be there
+
 ## Changed in v31
 
 * Zul'Aman: the Abandoned Ritual Skull has been hotfixed out of being part of the Treasures achievement
