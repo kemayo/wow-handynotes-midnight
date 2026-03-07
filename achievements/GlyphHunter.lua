@@ -48,7 +48,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[60184439] = {criteria=110364,}, -- Blossoming Terrace, Harandar
 	[46675330] = {criteria=110365,}, -- The Cradle, Harandar
 	[34542333] = {criteria=112628,}, -- Roots of Teldrassil, Harandar
-	[69184612] = {criteria=110367,}, -- Roots of Amirdrassil, Harandar
+	[69334580] = {criteria=110367,}, -- Roots of Amirdrassil, Harandar
 	[54653555] = {criteria=110368,}, -- Blooming Lattice, Harandar
 	[73082591] = {criteria=110369,}, -- Roots of Nordrassil, Harandar
 	[44556281] = {criteria=110370,}, -- Fungara Village, Harandar

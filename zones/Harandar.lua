@@ -115,7 +115,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		},
 		vignette=7158,
 	},
-	[60104701] = { -- Queen Lashtongue
+	[59934684] = { -- Queen Lashtongue
 		criteria=109043, quest=92154,
 		npc=249962,
 		loot={
