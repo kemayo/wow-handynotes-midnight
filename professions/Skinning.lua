@@ -31,7 +31,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 -- ns.RegisterPoints(ns.VOIDSTORM, {
 -- }, KNOWLEDGE)
 ns.RegisterPoints(ns.SLAYERSRISE, {
-    [44204595] = {quest=89169, loot={238631}, vignette=6789, parent=true}, -- Voidstorm Leather Sample
+    [45494246] = {quest=89169, loot={238631}, vignette=6789, parent=true}, -- Voidstorm Leather Sample
 }, KNOWLEDGE)
 
 -- Lures
