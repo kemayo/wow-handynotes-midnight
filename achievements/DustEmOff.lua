@@ -5,7 +5,8 @@ local myname, ns = ...
 local MOTH = ns.nodeMaker{
 	achievement=61052,
 	label="{spell:360937:Glowing Moth}",
-	texture=ns.atlas_texture("playerpartyblip", {r=0.6, g=0, b=1}),
+	atlas="ancientmana",
+	loot={ns.rewards.Currency(3385)},
 	achievementNotFound=true,
 }
 
