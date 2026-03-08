@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v33
+
+* Skinning lure rares: add Netherscythe in Voidstorm, add quests for tracking the dailies, and show the other Majestic drops
+* Dust 'Em Off: Blizzard hotfixed in a dedicated vignette atlas, so use that for the map icon
+
 ## Changed in v32
 
 * Profession knowledge: various treasures missing on initial launch have started showing up; they seem inconsistent, so there's a note saying that they won't always be there
