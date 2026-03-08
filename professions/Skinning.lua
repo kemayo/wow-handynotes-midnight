@@ -65,9 +65,14 @@ ns.RegisterPoints(ns.HARANDAR, {
     },
 }, LURE)
 ns.RegisterPoints(ns.VOIDSTORM, {
-    [54006500] = {
+    [54606580] = {
         quest=88532,
         npc=247096, -- Umbrafang
         active=ns.conditions.Item(238655), -- Majestic Voidstorm Lure
+    },
+    [43258275] = {
+        quest=88524,
+        npc=247101, -- Netherscythe
+        active=ns.conditions.Item(238656), -- Grand Beast Lure
     },
 }, LURE)
