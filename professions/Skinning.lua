@@ -45,29 +45,29 @@ local LURE = {
 
 ns.RegisterPoints(ns.EVERSONGWOODS, {
     [42007994] = {
-        quest=245688, -- Gloomclaw
-        npc=nil,
+        quest=88545,
+        npc=245688, -- Gloomclaw
         active=ns.conditions.Item(238652), -- Majestic Eversong Lure
     },
 }, LURE)
 ns.RegisterPoints(ns.ZULAMAN, {
     [47825332] = {
-        quest=nil,
+        quest=88526,
         npc=245699, -- Silverscale
         active=ns.conditions.Item(238653), -- Majestic Zul'Aman Lure
     },
 }, LURE)
 ns.RegisterPoints(ns.HARANDAR, {
     [66854771] = {
-        quest=nil,
+        quest=88531,
         npc=245690, -- Lumenfin
         active=ns.conditions.Item(238654), -- Majestic Harandar Lure
     },
 }, LURE)
 ns.RegisterPoints(ns.VOIDSTORM, {
     [54006500] = {
-        quest=nil,
+        quest=88532,
         npc=247096, -- Umbrafang
-        active=ns.conditions.Item(238655), -- Majestic  Voidstorm Lure
+        active=ns.conditions.Item(238655), -- Majestic Voidstorm Lure
     },
 }, LURE)
