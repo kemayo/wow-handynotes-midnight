@@ -39,7 +39,11 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 local LURE = {
     requires=ns.conditions.Profession(ns.PROF_MIDNIGHT_SKINNING),
     atlas="Vehicle-Trap-Gold",
-    loot={238530}, -- Majestic Fin
+    loot={
+        238528, -- Majestic Claw
+        238529, -- Majestic Hide
+        238530, -- Majestic Fin
+    },
     note="Place the lure once you have {spell:1239151:Sixth Sense}",
 }
 
