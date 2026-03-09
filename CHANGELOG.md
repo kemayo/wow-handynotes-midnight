@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v34
+
+* Dust 'Em Off: Show Mothkeeper Wew'tam, and the rewards available from them
+* Harandar: add a marker for the From the Cradle to the Grave achievement
+
 ## Changed in v33
 
 * Skinning lure rares: add Netherscythe in Voidstorm, add quests for tracking the dailies, and show the other Majestic drops
