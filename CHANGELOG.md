@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v35
+
+* Eversong Woods: Dame Bloodshed drops Princess Bloodshed (thanks zeenk!)
+
 ## Changed in v34
 
 * Dust 'Em Off: Show Mothkeeper Wew'tam, and the rewards available from them
