@@ -29,6 +29,7 @@ achievements\DustEmOff.lua
 achievements\GlyphHunter.lua
 achievements\HighestPeaks.lua
 achievements\LoreHunter.lua
+achievements\MoreThanJustTheirRoots.lua
 
 shared\Delves.lua
 shared\WorldBosses.lua

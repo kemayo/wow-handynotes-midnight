@@ -1,7 +1,7 @@
 local myname, ns = ...
 
 --[[ TODO:
-More Than Just Their Roots: 62188
+Chronicler of the Haranir: 61344
 ]]
 
 ns.RegisterPoints(ns.HARANDARDEN, {
