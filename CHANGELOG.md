@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v36
+
+* Add achievement: More Than Just Their Roots (mostly outside of Harandar, but there's status icons on the map there to point you to where to go)
+
 ## Changed in v35
 
 * Eversong Woods: Dame Bloodshed drops Princess Bloodshed (thanks zeenk!)
