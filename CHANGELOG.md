@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v37
+
+* Arcantina: put all the respawning treasure in a group so it's easy to hide
+* More Than Just Their Roots: show on parent maps, and hide before you've gotten the One Does Not Simply Walk Into Harandar achievement
+
 ## Changed in v36
 
 * Add achievement: More Than Just Their Roots (mostly outside of Harandar, but there's status icons on the map there to point you to where to go)
