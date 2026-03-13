@@ -19,6 +19,7 @@ ns.RegisterPoints(ns.ARCANTINA, {
 	[35273010] = {quest=92362, loot={6657}}, -- Savory Deviate Delight
 	[68075170] = {quest=92363, loot={6657}}, -- Savory Deviate Delight
 }, {
+	group="junk",
 	junk=true,
 	minimap=true,
 })
