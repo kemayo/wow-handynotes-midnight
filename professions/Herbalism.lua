@@ -23,7 +23,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 ns.RegisterPoints(ns.HARANDAR, {
     [51115571] = {quest=89155, loot={238475}, vignette=6856}, -- Planting Shovel
     [38326704] = {quest=89162, loot={238468}, vignette=6849}, -- Bloomed Bud
-    [36602500] = {quest=89159, loot={238471}, vignette=6852}, -- Lightbloom Root
+    [36662506] = {quest=89159, loot={238471}, vignette=6852}, -- Lightbloom Root
     [76105110] = {quest=89157, loot={238473}, vignette=6854}, -- Harvester's Sickle
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.VOIDSTORM, {
