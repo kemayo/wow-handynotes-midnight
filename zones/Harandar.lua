@@ -20,6 +20,15 @@ ns.RegisterPoints(ns.HARANDAR, {
 		atlas="MiniMap-QuestArrow", scale=1.5,
 		note="Fly as high as you can",
 	},
+	[66152547] = {
+		label="{npc:242358:Kuri}",
+		loot={
+			{256424, mount=2749}, -- Echo of Aln'sharan
+		},
+		note="Bring her 500x {item:255826:Mysterious Skyshards}",
+		requires=ns.conditions.QuestComplete(90474),
+		atlas="banker", minimap=true,
+	},
 })
 
 local HARATI = ns.rewards.Currency(ns.CURRENCY_HARATI, 50)
@@ -239,7 +248,8 @@ ns.RegisterPoints(ns.HARANDAR, {
 	achievement=61264,
 	loot_shared={
 		251782, -- Withered Saptor's Paw
-		255826, -- Mysterious Skyshards
+		264968, -- Telluric Leyblossom
+		{255826, mount=2749, note="x500"--[[, requires=ns.conditions.QuestComplete(90474)--]]}, -- Mysterious Skyshards
 		{246735, mount=true}, -- Rootstalker Grimlynx
 		{252012, mount=true}, -- Vibrant Petalwing
 	}
