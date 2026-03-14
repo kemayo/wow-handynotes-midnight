@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v38
+
+* Harandar: show Kuri on the map, and mention the Skyshards mount on rares
+* Dust 'Em Off: show completion for some items on Mothkeeper Wew'tam
+
 ## Changed in v37
 
 * Arcantina: put all the respawning treasure in a group so it's easy to hide
