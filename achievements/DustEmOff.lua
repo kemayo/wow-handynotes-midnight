@@ -52,7 +52,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[41592744] = {quest=92301, vignette=7187},
 	[50634062] = {quest=92302, vignette=7188},
 	[65432712] = {quest=92303, vignette=7189},
-	[69033120] = {quest=92304, vignette=7190},
+	[69033120] = {quest=92304, vignette=7190}, -- this one didn't have the vignette show as of 20260314
 	[59984305] = {quest=92305, vignette=7191},
 	[67736886] = {quest=92306, vignette=7192},
 	[59435432] = {quest=92206, vignette=7193, note="Under the mushroom cap"},
