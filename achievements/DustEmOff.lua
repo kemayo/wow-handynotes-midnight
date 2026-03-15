@@ -1,7 +1,5 @@
 local myname, ns = ...
 
--- TODO: it'd be sort of handy to have a way to say "show on minimap IF"
-
 local MOTH = ns.nodeMaker{
 	achievement=61052,
 	label="{spell:360937:Glowing Moth}",
@@ -16,18 +14,18 @@ ns.RegisterPoints(ns.HARANDAR, {
 		loot={
 			{257155, note="10 {spell:360937:Glowing Moth}"}, -- Grovewarden's Kris
 			{263283, note="20 {spell:360937:Glowing Moth}"}, -- Grovewarden's Dagger
-			{265943, decor=true, note="30 {spell:360937:Glowing Moth}"}, -- Firm Haranir Pillow
+			{264243, decor=true, note="30 {spell:360937:Glowing Moth}"}, -- Firm Haranir Pillow (she first sells 265943, but after sells 264243 which actually has the knowable-status on it)
 			{257158, note="40 {spell:360937:Glowing Moth}"}, -- Grovewarden's Rapier
 			{263580, mount=true, note="50 {spell:360937:Glowing Moth}"}, -- Vivid Chloroceros
-			{265945, decor=true, note="60 {spell:360937:Glowing Moth}"}, -- Warm Haranir Blanket
+			{264245, decor=true, note="60 {spell:360937:Glowing Moth}"}, -- Warm Haranir Blanket (she first sells 265945, but after sells 264245 which actually has the knowable-status on it)
 			{257159, note="70 {spell:360937:Glowing Moth}"}, -- Grovewarden's Buckler
 			{263284, note="80 {spell:360937:Glowing Moth}"}, -- Grovewarden's Staff
-			{265946, decor=true, note="90 {spell:360937:Glowing Moth}"}, -- Haranir Reclined Bed
+			{263038, decor=true, note="90 {spell:360937:Glowing Moth}"}, -- Haranir Reclined Bed (she first sells 265946, but after sells 263038 which actually has the knowable-status on it)
 			{257161, note="100 {spell:360937:Glowing Moth}"}, -- Grovewarden's Halberd
 			{263285, note="110 {spell:360937:Glowing Moth}"}, -- Grovewarden's Greatsword
 			{222988, mount=true, note="120 {spell:360937:Glowing Moth}"}, -- Elder Glowmite
 		},
-		atlas="banker",
+		atlas="banker", minimap=true,
 		note="Trade 10x{currency:3385:Luminous Dust} for each item, but you need to catch enough {spell:360937:Glowing Moth} to unlock them",
 	},
 })
