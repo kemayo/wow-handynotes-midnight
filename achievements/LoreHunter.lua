@@ -2,7 +2,7 @@ local myname, ns = ...
 
 local LORE = ns.nodeMaker{
     achievement=62104,
-    texture=ns.atlas_texture("loreobject-32x32", {r=1, g=1, b=0}),
+    atlas="loreobject-32x32",
     -- minimap=true,
 }
 
