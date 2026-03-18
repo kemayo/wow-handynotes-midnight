@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v40
+
+* Highest Peaks: make the icons more visible
+* Lore Hunter: make the icon less yellow
+
 ## Changed in v39
 
 * Dust 'Em Off: changed the decor items in the tooltip to use their secondary-sale versions so they actually show completion (this is a weird case because Blizzard made a second version of the item so it wouldn't have the "you need to buy X moths" text on it)
