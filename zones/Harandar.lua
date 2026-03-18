@@ -210,7 +210,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 			264591, -- Radiant Petalwing's Feather
 			264616, -- Lightblighted Sapdrinker
 			{264895, class="HUNTER"}, -- Trials of the Florafaun Hunter
-			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94723}), --v
+			ns.rewards.Currency(ns.CURRENCY_HARATI, 50, {quest=94723}),
 		},
 		vignette=7167,
 	},

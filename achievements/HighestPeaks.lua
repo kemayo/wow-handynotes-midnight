@@ -5,6 +5,7 @@ local HIGHEST = ns.nodeMaker{
 	achievementNotFound=true,
 	minimap=false, -- there's a flag once they're unlocked
 	atlas="Warfronts-FieldMapIcons-Alliance-Banner-Minimap",
+	scale=1.2,
 	-- requires=ns.DRAGONRIDING,
 	-- hide_before={
 	-- 	ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 6),
