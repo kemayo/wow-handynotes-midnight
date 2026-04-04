@@ -176,6 +176,6 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[27397032] = {quest=92287, vignette=7292}, -- c
 	[39211835] = {quest=92297, vignette=7293}, -- c
 }, MOTH{
-	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 6),
+	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 9),
 	minimap=ns.conditions.NotMajorFaction(ns.FACTION_HARATI, 11),
 })
