@@ -23,6 +23,7 @@ To edit the settings, just right-click on the treasure chest icon that's added t
 Sure! Here's other addons I have that fill similar niches:
 
 * [HandyNotes: Directions](https://www.curseforge.com/wow/addons/handynotes-directions) remembers places that guards have given you directions for
+* [HandyNotes: Decor Treasure Hunts](https://www.curseforge.com/wow/addons/handynotes-decor-treasure-hunts)
 * [HandyNotes: Midnight Treasures and Rares](https://www.curseforge.com/wow/addons/handynotes-midnight-treasures)
 * [HandyNotes: The War Within Treasures and Rares](https://www.curseforge.com/wow/addons/handynotes-war-within)
 * [HandyNotes: Dragonflight Treasures and Rares](https://www.curseforge.com/wow/addons/handynotes-dragonflight-treasures)
@@ -33,6 +34,7 @@ Sure! Here's other addons I have that fill similar niches:
 * [HandyNotes: Mists of Pandaria Treasures and Rares](https://www.curseforge.com/wow/addons/handynotes_lostandfound)
 * [HandyNotes: Wrath of the Lich King (Northrend)](https://www.curseforge.com/wow/addons/handynotes-wrath)
 * [HandyNotes: Burning Crusade](https://www.curseforge.com/wow/addons/handynotes-burning-crusade)
+* [HandyNotes: Cataclysm and Classic](https://www.curseforge.com/wow/addons/handynotes-classic-and-cataclysm)
 
 These might also be useful if you're doing the sort of things that HandyNotes helps with:
 
@@ -42,6 +44,8 @@ These might also be useful if you're doing the sort of things that HandyNotes he
 * [Handy Minimap Arrow](https://www.curseforge.com/wow/addons/handy-minimap-arrow) makes your player-arrow on the minimap appear *above* all the notes I'm adding to it
 * [What's On The Map?](https://www.curseforge.com/wow/addons/whats-on-the-map) shows a list of the vignettes currently up nearby
 * [Minimap Range Extender](https://www.curseforge.com/wow/addons/minimap-range-extender) makes map vignettes visible from further away
+* [MoneyLaundering](https://www.curseforge.com/wow/addons/moneylaundering) stops all those secret errors about tooltip MoneyFrames
+* [Simple Map Coordinates](https://www.curseforge.com/wow/addons/simple-map-coordinates) makes it easy to see your coordinates
 
 ## Want to help?
 
