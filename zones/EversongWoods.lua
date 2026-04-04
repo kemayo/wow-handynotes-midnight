@@ -14,6 +14,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 			[40257582] = {loot={258770}, inbag=258770, minimap=true, requires=ns.conditions.AuraActive(1263972),}, -- Tarnished Safebox Key
 			color={r=0.6,g=0.6,b=1},
 		},
+		atlas="VignetteLootElite", scale=1.1,
 	},
 	[40961945] = { -- Gift of the Phoenix
 		criteria=111473, quest=93544, -- 93545 for placing
@@ -53,6 +54,7 @@ ns.RegisterPoints(ns.SILVERMOONCITY, {
 			[39828048] = {loot={265835}, minimap=true, inbag={265835, 265832, any=true},}, -- Page 3
 		},
 		vignette=7499,
+		atlas="VignetteLootElite", scale=1.1,
 	},
 }, {
 	parent=true,

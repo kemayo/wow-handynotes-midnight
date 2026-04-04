@@ -46,6 +46,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 		loot={{260730, pet=true}, HARATI}, -- Perturbed Sporebat
 		note="Collect {item:260250:Mysterious Purple Fluid}, {item:260251:Mysterious Red Fluid}, combine in the Durable Vase, use to open the Gourd",
 		vignette=7394,
+		atlas="VignetteLootElite", scale=1.1,
 	},
 	[51215293] = { -- Gift of the Cycle
 		criteria=110254, quest=93144,
@@ -59,6 +60,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 			atlas="poi-soulspiritghost", minimap=true,
 			note="Fetch the nearby item and give it to the spirit",
 		},
+		atlas="VignetteLootElite", scale=1.1,
 	},
 	[46656778] = { -- Sporespawned Cache, Untainted Grove Crawler
 		criteria=110256, quest=93650, -- 93652 for ringing the gong
@@ -70,6 +72,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 			minimap=true,
 		},
 		note="Fetch the {spell:1266347:Fungal Mallet} and ring the Mycelium Gong",
+		atlas="VignetteLootElite", scale=1.1,
 	},
 	[40642802] = {criteria=110257, quest=93587, loot={{252017, mount=true}, HARATI}, vignette=7410, note="Gather 150x {item:260531:Crystallized Resin Fragment} in the water nearby"}, -- Peculiar Cauldron, Ruddy Sporeglider
 }, {
@@ -82,6 +85,7 @@ ns.RegisterPoints(ns.HARANDARDEN, {
 		vignette=7351,
 		note="Find altars outside the Den",
 		-- translate plays poorly with all the related points
+		atlas="VignetteLootElite", scale=1.1,
 	},
 }, {achievement=61263})
 

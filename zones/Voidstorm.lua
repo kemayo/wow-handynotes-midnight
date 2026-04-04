@@ -10,7 +10,8 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	[49947936] = { -- Final Clutch of Predaxas
 		criteria=111863, quest=93237,
 		loot={{257446, mount=true}, SINGULARITY}, -- Reins of the Insatiable Shredclaw
-		vignette=7355, path=48927833
+		vignette=7355, path=48927833,
+		atlas="VignetteLootElite", scale=1.1,
 	},
 	[25766728] = { -- Void-Shielded Tomb
 		criteria=111864, quest=92414,
@@ -36,6 +37,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 			[53234271] = {quest=93815, hide_before=ns.conditions.QuestComplete(93814)}, -- 4
 			texture=ns.atlas_texture("playerpartyblip", {r=0.4, g=0, b=1}), worldmap=false, minimap=true,
 		},
+		atlas="VignetteLootElite", scale=1.1,
 	},
 	[46927989] = {criteria=111869, quest=94454, loot={{250319, toy=true}, SINGULARITY}, vignette=7455, path=47987850}, -- Forgotten Researcher's Cache, Researcher's Shadowgraft
 	[55367542] = {criteria=111871, quest=93553, loot={266075, SINGULARITY}, vignette=7397}, -- Embedded Spear, Harpoon of Extirpation
