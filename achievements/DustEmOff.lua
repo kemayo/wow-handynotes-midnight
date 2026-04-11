@@ -5,7 +5,7 @@ local MOTH = ns.nodeMaker{
 	label="{spell:360937:Glowing Moth}",
 	atlas="ancientmana",
 	loot={ns.rewards.Currency(3385)},
-	achievementNotFound=true,
+	accountquest=true,
 }
 
 ns.RegisterPoints(ns.HARANDAR, {
