@@ -2,7 +2,7 @@ local myname, ns = ...
 
 local VOIDLIGHT = {ns.rewards.Currency(ns.CURRENCY_VOIDLIGHT, 5)}
 
-ns.RegisterPoints(ns.ISLEOFQUELDANAS, {
+ns.RegisterPoints(2432, { -- Intro version
 	[38363304] = {quest=92620, vignette=7010}, -- voidlight x5, potent healing potion x3
 	[54152363] = {quest=92621, vignette=7505}, -- potent healing potion x3
 	[35462932] = {quest=92622, vignette=7506}, -- potent healing potion x3, frayed handwraps
