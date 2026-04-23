@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v44
+
+* TOC for 12.0.5
+
 ## Changed in v43
 
 * Dust 'Em Off: don't show moths you've found on other characters
