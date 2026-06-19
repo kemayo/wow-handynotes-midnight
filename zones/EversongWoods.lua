@@ -142,7 +142,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		loot={
 			264573, -- Taskmaster's Sadistic Shoulderguards
 			264647, -- Cre'van's Punisher
-			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94686}), --v
+			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94686}),
 		},
 		vignette=7299, -- Cre'van, Cruel Taskmaster
 		note="Wanders the camp a bit",
