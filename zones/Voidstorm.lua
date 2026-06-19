@@ -216,7 +216,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		npc=256821,
 		loot={
 			264912, -- Void-Channeler's Spire
-            264913, -- Focused Netherslicer
+	    264913, -- Focused Netherslicer
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94755}),
 		},
 		vignette=7428,
@@ -295,14 +295,14 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		vignette=7129,
 	},
 	[24806780] = { -- Blackcore
-        quest=94463, -- v
-        npc=248823,
-        loot={
-            264519, -- Repurposed Voidwalker's Chestplate
-            264606, -- Netherlocus Amulet
-            -- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
-        },
-        vignette=7142,
+		quest=94463, -- v
+		npc=248823,
+		loot={
+			264519, -- Repurposed Voidwalker's Chestplate
+			264606, -- Netherlocus Amulet
+			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+		},
+		vignette=7142,
 	},
 }, {
 	loot_shared=loot_shared,
@@ -336,4 +336,154 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 }, {
 	parent=true,
 	loot_shared=loot_shared,
+})
+
+-- Invasions
+
+ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
+	[29106290] = { -- Auredar's Chassis
+		criteria=114009,
+		quest=96316, -- v
+		npc=264569,
+		loot={
+			274873, -- Funeral Attendant's Spire
+			275143, -- Draeni Ceremonial Cuffs
+			275159, -- Construct Manipulator Bracers
+			275167, -- Intact Construct Plates
+			-- 278116, -- Player Experience
+		},
+		vignette=7668,
+	},
+	[76203960] = { -- Swalewing Matriarch
+		criteria=114007,
+		quest=96207, -- v
+		npc=263954,
+		loot={
+			275153, -- Flickering Scale Sabatons
+			275145, -- Swalewing Skin Footpads
+			275161, -- Swamp-Resistant Stompers
+			276288, -- Forgotten Sword of Vilaldoun
+		},
+		vignette=7660,
+	},
+	[39904270] = { -- Broxion
+		-- [39904270, 41304680, 42004830, 42604800, 44905440, 45505340, 45805370, 46205600]
+		criteria=114006,
+		quest=96206, -- v
+		npc=263950,
+		loot={
+			274890, -- Enchanted Spore
+			275138, -- Spore-Handler's Handwraps
+			275146, -- Spore-Membrane Gloves
+			275154, -- Swamp Trekker's Grips
+			275162, -- Spore-Shined Gloves
+			276288, -- Forgotten Sword of Vilaldoun
+			-- 278116, -- Player Experience
+		},
+		vignette=7659,
+	},
+	[37606240] = { -- Interminable Uarn
+		criteria=114005,
+		quest=96205, -- v
+		npc=263947,
+		loot={
+			274862, -- Corrupted Draenei Priest's Kris
+			275139, -- Crown of Fungal Spores
+		},
+		vignette=7658,
+	},
+	[65906210] = { -- Lomelith
+		criteria=114008,
+		quest=96208, -- v
+		npc=263955,
+		loot={
+			274860, -- Ancient Spore-Coated Axe
+			274819, -- Fungal Fold Frock
+			-- 278116, -- Player Experience
+		},
+		vignette=7661,
+	},
+	[69407720] = { -- Warp Agent Xi'grivr
+		criteria=114010,
+		quest=96319, -- v
+		npc=264574,
+		loot={
+			274825, -- Hal'hadar Assassin's Signet
+			274870, -- Assassin's Void-String Bow
+		},
+		vignette=7670,
+	},
+	[54206240] = { -- Slaipaan
+		criteria=114012,
+		quest=96320, -- v
+		npc=264576,
+		loot={
+			275144, -- Leafy-Hide Coat
+			275160, -- Slaipaan's Carapace
+			276288, -- Forgotten Sword of Vilaldoun
+		},
+		vignette=7671,
+	},
+	[48006880] = { -- Indomitable Mk XII
+		criteria=114011,
+		quest=96317, -- v
+		npc=264571,
+		loot={
+			274891, -- Mk XII Gear Drive
+			275164, -- Indomitable Mechanized Legplates
+			275148, -- Reaver's Padded Trousers
+			275156, -- Gear-Linked Leggings
+			275140, -- Leggings of Tainted Stuffing
+			276298, -- Forgotten Fel-Shard Talon
+			276288, -- Forgotten Sword of Vilaldoun
+			-- 278116, -- Player Experience
+		},
+		route={48006880, 49006576, 49005920, 52425751, 53215440, 53534842, 54254436},
+		vignette=7669,
+	},
+}, {
+	achievement=62883, -- Showdown Slugger: Naigtal
+})
+ns.RegisterPoints(2646, { -- Naigral (Vilaldoun)
+	[73608020] = { -- Auredar's Chassis
+		criteria=114009,
+		quest=96316, -- v
+		npc=264569,
+		loot={
+			274873, -- Funeral Attendant's Spire
+			275143, -- Draeni Ceremonial Cuffs
+			275159, -- Construct Manipulator Bracers
+			275167, -- Intact Construct Plates
+			-- 278116, -- Player Experience
+		},
+		vignette=7668,
+	},
+}, {
+	achievement=62883, -- Showdown Slugger: Naigtal
+})
+ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
+	[29201840] = { -- Warbringer Thal'kuur
+		quest=97014, -- v
+		npc=267422,
+		loot={
+			275141, -- Spore-Speckled Shoulderpads
+			275149, -- Fungal Draped Epaulets
+			275165, -- Petrified Mushroom Shoulderplates
+			276298, -- Forgotten Fel-Shard Talon
+		},
+		vignette=7744,
+	},
+	[48404760] = { -- Voidwarped Sporebat
+		quest=96566, -- v
+		npc=265698,
+		loot={
+			274866, -- Voidwarped Edge
+			275166, -- Voidwarped Greatbelt
+			275142, -- Voidwarped Sash
+			275158, -- Voidwarped Scale Girdle
+			275150, -- Sporebat Leather Belt
+			-- 278116, -- Player Experience
+		},
+		vignette=7699,
+	},
 })
