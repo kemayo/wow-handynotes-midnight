@@ -487,3 +487,69 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		vignette=7699,
 	},
 })
+
+ns.RegisterPoints(ns.VOIDSTORM_VAL, {
+	[33005700] = { -- Nelgothar
+		criteria=114002,
+		quest=96374, -- v
+		npc=264869,
+		vignette=7679,
+	},
+	[54006700] = { -- Sleet-Rune
+		criteria=113995,
+		quest=95939, -- v
+		npc=261965,
+		vignette=7605,
+	},
+	[23004100] = { -- The Horror Below
+		criteria=114003,
+		quest=96375, -- v
+		npc=264870,
+		vignette=7680,
+	},
+	[37007600] = { -- Atomus
+		criteria=113996,
+		quest=95940, -- v
+		npc=262421,
+		vignette=7606,
+	},
+	[49007800] = { -- Mercilus
+		criteria=113998,
+		quest=96371, -- v
+		npc=264865,
+		vignette=7676,
+	},
+	[28007300] = { -- Xirah
+		criteria=113999,
+		quest=96370, -- v
+		npc=264864,
+		vignette=7675,
+	},
+	[33004200] = { -- Opprimius
+		criteria=114001,
+		quest=96373, -- v
+		npc=264868,
+		vignette=7678,
+	},
+	-- Unknown location, displayed to the side
+	[11001700] = { -- Shadowguard Destroyer
+		criteria=114004,
+		quest=96465, -- v
+		npc=265269,
+		vignette=7690,
+	},
+	[11002000] = { -- Glacial Broodmother
+		criteria=113997,
+		quest=95559, -- v
+		npc=261716,
+		vignette=7558,
+	},
+	[11002300] = { -- Krilkan
+		criteria=114000,
+		quest=96372, -- v
+		npc=264866,
+		vignette=7677,
+	},
+}, {
+	achievement=62881, -- Showdown Slugger: Val
+})
