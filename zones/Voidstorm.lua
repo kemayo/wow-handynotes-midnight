@@ -493,62 +493,132 @@ ns.RegisterPoints(ns.VOIDSTORM_VAL, {
 		criteria=114002,
 		quest=96374, -- v
 		npc=264869,
+		loot={
+			276298, -- Forgotten Fel-Shard Talon
+			274840, -- Pants of the Lost Legion
+			274832, -- Fel-Tainted Trousers
+			274848, -- Legguards of Fel-Corruption
+			274856, -- Felguard's Frozen Greaves
+			274892, -- Resilient Felblood Vial
+			-- 276354, -- Frozen Fel Core
+			-- 278116, -- Player Experience
+		},
 		vignette=7679,
 	},
 	[54006700] = { -- Sleet-Rune
 		criteria=113995,
 		quest=95939, -- v
 		npc=261965,
+		loot={
+			274869, -- Void-Iced Warglaives
+			274828, -- Domanaar Subjugator's Vestments
+			274836, -- Sleet-Resistant Jerkin
+			274844, -- Sleetlink Hauberk
+			274852, -- Sleetstone Chestplate
+		},
 		vignette=7605,
 	},
 	[23004100] = { -- The Horror Below
 		criteria=114003,
 		quest=96375, -- v
 		npc=264870,
+		loot={
+			274872, -- Darkness' Horrific Barb
+			274826, -- Coiling Smoke Chain
+			274818, -- Drape of Intense Darkness
+		},
 		vignette=7680,
 	},
 	[37007600] = { -- Atomus
 		criteria=113996,
 		quest=95940, -- v
 		npc=262421,
+		loot={
+			274868, -- Portal Master's Shortblade
+			274831, -- Portal Shaper's Circlet
+			274839, -- Cold-World Cover
+			274847, -- Atomus's Headcover
+			274855, -- Portal-Keeper's Helm
+		},
 		vignette=7606,
 	},
 	[49007800] = { -- Mercilus
 		criteria=113998,
 		quest=96371, -- v
 		npc=264865,
+		loot={
+			274867, -- Inscribed Domanaar's Sword
+			274834, -- Cord of Domineering Resolve
+			274842, -- Gatekeeper's Leather Waistguard
+			274850, -- Mercilus's Chain Waistguard
+			274858, -- Domanaar Battle Belt
+		},
 		vignette=7676,
 	},
 	[28007300] = { -- Xirah
 		criteria=113999,
 		quest=96370, -- v
 		npc=264864,
+		loot={
+			274875, -- Riftwalker's Lanter
+			274820, -- Cloak of the Voracious Gorge
+			274824, -- Worldeater's Bone Ring
+		},
 		vignette=7675,
 	},
 	[33004200] = { -- Opprimius
 		criteria=114001,
 		quest=96373, -- v
 		npc=264868,
+		loot={
+			274863, -- Cudgel of the Twisted Reaper
+			274829, -- Creature Corruptor Slippers
+			274837, -- Corrupted Hide Boots
+			274845, -- Greaves of Corrupted Scale
+			274853, -- Creature Crushers
+			-- 278116, -- Player Experience
+		},
 		vignette=7678,
+	},
+	[44005840] = { -- Krilkan
+		criteria=114000,
+		quest=96372, -- v
+		npc=264866,
+		loot={
+			274835, -- Bands of Pincher Sinew
+			274843, -- Pincher-Proof Wristguards
+			274851, -- Glittering Frostscale Wraps
+			274859, -- Klaxid Plate Vambraces
+			274893, -- Frosty Klaxid Stinger
+			-- 278116, -- Player Experience
+		},
+		vignette=7677,
+	},
+	[67104180] = { -- Glacial Broodmother
+		criteria=113997,
+		quest=95559, -- v
+		npc=261716,
+		loot={
+			274861, -- Frosty Broodmother's Fang
+			274833, -- Icy Spidersilk Mantle
+			274841, -- Frigid Cavedweller's Shoulderpads
+			274849, -- Frostscale Spider's Monnion
+			274857, -- Chitonous Broodmother's Spaulders
+		},
+		vignette=7558,
 	},
 	-- Unknown location, displayed to the side
 	[11001700] = { -- Shadowguard Destroyer
 		criteria=114004,
 		quest=96465, -- v
 		npc=265269,
+		loot={
+			274865, -- Destroyer's Drop Hammer
+			274830, -- Ice-Glazed Gloves
+			274854, -- Shadowguard Plate Gauntlets
+		},
 		vignette=7690,
-	},
-	[11002000] = { -- Glacial Broodmother
-		criteria=113997,
-		quest=95559, -- v
-		npc=261716,
-		vignette=7558,
-	},
-	[11002300] = { -- Krilkan
-		criteria=114000,
-		quest=96372, -- v
-		npc=264866,
-		vignette=7677,
+		note="Seems to spawn after other rares are killed",
 	},
 }, {
 	achievement=62881, -- Showdown Slugger: Val
