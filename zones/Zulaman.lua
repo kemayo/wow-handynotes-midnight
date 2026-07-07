@@ -326,7 +326,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 })
 
 ns.RegisterPoints(ns.ATALAMAN, {
-	[82972145] = { -- Poacher Rav'ik
+	[81982200] = { -- Poacher Rav'ik
 		criteria=111844, quest=91634,
 		npc=247976,
 		loot={
@@ -335,6 +335,7 @@ ns.RegisterPoints(ns.ATALAMAN, {
 			ns.rewards.Currency(ns.CURRENCY_AMANI, 50, {quest=94701}),
 		},
 		vignette=7117,
+		note="Walk into the trap",
 	},
 }, {
 	achievement=62122,

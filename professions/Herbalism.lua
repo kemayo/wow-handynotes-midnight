@@ -18,7 +18,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
     [64253046] = {quest=89158, loot={238472}, vignette=6853}, -- A Spade
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.ZULAMAN, {
-    [41804590] = {quest=89161, loot={238469}, vignette=6850, note="Inconsistently available"}, -- Sweeping Harvester's Scythe
+    [41914591] = {quest=89161, loot={238469}, vignette=6850, note="Inconsistently available"}, -- Sweeping Harvester's Scythe
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.HARANDAR, {
     [51115571] = {quest=89155, loot={238475}, vignette=6856}, -- Planting Shovel
