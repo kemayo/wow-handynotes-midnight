@@ -350,6 +350,7 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 			275143, -- Draeni Ceremonial Cuffs
 			275159, -- Construct Manipulator Bracers
 			275167, -- Intact Construct Plates
+			274827, -- Draenic Drive Chain
 			-- 278116, -- Player Experience
 		},
 		vignette=7668,
@@ -359,10 +360,12 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		quest=96207, -- v
 		npc=263954,
 		loot={
+			274874, -- Flickering Wing Separator
+			275137, -- Flickering Soft-Steppers
 			275153, -- Flickering Scale Sabatons
 			275145, -- Swalewing Skin Footpads
 			275161, -- Swamp-Resistant Stompers
-			276288, -- Forgotten Sword of Vilaldoun
+			-- 276288, -- Forgotten Sword of Vilaldoun
 		},
 		vignette=7660,
 	},
@@ -372,12 +375,12 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		quest=96206, -- v
 		npc=263950,
 		loot={
-			274890, -- Enchanted Spore
 			275138, -- Spore-Handler's Handwraps
 			275146, -- Spore-Membrane Gloves
 			275154, -- Swamp Trekker's Grips
 			275162, -- Spore-Shined Gloves
-			276288, -- Forgotten Sword of Vilaldoun
+			274890, -- Enchanted Spore
+			-- 276288, -- Forgotten Sword of Vilaldoun
 			-- 278116, -- Player Experience
 		},
 		vignette=7659,
@@ -389,6 +392,10 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		loot={
 			274862, -- Corrupted Draenei Priest's Kris
 			275139, -- Crown of Fungal Spores
+			275147, -- Bioluminescent Swamp Mask
+			275155, -- Interminable Fungal Helmet
+			-- no plate helm?
+			274876, -- Reinforced Fungalhide Bulwark
 		},
 		vignette=7658,
 	},
@@ -399,6 +406,7 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		loot={
 			274860, -- Ancient Spore-Coated Axe
 			274819, -- Fungal Fold Frock
+			274823, -- Spongy Gill Loop
 			-- 278116, -- Player Experience
 		},
 		vignette=7661,
@@ -408,8 +416,9 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		quest=96319, -- v
 		npc=264574,
 		loot={
-			274825, -- Hal'hadar Assassin's Signet
 			274870, -- Assassin's Void-String Bow
+			274821, -- Drape of the Hal'hadar Assassin
+			274825, -- Hal'hadar Assassin's Signet
 		},
 		vignette=7670,
 	},
@@ -418,9 +427,12 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		quest=96320, -- v
 		npc=264576,
 		loot={
+			274871, -- Giant Worm Piercer
+			275136, -- Leaf-Woven Blouse
 			275144, -- Leafy-Hide Coat
+			275152, -- Burrower's Linked Hauberk
 			275160, -- Slaipaan's Carapace
-			276288, -- Forgotten Sword of Vilaldoun
+			-- 276288, -- Forgotten Sword of Vilaldoun
 		},
 		vignette=7671,
 	},
@@ -429,13 +441,13 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		quest=96317, -- v
 		npc=264571,
 		loot={
-			274891, -- Mk XII Gear Drive
-			275164, -- Indomitable Mechanized Legplates
+			276298, -- Forgotten Fel-Shard Talon
+			275140, -- Leggings of Tainted Stuffing
 			275148, -- Reaver's Padded Trousers
 			275156, -- Gear-Linked Leggings
-			275140, -- Leggings of Tainted Stuffing
-			276298, -- Forgotten Fel-Shard Talon
-			276288, -- Forgotten Sword of Vilaldoun
+			275164, -- Indomitable Mechanized Legplates
+			274891, -- Mk XII Gear Drive
+			-- 276288, -- Forgotten Sword of Vilaldoun
 			-- 278116, -- Player Experience
 		},
 		route={48006880, 49006576, 49005920, 52425751, 53215440, 53534842, 54254436},
@@ -454,6 +466,7 @@ ns.RegisterPoints(2646, { -- Naigral (Vilaldoun)
 			275143, -- Draeni Ceremonial Cuffs
 			275159, -- Construct Manipulator Bracers
 			275167, -- Intact Construct Plates
+			274827, -- Draenic Drive Chain
 			-- 278116, -- Player Experience
 		},
 		vignette=7668,
@@ -466,10 +479,12 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		quest=97014, -- v
 		npc=267422,
 		loot={
+			276298, -- Forgotten Fel-Shard Talon
+			274864, -- Sporebloom Gavel
 			275141, -- Spore-Speckled Shoulderpads
 			275149, -- Fungal Draped Epaulets
+			275157, -- Swampwalker's Spaulders
 			275165, -- Petrified Mushroom Shoulderplates
-			276298, -- Forgotten Fel-Shard Talon
 		},
 		vignette=7744,
 	},
@@ -478,10 +493,10 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		npc=265698,
 		loot={
 			274866, -- Voidwarped Edge
-			275166, -- Voidwarped Greatbelt
 			275142, -- Voidwarped Sash
-			275158, -- Voidwarped Scale Girdle
 			275150, -- Sporebat Leather Belt
+			275158, -- Voidwarped Scale Girdle
+			275166, -- Voidwarped Greatbelt
 			-- 278116, -- Player Experience
 		},
 		vignette=7699,
