@@ -501,6 +501,37 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		},
 		vignette=7699,
 	},
+	[68255161] = { -- Sleepy Mandrake
+		label="{npc:267910:Sleepy Mandrake}",
+		loot={
+			{262768, pet=true}, -- Sleepy Mandrake
+		},
+		note=function()
+			local function done(q) return C_QuestLog.IsQuestFlaggedCompletedOnAccount(q) and "{a:common-icon-checkmark}" or "{a:common-icon-redx}" end
+			return "Feed five mushrooms:\n"..
+				done(97091).." {item:276365:Highland Redcap}\n"..
+				done(97092).." {item:276366:Dusty Redcap}\n"..
+				done(97093).." {item:276367:Marshy Redcap}\n"..
+				done(97094).." {item:276368:Partially-Digested Redcap} (mob drop)\n"..
+				done(97095).." {item:276369:Airy Redcap}"
+		end,
+		related={
+			[28906176] = {quest=97091, loot={276365}, label="{item:276365}", path=33405970}, -- Highland Redcap
+			[27914996] = {quest=97092, loot={276366}, label="{item:276366}", note="In the crypts"}, -- Dusty Redcap
+			[71423705] = {quest=97093, loot={276367}, label="{item:276367}", path=75643814}, -- Marshy Redcap
+			-- [] = {quest=97094, loot={276368}}, -- Partially-Digested Redcap
+			[95092667] = {quest=97095, loot={276369}, label="{item:276369}", path=88812597, note="On top of the tallest mushroom, bounce up"}, -- Airy Redcap
+			atlas="TeleportationNetwork-Ardenweald-32x32", minimap=true,
+		},
+	},
+})
+ns.RegisterPoints(2646, { -- Naigral (Vilaldoun)
+	[22726130] = {
+		quest=97092,
+		loot={276366}, -- Dusty Redcap
+		-- translate={[ns.VOIDSTORM_NAIGTAL]=true}, -- confusing
+		atlas="TeleportationNetwork-Ardenweald-32x32", minimap=true,
+	},
 })
 
 ns.RegisterPoints(ns.VOIDSTORM_VAL, {
