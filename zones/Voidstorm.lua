@@ -638,3 +638,12 @@ ns.RegisterPoints(ns.VOIDSTORM_VAL, {
 }, {
 	achievement=62881, -- Showdown Slugger: Val
 })
+
+ns.RegisterPoints(ns.VOIDSTORM_VAL, {
+	[70508429] = {
+		label="Enchanted Hilt",
+		loot={276290}, -- Ice Guardian's Sleetblade
+		note="In {spell:1238870:Heroic World Tier}, use the Hilt to gain {spell:1300397:Testament}, then kill any two rares to gain 2x {spell:1299509:Vanquishing}. Return here for the reward before they expire.",
+		path=61457875,
+	},
+})
