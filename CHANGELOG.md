@@ -1,5 +1,16 @@
 # Changelog
 
+## Changed in v48
+
+* Voidstorm Invasion Val:
+	* Add loot to rares
+	* Gave some rares coordinates
+	* Added the Enchanted Hilt
+* Voidstorm Invasions Naigtal:
+	* Added a few missing pieces of loot
+	* Added the Sleepy Mandrake pet
+* Updated Krowi_WorldMapButtons-1.4 embed to v10
+
 ## Changed in v47
 
 * Updated for 12.0.7
