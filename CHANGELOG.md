@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v49
+
+* Zul'Aman: show the Amani Warrior's Spear in the shared loot
+* Shift-left-click to send link to chat was broken
+* Lots of small bugfixes
+
 ## Changed in v48
 
 * Voidstorm Invasion Val:
