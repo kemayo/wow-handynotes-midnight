@@ -36,7 +36,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 	[53628040] = {criteria=110354,}, -- Temple of Akil'zon, Zul'aman
 	[51462362] = {criteria=110356,}, -- Temple of Jan'alai, Zul'aman
 	[53195447] = {criteria=110357,}, -- Strait of Hexx'alor, Zul'aman
-	[39111975] = {criteria=110358, note="In the chasm"}, -- Witherbark Bluffs, Zul'aman
+	[39581971] = {criteria=110358, note="In the chasm"}, -- Witherbark Bluffs, Zul'aman
 	[30418473] = {criteria=110359, note="At the top of the waterfall"}, -- Nalorakk's Prowl, Zul'aman
 	[27952858] = {criteria=110360,}, -- Zeb'Alar Lumberyard, Zul'aman
 	[24835486] = {criteria=110361, translate={[ns.ATALAMAN]=true}}, -- Amani Pass, Zul'aman
