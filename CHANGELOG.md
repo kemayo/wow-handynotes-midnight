@@ -1,5 +1,17 @@
 # Changelog
 
+## Changed in v51
+
+* Points you can't reach yet because of your level or your covenant now show as inaccessible with an explanation of what's missing, rather than being hidden outright -- the "show inaccessible" option reveals them
+* Fixed an error that happened every time you entered a dungeon, caused by creature names the game now keeps hidden
+* Points that only appear while you have a particular buff, like Mechagon's mechanized chests or Korthia's rift portals, vanished the moment you entered combat
+* Creature names could stay stuck at "Unknown" for the rest of the session
+* Fixed errors when checking points of interest, both once a second zone was involved and on maps that have none at all
+* Routes to nearby and related points could corrupt the route of the point they belong to
+* A point with a criteria but no achievement could error while working out its label
+* Tooltips no longer list requirements that have nothing useful to say
+* Less work per frame: the same requirement isn't asked about twice in a frame, and caching loot no longer spends its time on points that have none
+
 ## Changed in v50
 
 * Routes to the parts of a multi-step treasure now hide as you collect them
