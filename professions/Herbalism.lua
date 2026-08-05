@@ -27,5 +27,5 @@ ns.RegisterPoints(ns.HARANDAR, {
     [76105110] = {quest=89157, loot={238473}, vignette=6854}, -- Harvester's Sickle
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.VOIDSTORM, {
-    [34605700] = {quest=89156, loot={238474}, vignette=6855}, -- Peculiar Lotus
+    [34685697] = {quest=89156, loot={238474}, vignette=6855}, -- Peculiar Lotus
 }, KNOWLEDGE)
