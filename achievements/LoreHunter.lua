@@ -42,3 +42,17 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	[60394548] = {criteria=111837, quest=94397, vignette=7451}, -- Tattered Page
 	[27835402] = {criteria=111838, quest=94398, vignette=7452}, -- Shadowgraft Harness
 }, LORE{loot={ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 250)}})
+
+-- 12.1: Student of Hissstory
+ns.RegisterPoints(ns.COILEDISLE, {
+	-- [] = {criteria=116702, quest=96946, vignette=7731}, -- Head Mason's Tablet
+	-- [] = {criteria=116703, quest=96947, vignette=7732}, -- Amani Exile's Words
+	-- [] = {criteria=116704, quest=96945, vignette=7730}, -- Worn Tablet
+	-- [] = {criteria=116705, quest=98302, vignette=7894}, -- Abandoned Tablet
+	-- [] = {criteria=116706, quest=98303, vignette=7895}, -- Message in a Bottle
+	-- [] = {criteria=116707, quest=98304, vignette=7896}, -- Oily Black Stone
+	-- [] = {criteria=116708, quest=98305, vignette=7897}, -- Forum Rules
+	-- [] = {criteria=116709, quest=98306, vignette=7898}, -- Survival Journals
+	-- [] = {criteria=116710, quest=98307, vignette=7899}, -- Zandalari Logbook
+	-- [] = {criteria=116711, quest=98308, vignette=7900}, -- Profaned Plaque
+}, LORE{achievement=63662})
