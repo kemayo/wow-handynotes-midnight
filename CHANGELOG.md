@@ -1,5 +1,13 @@
 # Changelog
 
+## Changed in v52
+
+* Zul'Aman: note that Baz'wa isn't available until the temple's restored
+* Herbalism: corrected the position of Peculiar Lotus in Voidstorm
+* Minor coordinate tweaks
+* Turning on "Transmog exact items" didn't take effect until you reloaded
+* Points placed near another one ignored the colour and scale asked for in the data
+
 ## Changed in v51
 
 * Points you can't reach yet because of your level or your covenant now show as inaccessible with an explanation of what's missing, rather than being hidden outright -- the "show inaccessible" option reveals them
