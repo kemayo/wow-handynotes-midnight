@@ -417,3 +417,22 @@ ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
 }, {
 	achievement=62601, -- Soft Underbelly
 })
+
+ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
+	-- The Honored Dead
+	-- [] = {criteria=116407, quest=98029, vignette=7872}, -- To a daughter.
+	-- [] = {criteria=116408, quest=98030, vignette=7873}, -- To a lover.
+	-- [] = {criteria=116409, quest=98031, vignette=7874}, -- To parents.
+	[55634070] = {criteria=116410, quest=98032, vignette=7875}, -- To a dream.
+	-- [] = {criteria=116411, quest=98033, vignette=7876}, -- To a captain.
+	-- [] = {criteria=116412, quest=98034, vignette=7877}, -- To sons.
+	[45846175] = {criteria=116413, quest=98035, vignette=7878}, -- To failure.
+	-- [] = {criteria=116414, quest=98036, vignette=7879}, -- To a father.
+	-- [] = {criteria=116415, quest=98037, vignette=7880}, -- To a sister.
+	-- [] = {criteria=116416, quest=98038, vignette=7881}, -- To comrades.
+	-- [] = {criteria=116417, quest=98039, vignette=7882}, -- To a stranger.
+	-- [] = {criteria=116418, quest=98040, vignette=7883}, -- To a shield-bearer.
+}, {
+	achievement=63610,
+	atlas="animachannel-icon-necrolord-map", scale=1.2,
+})
