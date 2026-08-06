@@ -186,115 +186,143 @@ ns.RegisterPoints(ns.COILEDISLE, {
 
 -- Coiled to Strike
 ns.RegisterPoints(ns.COILEDISLE, {
-	[53807200] = { -- Farthik the Plunderer
+	[53777203] = { -- Farthik the Plunderer
 		criteria=115279, quest=96491,
 		npc=264854,
+		loot={
+			280692, -- Plunderer's Pummeler
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98344}),
+		},
 		vignette=7694,
+		note="Unguarded...",
 	},
-	[50006960] = { -- Siltmouth
+	[50006907] = { -- Siltmouth
 		criteria=115280, quest=97112,
 		npc=268049,
 		loot={
 			276051, -- Fangmouth Warspear
 			280704, -- Siltmouth's Venom Waders
 			280718, -- Unflappable Flapping Cape
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98345}),
 		},
 		vignette=7756,
 	},
-	[24807360] = { -- Kari'zah the Forgotten
+	[24897354] = { -- Kari'zah the Forgotten
 		criteria=115784, quest=97122,
 		npc=268090,
 		loot={
 			280694, -- Blade of the Forgotten
 			280711, -- Pitted Specter Shackles
 			280376, -- Shadow Shard Sliver
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98346}),
 		},
 		vignette=7757,
 		translate={[ns.ZULAMAN]=true},
 	},
-	[31805660] = { -- Lockjaw
+	[31645677] = { -- Lockjaw
 		criteria=115284, quest=96456,
 		npc=265237,
 		loot={
 			276031, -- Flamebeak Cord
 			280690, -- Bow of the Snapper
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98347}),
 		},
 		vignette=7688,
 	},
-	[43805080] = { -- Hisstara
+	[43855086] = { -- Hisstara
 		criteria=115281, quest=96464,
 		npc=265262,
 		loot={
 			280691, -- Dagger of the Slithering Ritual
 			280702, -- Mantle of the Riser
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98348}),
 		},
 		vignette=7689,
 	},
-	[69404480] = { -- Garsecg
+	[69514483] = { -- Garsecg
 		criteria=110172, quest=94856,
 		npc=258916,
 		loot={
 			280710, -- Garsecg's Barnacled Girdle
 			280714, -- Hull Render Hauberk
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98350}),
 			-- 276039, -- Flamebeak Drape
 			-- 276047, -- Swamp Whomper
 		},
 		vignette=7500,
 	},
-	[56806780] = { -- Coin-Eye Skully
+	[57326610] = { -- Coin-Eye Skully
 		criteria=115285, quest=94619,
 		npc=257906,
 		loot={
 			276023, -- Flamebeak Mantle
 			280715, -- Eye of Skully
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98352}),
 		},
+		note="Swims around the ship",
 		vignette=7484,
 	},
-	[69206380] = { -- Big Mon
+	[70036344] = { -- Big Mon
 		criteria=115286, quest=93829,
 		npc=256631,
 		loot={
 			{280540, pet=true}, -- Lil' Mon
 			280689, -- Big Mon's Big Spear
 			280713, -- Big Mon's Buckle
+			274499, -- Toxiferous Transfusion
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98353}),
 			-- 276037, -- Counter-Curse Circlet
 			-- 276041, -- Stonehide Cape
 			-- 276054, -- Serpentvine Machete
 		},
 		vignette=7417,
 	},
-	[57204040] = { -- Sss'alik
+	[57334045] = { -- Sss'alik
 		criteria=115287, quest=95447,
 		npc=261109,
 		loot={
 			280700, -- Armbands of the Rotten Claw
 			280706, -- Sss'alik's Rotting Claws
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98354}),
+			-- 276037, -- Counter-Curse Circlet
 			-- 276047, -- Swamp Whomper
 		},
+		note="Patrols",
 		vignette=7548,
 	},
-	[51803260] = { -- Destra
+	[52053229] = { -- Destra
 		criteria=115288, quest=95452,
 		npc=261142,
 		loot={
 			280709, -- Triple Threat Pauldrons
+			280712, -- Bracers of the Sleeping Hydra
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98355}),
 		},
 		vignette=7550,
 	},
 }, {
 	achievement=63358, -- Coiled to Strike
 })
--- Deeply nested...
-local NARZIRA = ns.nodeMaker{ -- Nar'zira
+local NARZIRA = { -- Nar'zira
 	achievement=63358, -- Coiled to Strike
 	criteria=115283, quest=94860,
 	npc=258920,
 	loot={
-		276020, -- Stonehide Pauldrons
+		280716, -- Locket of the Omnilegent
 		280693, -- Staff of All-Knowing
+		ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98351}),
+		-- 276020, -- Stonehide Pauldrons
 	},
 	vignette=7501,
 }
+ns.RegisterPoints(ns.COILEDISLE, {
+	[52364308] = NARZIRA, -- vignette's at 52054488, this is the entrance
+})
+ns.RegisterPoints(2642, { -- Tomb of the Lost Priest
+	[64826092] = NARZIRA,
+})
+
+-- Deeply nested...
 local SZARITH = ns.nodeMaker{ -- Szarith the Fanged
 	achievement=63358, -- Coiled to Strike
 	criteria=115282, quest=96030,
@@ -306,26 +334,24 @@ local SZARITH = ns.nodeMaker{ -- Szarith the Fanged
 	vignette=7629,
 }
 ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
-	-- entrances to subzones:
-	[52404310] = NARZIRA{parent=true},
 	[47300640] = SZARITH{parent=true},
 })
 ns.RegisterPoints(2613, { -- The Underbelly
 	[37701750] = SZARITH{},
 })
-ns.RegisterPoints(2642, { -- Tomb of the Lost Priest
-	[63506240] = NARZIRA{},
-})
 
 -- Turn the Surge
 ns.RegisterPoints(ns.COILEDISLE, {
-	[71203120] = { -- Ss'akrithos
-		criteria=115370,
+	[71303138] = { -- Ss'akrithos (Ski'thari @ 70913197)
+		criteria=115370, quest=93715, --todo: 93715 + 96968 triggered
 		npc=258254,
 		loot={
 			276171, -- Ophidian Circle
 			-- 279477, -- Ss'akrithos's Forked Tongue
+			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=96968}),
 		},
+		vignette={7764, 7413}, -- Soucaller Ski'thari / Ss'akrithos
+		areaPoi=8889, -- murloc sacrifice event
 	},
 	[26406480] = { -- Looming Mutagenitor
 		criteria=115368,
@@ -334,8 +360,9 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			276172, -- Headdress of Mutagenesis
 			-- 279475, -- Mutagenitor's Feather
 		},
+		vignette={7414, 7686},
 	},
-	[45002800] = { -- Vassti, the Exalted Broodmother
+	[44702593] = { -- Vassti, the Exalted Broodmother
 		criteria=115369,
 		npc=257863,
 		loot={
@@ -344,15 +371,18 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			-- 273000, -- Corrosive Soul
 			-- 279476, -- Vassti's Claw
 		},
+		vignette=7763,
 	},
-	[47006220] = { -- Malformed Leviathan
+	[46996223] = { -- Malformed Leviathan
 		criteria=111353,
 		npc=255087,
 		loot={
 			-- 279479, -- Leviathan's Eye
 		},
+		areaPoi=8891,
+		vignette={7412, 7453}, -- only saw the former
 	},
-	[67407760] = { -- Venom Lancer Ori'kassi
+	[67167752] = { -- Venom Lancer Ori'kassi
 		criteria=115371,
 		npc=255927,
 		loot={
@@ -362,9 +392,12 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			-- 273000, -- Corrosive Soul
 			-- 279478, -- Ori'kassi's Barbed Tail
 		},
+		areaPoi=8890,
+		vignette=7415,
 	},
 }, {
 	achievement=63390, -- Turn the Surge
+	atlas="poi-torghast", scale=1.1,
 })
 
 -- Vaults of Atal'Utek
