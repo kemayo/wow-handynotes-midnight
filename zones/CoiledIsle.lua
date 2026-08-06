@@ -36,21 +36,187 @@ ns.RegisterPoints(ns.COILEDISLE, {
 
 -- Rares
 
+-- Coiled to Strike
 ns.RegisterPoints(ns.COILEDISLE, {
-	-- [] = {criteria=115279, quest=96491, vignette=7694}, -- Farthik the Plunderer
-	-- [] = {criteria=115280, quest=97112, vignette=7756}, -- Siltmouth
-	-- [] = {criteria=115784, quest=97122, vignette=7757}, -- Kari'zah the Forgotten
-	-- [] = {criteria=115284, quest=96456, vignette=7688}, -- Lockjaw
-	-- [] = {criteria=115281, quest=96464, vignette=7689}, -- Hisstara
-	-- [] = {criteria=115282, quest=96030, vignette=7629}, -- Szarith the Fanged
-	-- [] = {criteria=110172, quest=94856, vignette=7500}, -- Garsecg
-	-- [] = {criteria=115283, quest=94860, vignette=7501}, -- Nar'zira
-	-- [] = {criteria=115285, quest=94619, vignette=7484}, -- Coin-Eye Skully
-	-- [] = {criteria=115286, quest=93829, vignette=7417}, -- Big Mon
-	-- [] = {criteria=115287, quest=95447, vignette=7548}, -- Sss'alik
-	-- [] = {criteria=115288, quest=95452, vignette=7550}, -- Destra
+	[53807200] = { -- Farthik the Plunderer
+		criteria=115279, quest=96491,
+		npc=264854,
+		vignette=7694,
+	},
+	[50006960] = { -- Siltmouth
+		criteria=115280, quest=97112,
+		npc=268049,
+		loot={
+			276051, -- Fangmouth Warspear
+			280704, -- Siltmouth's Venom Waders
+			280718, -- Unflappable Flapping Cape
+		},
+		vignette=7756,
+	},
+	[24807360] = { -- Kari'zah the Forgotten
+		criteria=115784, quest=97122,
+		npc=268090,
+		loot={
+			280694, -- Blade of the Forgotten
+			280711, -- Pitted Specter Shackles
+			280376, -- Shadow Shard Sliver
+		},
+		vignette=7757,
+		translate={[ns.ZULAMAN]=true},
+	},
+	[31805660] = { -- Lockjaw
+		criteria=115284, quest=96456,
+		npc=265237,
+		loot={
+			276031, -- Flamebeak Cord
+			280690, -- Bow of the Snapper
+		},
+		vignette=7688,
+	},
+	[43805080] = { -- Hisstara
+		criteria=115281, quest=96464,
+		npc=265262,
+		loot={
+			280691, -- Dagger of the Slithering Ritual
+			280702, -- Mantle of the Riser
+		},
+		vignette=7689,
+	},
+	[69404480] = { -- Garsecg
+		criteria=110172, quest=94856,
+		npc=258916,
+		loot={
+			280710, -- Garsecg's Barnacled Girdle
+			280714, -- Hull Render Hauberk
+			-- 276039, -- Flamebeak Drape
+			-- 276047, -- Swamp Whomper
+		},
+		vignette=7500,
+	},
+	[56806780] = { -- Coin-Eye Skully
+		criteria=115285, quest=94619,
+		npc=257906,
+		loot={
+			276023, -- Flamebeak Mantle
+			280715, -- Eye of Skully
+		},
+		vignette=7484,
+	},
+	[69206380] = { -- Big Mon
+		criteria=115286, quest=93829,
+		npc=256631,
+		loot={
+			{280540, pet=true}, -- Lil' Mon
+			280689, -- Big Mon's Big Spear
+			280713, -- Big Mon's Buckle
+			-- 276037, -- Counter-Curse Circlet
+			-- 276041, -- Stonehide Cape
+			-- 276054, -- Serpentvine Machete
+		},
+		vignette=7417,
+	},
+	[57204040] = { -- Sss'alik
+		criteria=115287, quest=95447,
+		npc=261109,
+		loot={
+			280700, -- Armbands of the Rotten Claw
+			280706, -- Sss'alik's Rotting Claws
+			-- 276047, -- Swamp Whomper
+		},
+		vignette=7548,
+	},
+	[51803260] = { -- Destra
+		criteria=115288, quest=95452,
+		npc=261142,
+		loot={
+			280709, -- Triple Threat Pauldrons
+		},
+		vignette=7550,
+	},
 }, {
 	achievement=63358, -- Coiled to Strike
+})
+-- Deeply nested...
+local NARZIRA = ns.nodeMaker{ -- Nar'zira
+	achievement=63358, -- Coiled to Strike
+	criteria=115283, quest=94860,
+	npc=258920,
+	loot={
+		276020, -- Stonehide Pauldrons
+		280693, -- Staff of All-Knowing
+	},
+	vignette=7501,
+}
+local SZARITH = ns.nodeMaker{ -- Szarith the Fanged
+	achievement=63358, -- Coiled to Strike
+	criteria=115282, quest=96030,
+	npc=263456,
+	loot={
+		276025, -- Skytalon Breeches
+		280047, -- Feathered Bell
+	},
+	vignette=7629,
+}
+ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
+	-- entrances to subzones:
+	[52404310] = NARZIRA{parent=true},
+	[47300640] = SZARITH{parent=true},
+})
+ns.RegisterPoints(2613, { -- The Underbelly
+	[37701750] = SZARITH{},
+})
+ns.RegisterPoints(2642, { -- Tomb of the Lost Priest
+	[63506240] = NARZIRA{},
+})
+
+-- Turn the Surge
+ns.RegisterPoints(ns.COILEDISLE, {
+	[71203120] = { -- Ss'akrithos
+		criteria=115370,
+		npc=258254,
+		loot={
+			276171, -- Ophidian Circle
+			-- 279477, -- Ss'akrithos's Forked Tongue
+		},
+	},
+	[26406480] = { -- Looming Mutagenitor
+		criteria=115368,
+		npc=255088,
+		loot={
+			276172, -- Headdress of Mutagenesis
+			-- 279475, -- Mutagenitor's Feather
+		},
+	},
+	[45002800] = { -- Vassti, the Exalted Broodmother
+		criteria=115369,
+		npc=257863,
+		loot={
+			276173, -- Clutchguard Sandals
+			276175, -- Broodmother's Embrace
+			-- 273000, -- Corrosive Soul
+			-- 279476, -- Vassti's Claw
+		},
+	},
+	[47006220] = { -- Malformed Leviathan
+		criteria=111353,
+		npc=255087,
+		loot={
+			-- 279479, -- Leviathan's Eye
+		},
+	},
+	[67407760] = { -- Venom Lancer Ori'kassi
+		criteria=115371,
+		npc=255927,
+		loot={
+			274496, -- Ophidian Bone Whistle
+			276009, -- Skytalon Gloves
+			276178, -- Venom Lancer's Gauntlets
+			-- 273000, -- Corrosive Soul
+			-- 279478, -- Ori'kassi's Barbed Tail
+		},
+	},
+}, {
+	achievement=63390, -- Turn the Surge
 })
 
 -- Vaults of Atal'Utek
