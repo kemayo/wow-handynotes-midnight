@@ -71,3 +71,18 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 ns.RegisterPoints(ns.SLAYERSRISE, {
 	[36084456] = {criteria=110377,}, -- Hanaar Outpost, Voidstorm
 }, GLYPH{achievement=61583, parent=true})
+
+-- The Coiled Isles Glyph Hunter
+ns.RegisterPoints(ns.COILEDISLE, {
+	[37406053] = {criteria=115491}, -- The Fangs, the Coiled Isles
+	[26626314] = {criteria=115766}, -- The Forum, the Coiled Isles
+	[28827523] = {criteria=115768}, -- The Wreck of Sethralis's Scales, the Coiled Isles
+	[40579050] = {criteria=115769}, -- Southern Island, the Coiled Isles
+	[45846494] = {criteria=115770}, -- Gate of the Eastern Fang, the Coiled Isles
+	[58954891] = {criteria=115771}, -- Tokka's Landing, the Coiled Isles
+	[64136065] = {criteria=115772}, -- The Whispering Marsh, the Coiled Isles
+	[70294816] = {criteria=115773}, -- The Wreck of Paku's Talon, the Coiled Isles
+	[52013840] = {criteria=115774}, -- The Serpent's Tail, the Coiled Isles
+	[42903060] = {criteria=115775}, -- Blistering Terrace, the Coiled Isles
+	[43814419] = {criteria=115776, note="In the serpent's mouth"}, -- Gate of the Serpent's Eye, the Coiled Isles
+}, GLYPH{achievement=63395})
