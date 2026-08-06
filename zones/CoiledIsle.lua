@@ -34,6 +34,43 @@ ns.RegisterPoints(ns.COILEDISLE, {
 	achievement=63359, -- Treasures of the Coiled Isle
 })
 
+ns.RegisterPoints(ns.COILEDISLE, {
+	[51644978] = {
+		label="{npc:257598:Second Mate Sluggs}",
+		loot={
+			281022, -- Eerie Lure
+			{275653, mount=true, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 5)}, -- Sea-Dwelling Isle Serpent
+			{274796, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 5)}, -- Envenomed Deathblade
+			{274814, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 5)}, -- Envenomed Game Ripper
+			{274802, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 5)}, -- Envenomed Gavel
+			-- 262792, -- Shredded Bloomline
+			-- 262797, -- Shredded Glimmerline
+			{275012, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 4)}, -- Recipe: Tokka's Multi-Ward
+			{275020, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 4)}, -- Venom Elemental
+			{271891, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 3)}, -- Recipe: Alluring Nostrum
+			{275318, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 3)}, -- Schematic: Proudmoore Ship-in-a-Bottle
+			{275336, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 3)}, -- Pattern: Mounted Moby
+			{275693, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 3)}, -- Design: Opalescent Amani Peridot
+			{275018, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 3)}, -- Recipe: Coiled Stargorger Lure
+			{278332, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 2)}, -- Recipe: Puffer Plate
+			{275301, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 4)}, -- Recipe: Feast of Knowledge
+			{278391, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 4)}, -- Eerie Bauble
+			{277923, decor=true, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 2)}, -- Aged Tortollan Scroll Case
+			{277931, decor=true, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 3)}, -- Hanging Yellowed Kelp
+			{277927, decor=true, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 2)}, -- Yellowed Kelp Pile
+			{277929, decor=true, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 4)}, -- Rustic Fishing Rack
+			{277925, decor=true, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 4)}, -- Blue Tortollan Signpost
+			{277921, decor=true, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 5)}, -- Traditional Tortollan Tent
+			{244790, requires=ns.conditions.Faction(ns.FACTION_CAPTAIN_TOKKA, 5)}, -- The Coiled Huntress
+		},
+	},
+}, {
+	texture=ns.atlas_texture("Banker", {r=0.2, g=1, b=1}), scale=1.2,
+    minimap=true,
+    note="Quartermaster",
+    showallloot=true,
+})
+
 -- Rares
 
 -- Coiled to Strike
