@@ -331,6 +331,7 @@ local SZARITH = ns.nodeMaker{ -- Szarith the Fanged
 		280698, -- Szarith's Underbelly Slicer
 		280047, -- Feathered Bell
 		ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98349}),
+		ns.rewards.Achievement(62601, 113661), -- Soft Underbelly
 		-- 276025, -- Skytalon Breeches
 	},
 	vignette=7629,
