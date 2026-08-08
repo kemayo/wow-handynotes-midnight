@@ -328,8 +328,10 @@ local SZARITH = ns.nodeMaker{ -- Szarith the Fanged
 	criteria=115282, quest=96030,
 	npc=263456,
 	loot={
-		276025, -- Skytalon Breeches
+		280698, -- Szarith's Underbelly Slicer
 		280047, -- Feathered Bell
+		ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98349}),
+		-- 276025, -- Skytalon Breeches
 	},
 	vignette=7629,
 }
@@ -337,7 +339,7 @@ ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
 	[47300640] = SZARITH{parent=true},
 })
 ns.RegisterPoints(2613, { -- The Underbelly
-	[37701750] = SZARITH{},
+	[37681723] = SZARITH{},
 })
 
 -- Turn the Surge
@@ -428,7 +430,7 @@ ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
 	-- [] = {criteria=116412, quest=98034, vignette=7877}, -- To sons.
 	[45846175] = {criteria=116413, quest=98035, vignette=7878}, -- To failure.
 	-- [] = {criteria=116414, quest=98036, vignette=7879}, -- To a father.
-	-- [] = {criteria=116415, quest=98037, vignette=7880}, -- To a sister.
+	[46790751] = {criteria=116415, quest=98037, vignette=7880}, -- To a sister.
 	-- [] = {criteria=116416, quest=98038, vignette=7881}, -- To comrades.
 	-- [] = {criteria=116417, quest=98039, vignette=7882}, -- To a stranger.
 	-- [] = {criteria=116418, quest=98040, vignette=7883}, -- To a shield-bearer.
