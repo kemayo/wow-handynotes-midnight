@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v53
+
+* Updated for 12.1.0
+* Coiled Isle: treasures, rares and the Honored Dead, plus the Glyph Hunter and Student of Hissstory achievements
+* Achievement rewards that name a single criteria now count as earned once that criteria is done, rather than waiting for the whole achievement
+
 ## Changed in v52
 
 * Zul'Aman: note that Baz'wa isn't available until the temple's restored
