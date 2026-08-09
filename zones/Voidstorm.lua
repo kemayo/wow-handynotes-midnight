@@ -15,10 +15,11 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	},
 	[25766728] = { -- Void-Shielded Tomb
 		criteria=111864, quest=92414,
-		loot={246951, SINGULARITY}, -- Stormarion Core x20
+		loot={ns.rewards.Item(246951, 20), SINGULARITY}, -- Stormarion Core x20
 		note="Drink the potion, then fetch {item:251519:Key of Fused Darkness} from the adjacent building",
 		nearby={25976863, worldmap=false, label="{item:251519:Key of Fused Darkness}"},
 		vignette=7498,
+		atlas="VignetteLootElite", scale=1.1,
 	},
 	[64537547] = { -- Bloody Sack
 		criteria=111866, quest=93431,
@@ -71,7 +72,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 	[24837001] = {
 		quest=94742,
 		label="Stormarion Cache", -- or "Void-hoarder's Corpse"
-		loot={246951}, -- Stormarion Core x10
+		loot={ns.rewards.Item(246951, 10)}, -- Stormarion Core x10
 		vignette=7497,
 	},
 	[39306383] = {
@@ -254,53 +255,57 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 })
 
 ns.RegisterPoints(ns.VOIDSTORM, {
-	[30576661] = { -- Voidseer Orivane
-		quest=94459, -- v
+	[30066921] = { -- Voidseer Orivane
+		quest=94459,
 		npc=248791,
 		loot={
 			264556, -- Voidforged Cinch
 			264628, -- Spear of Nothingness
-			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94765}),
 		},
 		vignette=7140,
 	},
 	[28827024] = { -- The Many-Broken
-		quest=94458, -- v
+		quest=94458,
 		npc=248459, -- 248461, 248462
 		loot={
 			264577, -- Crystalforged Boots
 			264651, -- Resonating Traumatizer
-			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94764}),
 		},
 		vignette=7133,
 	},
 	[28156593] = { -- Abysslick
-		quest=94462, -- v
+		quest=94462,
 		npc=248700,
 		loot={
 			264596, -- Voidthread Veil
 			264634, -- Spire of Flowing Void
-			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94750}),
 		},
 		vignette=7138,
 	},
-	[29806787] = { -- Nullspiral
-		quest=94460, -- v
+	[29796799] = { -- Nullspiral
+		quest=94460,
 		npc=248068,
 		loot={
 			264531, -- Shadowthread Slippers
 			264588, -- Shawl of Cosmic Whispers
-			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94760}),
 		},
 		vignette=7129,
 	},
-	[24806780] = { -- Blackcore
-		quest=94463, -- v
+	[24736793] = { -- Blackcore
+		quest=94463,
 		npc=248823,
 		loot={
 			264519, -- Repurposed Voidwalker's Chestplate
 			264606, -- Netherlocus Amulet
-			-- ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=}),
+			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94753}),
+		},
+		note="Gather 3x {item:248680:Unstable Focusing Crystal} from chests and {npc:248483:Crystal Fragment} to the east",
+		related={
+			[28257044]={label="{npc:248483:Crystal Fragment}", loot={248680}},
 		},
 		vignette=7142,
 	},
