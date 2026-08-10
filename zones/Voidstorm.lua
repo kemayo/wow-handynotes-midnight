@@ -81,6 +81,12 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		loot={208856}, -- Pocket Lint
 		vignette=7000,
 	},
+	[53406801] = {
+		quest=91699,
+		label="Unpublished Manuscript",
+		loot={246268}, -- A Steamy Romance Novel: Voidlust
+		texture=ns.atlas_texture("profession", {r=0.6, g=0, b=1}),
+	},
 })
 
 -- Rares
