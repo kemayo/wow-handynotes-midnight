@@ -33,7 +33,7 @@ ns.RegisterPoints(2504, { -- Twilight Crypts, Twilight Crypts
 -- })
 
 ns.RegisterPoints(2505, { -- Gulf of Memory / Upper Rootway
-    [39882667] = {quest=94016, loot={{264805, toy=true}}}, -- Brann-O-Vision 3000
+    [39882667] = {quest=94016, loot={{264805, toy=true}}, atlas="VignetteLootElite", scale=1.1,}, -- Brann-O-Vision 3000
     [55502618] = {quest=94041, loot=VOIDLIGHT, note="Up on the branch"},
     [54242518] = {quest=94023, loot={263519}, note="On the ground"}, -- Snake Oil
 }, STURDY{
@@ -109,6 +109,22 @@ ns.RegisterPoints(2547, { -- Collegiate Calamity
 -- ns.RegisterPoints(2578, { -- Collegiate Calamity, Thalassian University
 -- })
 
+ns.RegisterPoints(2635, { -- Gnarldor Isle
+    [60456814] = {quest=96802, loot={{262496, mount=true}}, atlas="VignetteLootElite", scale=1.1,}, -- Delver's Arcane Golem
+    [52424086] = {quest=96804, loot=VOIDLIGHT,},
+    [28684170] = {quest=96805, loot={263516},}, -- Cosmic Ritual Bowl
+}, STURDY{
+    achievement=63170, -- Discoveries
+})
+
+ns.RegisterPoints(2633, { -- Ring of Glory
+    [25187372] = {quest=96803, loot={263519},}, -- Snake Oil
+    [48599481] = {quest=96806, loot=VOIDLIGHT,},
+    [44192269] = {quest=96807, loot=VOIDLIGHT,},
+}, STURDY{
+    achievement=63171, -- Discoveries
+})
+
 ----
 
 EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
@@ -125,6 +141,8 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
         [8441] = {61730, 61896}, -- Twilight Crypts
         [8443] = {61729, 61863}, -- Atal'Aman
         [8445] = {}, -- Torment's Rise
+        [8761] = {}, -- Gnarldor Isle
+        [8764] = {}, -- The Ring of Glory
     }
     -- Bountiful in their own zones:
     delves[8426] = delves[8425] -- Collegiate Calamity
@@ -137,6 +155,8 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
     delves[8440] = delves[8439] -- The Darkway
     delves[8442] = delves[8441] -- Twilight Crypts
     delves[8444] = delves[8443] -- Atal'Aman
+    delves[8759] = delves[8761] -- Gnarldor Isle
+    delves[8762] = delves[8764] -- Ring of Glory
     -- Bountiful on the continent map:
     delves[8665] = delves[8427] -- Parhelion Plaza
     delves[8666] = delves[8431] -- Shadowguard Point
@@ -148,6 +168,8 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
     delves[8674] = delves[8439] -- The Darkway
     delves[8677] = delves[8443] -- Atal'Aman
     delves[8678] = delves[8441] -- Twilight Crypts
+    delves[8760] = delves[8761] -- Gnarldor Isle
+    delves[8763] = delves[8764] -- Ring of Glory
 
     --
     local function addToTooltip(tooltip, areaPoiID)
