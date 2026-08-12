@@ -1,5 +1,12 @@
 # Changelog
 
+## Changed in v54
+
+* 12.1:
+	* Added Delves data for Gnarldor Isle and Ring of Glory
+	* World boss data for Nymrissa Wavecaller
+* Voidstorm: add currency quests to the Stormarion Assault rares
+
 ## Changed in v53
 
 * Updated for 12.1.0
