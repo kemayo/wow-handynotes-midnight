@@ -1,5 +1,14 @@
 # Changelog
 
+## Changed in v55
+
+* Voidstorm Invasion Naigtal:
+	* The Sleepy Mandrake shows on the minimap now, and the entrance to its cave is shown
+	* The route to the Highland Redcap follows the ground instead of cutting across it
+	* Better coordinates for Interminable Uarn, Lomelith and Warbringer Thal'kuur
+* A related point with a route of its own, like that Highland Redcap, didn't draw it on the world map
+* Tooltips could label mount rewards with the verb "mount" instead of the noun "mount", in languages where the two differ
+
 ## Changed in v54
 
 * 12.1:
