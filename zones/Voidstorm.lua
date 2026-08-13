@@ -396,7 +396,7 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		},
 		vignette=7659,
 	},
-	[37606240] = { -- Interminable Uarn
+	[39516103] = { -- Interminable Uarn
 		criteria=114005,
 		quest=96205, -- v
 		npc=263947,
@@ -410,9 +410,9 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		},
 		vignette=7658,
 	},
-	[65906210] = { -- Lomelith
+	[68546229] = { -- Lomelith
 		criteria=114008,
-		quest=96208, -- v
+		quest=96208,
 		npc=263955,
 		loot={
 			274860, -- Ancient Spore-Coated Axe
@@ -486,8 +486,8 @@ ns.RegisterPoints(2646, { -- Naigral (Vilaldoun)
 	achievement=62883, -- Showdown Slugger: Naigtal
 })
 ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
-	[29201840] = { -- Warbringer Thal'kuur
-		quest=97014, -- v
+	[29751928] = { -- Warbringer Thal'kuur
+		quest=97014,
 		npc=267422,
 		loot={
 			276298, -- Forgotten Fel-Shard Talon
@@ -512,7 +512,7 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 		},
 		vignette=7699,
 	},
-	[68255161] = { -- Sleepy Mandrake
+	[68235161] = { -- Sleepy Mandrake
 		label="{npc:267910:Sleepy Mandrake}",
 		loot={
 			{262768, pet=true}, -- Sleepy Mandrake
@@ -527,17 +527,22 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 				done(97095).." {item:276369:Airy Redcap}"
 		end,
 		related={
-			[28906176] = {quest=97091, loot={276365}, label="{item:276365}", path=33405970}, -- Highland Redcap
+			[28906176] = { -- Highland Redcap
+				quest=97091, loot={276365}, label="{item:276365}",
+				path={28906176, 29786262, 30156525, 30426609, 32676921, 33417072, 36217266, 36637216, 36407136, 31146332, 31316254, 31816023, 33475950},
+			},
 			[27914996] = {quest=97092, loot={276366}, label="{item:276366}", note="In the crypts"}, -- Dusty Redcap
 			[71423705] = {quest=97093, loot={276367}, label="{item:276367}", path=75643814}, -- Marshy Redcap
 			-- [] = {quest=97094, loot={276368}}, -- Partially-Digested Redcap
 			[95092667] = {quest=97095, loot={276369}, label="{item:276369}", path=88812597, note="On top of the tallest mushroom, bounce up"}, -- Airy Redcap
 			atlas="TeleportationNetwork-Ardenweald-32x32", minimap=true,
 		},
+		path=67505416,
+		atlas="VignetteLootElite", scale=1.1, minimap=true,
 	},
 })
 ns.RegisterPoints(2646, { -- Naigral (Vilaldoun)
-	[22726130] = {
+	[22626135] = {
 		quest=97092,
 		loot={276366}, -- Dusty Redcap
 		-- translate={[ns.VOIDSTORM_NAIGTAL]=true}, -- confusing
