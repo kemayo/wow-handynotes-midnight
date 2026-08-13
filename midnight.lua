@@ -16,7 +16,7 @@ ns.VOIDSTORM_NAIGTAL = 2600
 ns.COILEDISLE = 2512
 ns.VAULTSOFATALUTEK = 2509
 
--- ns.WORLDQUESTS = ns.conditions.QuestComplete(79573)
+ns.WORLDQUESTS = ns.conditions.QuestComplete(90806) -- from spell=1234841; also 95276?
 
 -- ns.MAXLEVEL = {ns.conditions.QuestComplete(67030), ns.conditions.Level(70)}
 ns.DRAGONRIDING = ns.conditions.SpellKnown(376777)

@@ -66,10 +66,11 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 	[47365864] = {criteria=111480, npc=241578, vignette=6951}, -- Elrendar River Runestone, Sapmaw the Infestor
 	[38365554] = {criteria=111481, npc=244142, vignette=6954}, -- Ath'ran Runestone, Commander Viskaj
 	[61776177] = {criteria=111482, npc=244432, vignette=6955}, -- Dawnstar Spire Runestone, Hal'nok the Trampler
-	[41137383] = {criteria=111483, quest=96527, npc=246145, vignette=6959}, -- Sanctum of the Moon Runestone, Commander Gravok
+	[41137383] = {criteria=111483, npc=246145, vignette=6959}, -- Sanctum of the Moon Runestone, Commander Gravok
 	[40481361] = {criteria=111484, npc=245611, vignette=7130}, -- Sunstrider Isle Runestone, Claw of the Void
 }, {
 	achievement=61961,
+	-- quest=96527, -- completes when you kill the boss regardless of which runestone
 	note="Charge the runestone, complete the event",
 	atlas="poi-saltherilssoiree", scale=1.2, minimap=true,
 })

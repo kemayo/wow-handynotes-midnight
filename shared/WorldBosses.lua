@@ -7,7 +7,7 @@ local boss = {
 ns.RegisterPoints(ns.EVERSONGWOODS, {
     [45245997] = { -- Lu'ashal
         npc=244762,
-        quest=92560,
+        quest=92560, -- also 92127
         worldquest=92560,
         loot={
             250447, -- Radiant Eversong Scepter
@@ -24,7 +24,7 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 
 ns.RegisterPoints(ns.ZULAMAN, {
     [45244790] = { -- Cragpine
-        quest=92123,
+        quest=92123, -- also 92128
         worldquest=92123,
         npc=244424,
         loot={
