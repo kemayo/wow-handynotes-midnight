@@ -196,6 +196,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		npc=264854,
 		loot={
 			280692, -- Plunderer's Pummeler
+			280717, -- Farthik's Precious Pendant
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98344}),
 		},
 		vignette=7694,
@@ -205,10 +206,10 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		criteria=115280, quest=97112,
 		npc=268049,
 		loot={
-			276051, -- Fangmouth Warspear
 			280704, -- Siltmouth's Venom Waders
 			280718, -- Unflappable Flapping Cape
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98345}),
+			-- 276051, -- Fangmouth Warspear
 		},
 		vignette=7756,
 	},
@@ -218,8 +219,8 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		loot={
 			280694, -- Blade of the Forgotten
 			280711, -- Pitted Specter Shackles
-			280376, -- Shadow Shard Sliver
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98346}),
+			-- 280376, -- Shadow Shard Sliver
 		},
 		vignette=7757,
 		translate={[ns.ZULAMAN]=true},
@@ -228,9 +229,10 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		criteria=115284, quest=96456,
 		npc=265237,
 		loot={
-			276031, -- Flamebeak Cord
 			280690, -- Bow of the Snapper
+			280708, -- Venom-Shelled Sash
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98347}),
+			-- 276031, -- Flamebeak Cord
 		},
 		vignette=7688,
 	},
@@ -260,9 +262,10 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		criteria=115285, quest=94619,
 		npc=257906,
 		loot={
-			276023, -- Flamebeak Mantle
+			280695, -- Skully's Skullcleaver
 			280715, -- Eye of Skully
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98352}),
+			-- 276023, -- Flamebeak Mantle
 		},
 		note="Swims around the ship",
 		vignette=7484,
@@ -274,8 +277,8 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			{280540, pet=true}, -- Lil' Mon
 			280689, -- Big Mon's Big Spear
 			280713, -- Big Mon's Buckle
-			274499, -- Toxiferous Transfusion
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98353}),
+			-- 274499, -- Toxiferous Transfusion
 			-- 276037, -- Counter-Curse Circlet
 			-- 276041, -- Stonehide Cape
 			-- 276054, -- Serpentvine Machete
@@ -357,6 +360,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		criteria=115370, quest=93715, --todo: 93715 + 96968 triggered
 		npc=258254,
 		loot={
+			276168, -- Fang of Ss'akrithos
 			276171, -- Ophidian Circle
 			-- 279477, -- Ss'akrithos's Forked Tongue
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=96968}),
@@ -368,8 +372,10 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		criteria=115368,
 		npc=255088,
 		loot={
+			276166, -- Twin-Headed Twinblade
 			276172, -- Headdress of Mutagenesis
 			-- 279475, -- Mutagenitor's Feather
+			-- ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=}),
 		},
 		vignette={7414, 7686},
 	},
@@ -379,8 +385,9 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		loot={
 			276173, -- Clutchguard Sandals
 			276175, -- Broodmother's Embrace
-			-- 273000, -- Corrosive Soul
 			-- 279476, -- Vassti's Claw
+			-- ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=}),
+			-- 273000, -- Corrosive Soul
 		},
 		vignette=7763,
 	},
@@ -388,7 +395,10 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		criteria=111353,
 		npc=255087,
 		loot={
+			276169, -- Malformed Barrier
+			276174, -- Leviathan's Oozing Scalemail
 			-- 279479, -- Leviathan's Eye
+			-- ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=}),
 		},
 		areaPoi=8891,
 		vignette={7412, 7453}, -- only saw the former
@@ -397,11 +407,13 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		criteria=115371,
 		npc=255927,
 		loot={
-			274496, -- Ophidian Bone Whistle
-			276009, -- Skytalon Gloves
+			276167, -- Ori'kassi's Lance
 			276178, -- Venom Lancer's Gauntlets
-			-- 273000, -- Corrosive Soul
 			-- 279478, -- Ori'kassi's Barbed Tail
+			-- ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=}),
+			-- 274496, -- Ophidian Bone Whistle
+			-- 273000, -- Corrosive Soul
+			-- 276009, -- Skytalon Gloves
 		},
 		areaPoi=8890,
 		vignette=7415,
