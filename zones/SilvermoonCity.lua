@@ -16,7 +16,7 @@ ns.RegisterPoints(ns.SILVERMOONCITY, {
 			{265018, set=5558}, -- Ensemble: Courtier's Viridian Vestments
 		},
 		active=ns.conditions.Item(264882), -- Finery Funds
-		atlas="banker",
+		atlas="banker", minimap=true,
 		note="Trade {item:264882:Finery Funds} for Ensembles",
 	},
 })
