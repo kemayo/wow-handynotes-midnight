@@ -184,6 +184,11 @@ ns.RegisterPoints(ns.COILEDISLE, {
 
 -- Rares
 
+local loot_shared = {
+	{276549, mount=true}, -- Topaz Skyfang
+	{276803, mount=true}, -- Ruby Writhe
+}
+
 -- Coiled to Strike
 ns.RegisterPoints(ns.COILEDISLE, {
 	[53777203] = { -- Farthik the Plunderer
@@ -302,6 +307,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 	},
 }, {
 	achievement=63358, -- Coiled to Strike
+	loot_shared=loot_shared,
 })
 local NARZIRA = { -- Nar'zira
 	achievement=63358, -- Coiled to Strike
@@ -313,6 +319,7 @@ local NARZIRA = { -- Nar'zira
 		ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=98351}),
 		-- 276020, -- Stonehide Pauldrons
 	},
+	loot_shared=loot_shared,
 	vignette=7501,
 }
 ns.RegisterPoints(ns.COILEDISLE, {
@@ -334,6 +341,7 @@ local SZARITH = ns.nodeMaker{ -- Szarith the Fanged
 		ns.rewards.Achievement(62601, 113661), -- Soft Underbelly
 		-- 276025, -- Skytalon Breeches
 	},
+	loot_shared=loot_shared,
 	vignette=7629,
 }
 ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
@@ -401,6 +409,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 }, {
 	achievement=63390, -- Turn the Surge
 	atlas="poi-torghast", scale=1.1,
+	loot_shared=loot_shared,
 })
 
 -- Vaults of Atal'Utek
@@ -419,6 +428,7 @@ ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
 	-- [] = {criteria=113662, quest=nil, npc=263851, vignette=nil}, -- Vserix the Sneaky
 }, {
 	achievement=62601, -- Soft Underbelly
+	loot_shared=loot_shared,
 })
 
 local HONOREDDEAD = ns.nodeMaker{

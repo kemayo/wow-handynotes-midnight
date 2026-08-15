@@ -398,7 +398,7 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 	},
 	[39516103] = { -- Interminable Uarn
 		criteria=114005,
-		quest=96205, -- v
+		quest=96205,
 		npc=263947,
 		loot={
 			274862, -- Corrupted Draenei Priest's Kris
