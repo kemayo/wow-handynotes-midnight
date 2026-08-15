@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v56
+
+* Coiled Isle: updated rare loot, add the shared mounts
+
 ## Changed in v55
 
 * Voidstorm Invasion Naigtal:
