@@ -223,7 +223,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		npc=256821,
 		loot={
 			264912, -- Void-Channeler's Spire
-	    264913, -- Focused Netherslicer
+			264913, -- Focused Netherslicer
 			ns.rewards.Currency(ns.CURRENCY_SINGULARITY, 50, {quest=94755}),
 		},
 		vignette=7428,
