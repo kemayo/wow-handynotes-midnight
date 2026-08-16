@@ -182,6 +182,39 @@ ns.RegisterPoints(ns.COILEDISLE, {
 	showallloot=true,
 })
 
+-- Mysterious Mix Master
+ns.RegisterPoints(ns.COILEDISLE, {
+	[57404860] = {
+		achievement=63432,
+		note=function()
+			local function done(c)
+				return select(3, ns.GetCriteria(63432, c)) and "{a:common-icon-checkmark}" or "{a:common-icon-redx}"
+			end
+			local PEARL = "{item:276117:Clouded Blood-Pearl}"
+			local KNUCKLEBONE = "{item:276124:Ancient Knucklebone}"
+			local FEATHER = "{item:276126:Serpent's Feather}"
+			return "Create the following:\n" ..
+				done(115810).." {item:277946:Choleric Offering}: 3x"..PEARL.."\n"..
+				done(115811).." {item:277938:Virulent Offering}: 1x"..FEATHER.." 2x"..PEARL.."\n"..
+				done(115812).." {item:277939:Volatile Offering}: 1x"..KNUCKLEBONE.." 2x"..PEARL.."\n"..
+				done(115815).." {item:277944:Phlegmatic Offering}: 3x"..FEATHER.."\n"..
+				done(115814).." {item:277942:Odious Offering}: 2x"..FEATHER.." 1x"..PEARL.."\n"..
+				done(115816).." {item:277943:Pestilent Offering}: 1x"..KNUCKLEBONE.." 2x"..FEATHER.."\n"..
+				done(115819).." {item:277945:Melancholic Offering}: 3x"..KNUCKLEBONE.."\n"..
+				done(115817).." {item:277940:Fragile Offering}: 2x"..KNUCKLEBONE.." 1x"..PEARL.."\n"..
+				done(115818).." {item:277941:Eerie Offering}: 2x"..KNUCKLEBONE.." 1x"..FEATHER.."\n"..
+				done(115813).." {item:277937:Balanced Offering}: 1x"..KNUCKLEBONE.." 1x"..FEATHER.." 1x"..PEARL
+		end,
+		hide_before={
+			ns.conditions.MajorFaction(ns.FACTION_ZULJARRA, 3),
+			ns.conditions.Trait(1191, 110460), -- Ofi's Offerings
+			ns.conditions.QuestComplete(97026), -- Esoteric Ingredients
+			-- ns.conditions.QuestLineCompleteByQuest(93393, ns.COILEDISLE), -- Strange Friends in Odd Places, via A Little Kindness?
+		},
+		atlas="BuildanAbomination-32x32", scale=1.1,
+	},
+})
+
 -- Rares
 
 local loot_shared = {
