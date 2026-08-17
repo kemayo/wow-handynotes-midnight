@@ -477,7 +477,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=96968}),
 		},
 		vignette={7764, 7413}, -- Soucaller Ski'thari / Ss'akrithos
-		areaPoi=8889, -- murloc sacrifice event
+		areaPoi={8889, 8939}, -- murloc sacrifice event
 	},
 	[26406480] = { -- Looming Mutagenitor
 		criteria=115368, quest=93718,
@@ -489,6 +489,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=96966}),
 		},
 		vignette={7414, 7686},
+		areaPoi={8936},
 	},
 	[44702593] = { -- Vassti, the Exalted Broodmother
 		criteria=115369, quest=93676,
@@ -501,6 +502,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			-- 273000, -- Corrosive Soul
 		},
 		vignette=7763,
+		areaPoi={8938},
 	},
 	[46996223] = { -- Malformed Leviathan
 		criteria=111353, quest=93673,
@@ -511,8 +513,8 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			-- 279479, -- Leviathan's Eye
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=96970}),
 		},
-		areaPoi=8891,
 		vignette={7412, 7453}, -- only saw the former
+		areaPoi={8891, 8940},
 	},
 	[67167752] = { -- Venom Lancer Ori'kassi
 		criteria=115371, quest=93722,
@@ -526,7 +528,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			-- 273000, -- Corrosive Soul
 			-- 276009, -- Skytalon Gloves
 		},
-		areaPoi=8890,
+		areaPoi={8890, 8937},
 		vignette=7415,
 	},
 }, {
