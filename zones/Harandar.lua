@@ -65,7 +65,11 @@ ns.RegisterPoints(ns.HARANDAR, {
 		note="Fetch the {spell:1266347:Fungal Mallet} and ring the Mycelium Gong",
 		atlas="VignetteLootElite", scale=1.1,
 	},
-	[40642802] = {criteria=110257, quest=93587, loot={{252017, mount=true}, HARATI}, vignette=7410, note="Gather 150x {item:260531:Crystallized Resin Fragment} in the water nearby"}, -- Peculiar Cauldron, Ruddy Sporeglider
+	[40642802] = { -- Peculiar Cauldron, Ruddy Sporeglider
+		criteria=110257, quest=93587, loot={{252017, mount=true}, HARATI}, vignette=7410,
+		note="Gather 150x {item:260531:Crystallized Resin Fragment} in the water nearby",
+		atlas="VignetteLootElite", scale=1.1,
+	},
 }, {
 	achievement=61263,
 })
