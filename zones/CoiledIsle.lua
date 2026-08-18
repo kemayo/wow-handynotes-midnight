@@ -48,7 +48,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 		related={
 			-- extreme lack of helpful quest progression here; they just stand up and walk away
 			[69045270] = {label="{npc:263241:Zuzan}"},
-			-- [70405840] = {label="{npc:263242:Zan'ja}"}, -- wowhead swears, but I didn't talk to this one...
+			[70425839] = {label="{npc:263242:Zan'ja}"},
 			[66425725] = {label="{npc:263243:Ru'ko}"},
 			minimap=true, worldmap=true,
 		},
