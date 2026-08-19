@@ -77,7 +77,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 }, boss)
 
 ns.RegisterPoints(ns.COILEDISLE, {
-    [51605400] = { -- Nymrissa Wavecaller
+    [59996622] = { -- Nymrissa Wavecaller
         quest=97128,
         worldquest=97128,
         -- areaPoi=8896,
