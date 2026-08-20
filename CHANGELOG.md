@@ -1,5 +1,14 @@
 # Changelog
 
+## Changed in v60
+
+* Coiled Isle: fixed Nymrissa Wavecaller's map location
+* Voidstorm:
+	* Hardin Steellock and Gar'chak Skullcleave now correctly list their currency reward
+	* Removed Stormarion Cores from the shared loot list
+* The glow and tooltip countdown for timed events could show up on event-related points that weren't timed
+* Cosmetic set loot wasn't properly counting as knowable. This manifested as Andra in Silvermoon City not showing up on your map after you'd obtained one set from her, rather than all sets.
+
 ## Changed in v59
 
 * Coiled Isle:
