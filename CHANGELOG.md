@@ -1,5 +1,15 @@
 # Changelog
 
+## Changed in v61
+
+* Coiled Isle:
+	* Nymrissa Wavecaller now behaves like the other world bosses: hidden by default, and affected by the "World Boss" visibility toggle
+	* Gnarldor Isle and Ring of Glory now show their Discoveries progress in their map tooltip, like the other delves already did
+* Hovering Blizzard's own map pin for a treasure with related points nearby could show a different treasure's info instead
+* A point tied to more than one timed event could fail to show its countdown or glow if only one of those events had timing information available
+* Delve entrance markers could occasionally be drawn at the wrong location
+* Harandar: minor coordinate tweak for a Dust 'Em Off moth
+
 ## Changed in v60
 
 * Coiled Isle: fixed Nymrissa Wavecaller's map location
