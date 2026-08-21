@@ -141,8 +141,8 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
         [8441] = {61730, 61896}, -- Twilight Crypts
         [8443] = {61729, 61863}, -- Atal'Aman
         [8445] = {}, -- Torment's Rise
-        [8761] = {}, -- Gnarldor Isle
-        [8764] = {}, -- The Ring of Glory
+        [8761] = {63437, 63170}, -- Gnarldor Isle
+        [8764] = {63436, 63171}, -- The Ring of Glory
     }
     -- Bountiful in their own zones:
     delves[8426] = delves[8425] -- Collegiate Calamity
