@@ -98,4 +98,4 @@ ns.RegisterPoints(ns.COILEDISLE, {
             {279112, decor=true}, -- Clumped Asteroidea
         },
     },
-})
+}, boss)
