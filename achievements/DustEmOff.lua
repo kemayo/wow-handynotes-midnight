@@ -114,10 +114,10 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[48275059] = {quest=92251, vignette=7237},
 	[51887662] = {quest=92250, vignette=7238}, -- c
 	[36098144] = {quest=92249, vignette=7239}, -- c
-	[30806365] = {quest=92248, vignette=7240}, -- c
+	[30816365] = {quest=92248, vignette=7240},
 	[35897426] = {quest=92247, vignette=7241}, -- c
-	[41346613] = {quest=92246, vignette=7242}, -- c
-	[41346807] = {quest=92265, vignette=7243}, -- c
+	[41346613] = {quest=92246, vignette=7242},
+	[41346807] = {quest=92265, vignette=7243},
 	[65305774] = {quest=92264, vignette=7244}, -- c
 	[62495867] = {quest=92263, vignette=7245}, -- c
 	[63994863] = {quest=92262, vignette=7246},
@@ -126,8 +126,8 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[42182226] = {quest=92259, vignette=7249},
 	[54495206] = {quest=92258, vignette=7250},
 	[67971999] = {quest=92257, vignette=7251}, -- c
-	[36974830] = {quest=92256, vignette=7252}, -- c
-	[39095510] = {quest=92266, vignette=7253}, -- c
+	[36974830] = {quest=92256, vignette=7252},
+	[39095510] = {quest=92266, vignette=7253},
 }, MOTH{
 	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 4),
 	minimap=ns.conditions.NotMajorFaction(ns.FACTION_HARATI, 6),

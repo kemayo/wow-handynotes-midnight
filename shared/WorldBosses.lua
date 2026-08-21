@@ -42,7 +42,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 
 ns.RegisterPoints(ns.HARANDAR, {
     [39026691] = { -- Thorm'belan
-        quest=92034,
+        quest=92034, -- also 92129
         worldquest=92034,
         npc=249776,
         loot={
