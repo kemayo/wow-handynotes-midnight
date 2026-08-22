@@ -90,11 +90,11 @@ ns.RegisterPoints(ns.HARANDAR, {
 	-- PlayerConditionID: 144440 (presumably: Big Moth Hunter I @ renown 4 + Moth-Watching II @ renown 6)
 	[43063946] = {quest=92224, vignette=7214},
 	[44033812] = {quest=92223, vignette=7215},
-	[60341777] = {quest=92222, vignette=7216}, -- c
+	[60351776] = {quest=92222, vignette=7216, note="In cave"},
 	[71715882] = {quest=92221, vignette=7217}, -- c
 	[74005723] = {quest=92220, vignette=7218}, -- c
-	[55616429] = {quest=92219, vignette=7219}, -- c
-	[55796664] = {quest=92218, vignette=7220}, -- c
+	[55616430] = {quest=92219, vignette=7219},
+	[55796664] = {quest=92218, vignette=7220, note="In cave"},
 	[61283517] = {quest=92217, vignette=7221, note="In cave"},
 	[63744145] = {quest=92216, vignette=7222},
 	[62434085] = {quest=92245, vignette=7223},
@@ -103,16 +103,16 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[43264034] = {quest=92242, vignette=7226},
 	[41953772] = {quest=92241, vignette=7227}, -- c
 	[73716173] = {quest=92240, vignette=7228}, -- c
-	[73716830] = {quest=92239, vignette=7229}, -- c
-	[58673020] = {quest=92238, vignette=7230}, -- c
-	[51382032] = {quest=92237, vignette=7231}, -- c
+	[55343070] = {quest=92239, vignette=7229},
+	[58673020] = {quest=92238, vignette=7230},
+	[51392033] = {quest=92237, vignette=7231, note="In cave"},
 	[44783570] = {quest=92236, vignette=7232},
-	[54493885] = {quest=92255, vignette=7233}, -- c
+	[54493886] = {quest=92255, vignette=7233},
 	[62494432] = {quest=92254, vignette=7234},
-	[60724541] = {quest=92253, vignette=7235},
+	[60724541] = {quest=92253, vignette=7235, note="Behind waterfall"},
 	[61245046] = {quest=92252, vignette=7236},
 	[48275059] = {quest=92251, vignette=7237},
-	[51887662] = {quest=92250, vignette=7238}, -- c
+	[51887662] = {quest=92250, vignette=7238},
 	[36098144] = {quest=92249, vignette=7239}, -- c
 	[30816365] = {quest=92248, vignette=7240},
 	[35897426] = {quest=92247, vignette=7241}, -- c
@@ -122,10 +122,10 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[62495867] = {quest=92263, vignette=7245}, -- c
 	[63994863] = {quest=92262, vignette=7246},
 	[65894471] = {quest=92261, vignette=7247},
-	[72873719] = {quest=92260, vignette=7248}, -- c
+	[72873719] = {quest=92260, vignette=7248},
 	[42182226] = {quest=92259, vignette=7249},
 	[54495206] = {quest=92258, vignette=7250},
-	[67971999] = {quest=92257, vignette=7251}, -- c
+	[67972000] = {quest=92257, vignette=7251, note="In cave"},
 	[36974830] = {quest=92256, vignette=7252},
 	[39095510] = {quest=92266, vignette=7253},
 }, MOTH{
