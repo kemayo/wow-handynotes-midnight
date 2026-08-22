@@ -91,8 +91,8 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[43063946] = {quest=92224, vignette=7214},
 	[44033812] = {quest=92223, vignette=7215},
 	[60351776] = {quest=92222, vignette=7216, note="In cave"},
-	[71715882] = {quest=92221, vignette=7217}, -- c
-	[74005723] = {quest=92220, vignette=7218}, -- c
+	[71715882] = {quest=92221, vignette=7217},
+	[74025724] = {quest=92220, vignette=7218, note="In cave"},
 	[55616430] = {quest=92219, vignette=7219},
 	[55796664] = {quest=92218, vignette=7220, note="In cave"},
 	[61283517] = {quest=92217, vignette=7221, note="In cave"},
@@ -102,7 +102,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[46894848] = {quest=92243, vignette=7225},
 	[43264034] = {quest=92242, vignette=7226},
 	[41953772] = {quest=92241, vignette=7227}, -- c
-	[73716173] = {quest=92240, vignette=7228}, -- c
+	[73716173] = {quest=92240, vignette=7228},
 	[55343070] = {quest=92239, vignette=7229},
 	[58673020] = {quest=92238, vignette=7230},
 	[51392033] = {quest=92237, vignette=7231, note="In cave"},
@@ -118,8 +118,8 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[35897426] = {quest=92247, vignette=7241}, -- c
 	[41346613] = {quest=92246, vignette=7242},
 	[41346807] = {quest=92265, vignette=7243},
-	[65305774] = {quest=92264, vignette=7244}, -- c
-	[62495867] = {quest=92263, vignette=7245}, -- c
+	[65305774] = {quest=92264, vignette=7244, note="In cave", path={65005766, 64655754, 64135687, 63405669, 63265707, 63175776}},
+	[62495867] = {quest=92263, vignette=7245, note="On the mushroom"},
 	[63994863] = {quest=92262, vignette=7246},
 	[65894471] = {quest=92261, vignette=7247},
 	[72873719] = {quest=92260, vignette=7248},
