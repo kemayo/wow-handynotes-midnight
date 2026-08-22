@@ -144,7 +144,6 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[62515375] = {quest=92311, vignette=7260}, -- c
 	[74095339] = {quest=92310, vignette=7261}, -- c
 	[56585716] = {quest=92309, vignette=7262}, -- c
-	[53015598] = {quest=92277, vignette=7263}, -- c
 	[44434518] = {quest=92286, vignette=7264}, -- c
 	[34632422] = {quest=92285, vignette=7265}, -- c
 	[47762338] = {quest=92284, vignette=7266}, -- c
@@ -176,6 +175,13 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[27397032] = {quest=92287, vignette=7292}, -- c
 	[39211835] = {quest=92297, vignette=7293}, -- c
 }, MOTH{
+	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 9),
+	minimap=ns.conditions.NotMajorFaction(ns.FACTION_HARATI, 11),
+})
+ns.RegisterPoints(2576, { -- The Den
+	[61857566] = {quest=92277, vignette=7263, note="In the Den"}, -- c => 53015598
+}, MOTH{
+	parent=true,
 	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 9),
 	minimap=ns.conditions.NotMajorFaction(ns.FACTION_HARATI, 11),
 })
