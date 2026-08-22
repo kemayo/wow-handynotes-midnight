@@ -126,17 +126,6 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		},
 		vignette=7300, -- Dormant Lightbloom Hydra
 	},
-	[36566407] = { -- Bloated Snapdragon
-		criteria=110169, quest=92366,
-		npc=250582,
-		loot={
-			264543, -- Snapdragon Pantaloons
-			264560, -- Sharpclaw Gauntlets
-			260647, -- Digested Human Hand
-			ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94685}),
-		},
-		vignette=7294,
-	},
 	[62964878] = { -- Cre'van
 		criteria=110170, quest=92391,
 		npc=250719,
@@ -259,4 +248,23 @@ ns.RegisterPoints(ns.EVERSONGWOODS, {
 		{257147, mount=true}, -- Cobalt Dragonhawk
 		{257156, mount=true}, -- Cerulean Hawkstrider
 	},
+})
+
+-- Bloated Snapdragon
+ns.RegisterPoints(ns.EVERSONGWOODS, {
+	-- Normal
+	[36566407] = {requires=ns.conditions.NotAreaPoi(ns.EVERSONGWOODS, 8758)},
+	-- Void invasions
+	[37696427] = {requires=ns.conditions.AreaPoi(ns.EVERSONGWOODS, 8758)},
+}, {
+	achievement=61507,
+	criteria=110169, quest=92366,
+	npc=250582,
+	loot={
+		264543, -- Snapdragon Pantaloons
+		264560, -- Sharpclaw Gauntlets
+		260647, -- Digested Human Hand
+		ns.rewards.Currency(ns.CURRENCY_SILVERMOONCOURT, 50, {quest=94685}),
+	},
+	vignette=7294,
 })
