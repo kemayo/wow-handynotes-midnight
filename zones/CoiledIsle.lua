@@ -545,6 +545,13 @@ TODO:
 ]]
 
 ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
+	[47210382] = ns.mapLink{link=2613}, -- The Underbelly
+})
+ns.RegisterPoints(2613, {
+	[52739720] = ns.mapLink{link=ns.VAULTSOFATALUTEK, atlas="CaveUnderground-Up"}, -- The Underbelly
+})
+
+ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
 	-- [] = {criteria=113661, quest=96030, npc=263456, vignette=7629}, -- Szarith the Fanged
 	-- These ones don't have a match in vignettes.db2
 	-- [] = {criteria=113558, quest=nil, npc=263371, vignette=nil}, -- Priest of the First Rattle
