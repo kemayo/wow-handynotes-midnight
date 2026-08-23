@@ -33,7 +33,7 @@ ns.RegisterPoints(2504, { -- Twilight Crypts, Twilight Crypts
 -- })
 
 ns.RegisterPoints(2505, { -- Gulf of Memory / Upper Rootway
-    [39882667] = {quest=94016, loot={{264805, toy=true}}, atlas="VignetteLootElite", scale=1.1,}, -- Brann-O-Vision 3000
+    [39882667] = {quest=94016, loot={{264805, toy=true}}, atlas="VignetteLootElite", scale=1.3,}, -- Brann-O-Vision 3000
     [55502618] = {quest=94041, loot=VOIDLIGHT, note="Up on the branch"},
     [54242518] = {quest=94023, loot={263519}, note="On the ground"}, -- Snake Oil
 }, STURDY{
@@ -110,7 +110,7 @@ ns.RegisterPoints(2547, { -- Collegiate Calamity
 -- })
 
 ns.RegisterPoints(2635, { -- Gnarldor Isle
-    [60456814] = {quest=96802, loot={{262496, mount=true}}, atlas="VignetteLootElite", scale=1.1,}, -- Delver's Arcane Golem
+    [60456814] = {quest=96802, loot={{262496, mount=true}}, atlas="VignetteLootElite", scale=1.3,}, -- Delver's Arcane Golem
     [52424086] = {quest=96804, loot=VOIDLIGHT,},
     [28684170] = {quest=96805, loot={263516},}, -- Cosmic Ritual Bowl
 }, STURDY{

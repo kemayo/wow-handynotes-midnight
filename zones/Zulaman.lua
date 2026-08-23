@@ -24,7 +24,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 			minimap=true,
 		},
 		vignette=6937,
-		atlas="VignetteLootElite", scale=1.1,
+		atlas="VignetteLootElite", scale=1.3,
 	},
 	[21897738] = { -- Sealed Twilight Blade Bounty
 		criteria=111856, quest=93871,
@@ -38,7 +38,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 			color={r=0.5,g=0,b=1}, minimap=true,
 		},
 		vignette=7419,
-		atlas="VignetteLootElite", scale=1.1,
+		atlas="VignetteLootElite", scale=1.3,
 	},
 	[20846654] = { -- Bait and Tackle
 		criteria=111857, quest=90795,
@@ -66,7 +66,7 @@ ns.RegisterPoints(ns.ZULAMAN, {
 		loot={{257444, mount=true}},
 		vignette=6938,
 		note="In cave on the lower level; gather 1000x{item:259361:Vile Essence} nearby",
-		atlas="VignetteLootElite", scale=1.1,
+		atlas="VignetteLootElite", scale=1.3,
 	},
 })
 

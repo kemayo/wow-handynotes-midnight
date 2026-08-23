@@ -11,7 +11,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		criteria=111863, quest=93237,
 		loot={{257446, mount=true}, SINGULARITY}, -- Reins of the Insatiable Shredclaw
 		vignette=7355, path=48927833,
-		atlas="VignetteLootElite", scale=1.1,
+		atlas="VignetteLootElite", scale=1.3,
 	},
 	[25766728] = { -- Void-Shielded Tomb
 		criteria=111864, quest=92414,
@@ -19,7 +19,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 		note="Drink the potion, then fetch {item:251519:Key of Fused Darkness} from the adjacent building",
 		nearby={25976863, worldmap=false, label="{item:251519:Key of Fused Darkness}"},
 		vignette=7498,
-		atlas="VignetteLootElite", scale=1.1,
+		atlas="VignetteLootElite", scale=1.3,
 	},
 	[64537547] = { -- Bloody Sack
 		criteria=111866, quest=93431,
@@ -38,7 +38,7 @@ ns.RegisterPoints(ns.VOIDSTORM, {
 			[53234271] = {quest=93815, hide_before=ns.conditions.QuestComplete(93814)}, -- 4
 			texture=ns.atlas_texture("playerpartyblip", {r=0.4, g=0, b=1}), worldmap=false, minimap=true,
 		},
-		atlas="VignetteLootElite", scale=1.1,
+		atlas="VignetteLootElite", scale=1.3,
 	},
 	[46927989] = {criteria=111869, quest=94454, loot={{250319, toy=true}, SINGULARITY}, vignette=7455, path=47987850}, -- Forgotten Researcher's Cache, Researcher's Shadowgraft
 	[55367542] = {criteria=111871, quest=93553, loot={266075, SINGULARITY}, vignette=7397}, -- Embedded Spear, Harpoon of Extirpation
@@ -61,6 +61,7 @@ ns.RegisterPoints(ns.SLAYERSRISE, {
 		loot={{262467, decor=true}, SINGULARITY}, -- Void Elf Round Table
 		note="Inside the building; drag objects out 3x",
 		vignette=7441,
+		atlas="VignetteLootElite", scale=1.3,
 	},
 	[49052013] = {criteria=111870, quest=94387, loot={266101, SINGULARITY}, vignette=7447}, -- Scout's Pack, Unused Initiate's Bulwark
 }, {
@@ -538,7 +539,7 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 			atlas="TeleportationNetwork-Ardenweald-32x32", minimap=true,
 		},
 		path=67505416,
-		atlas="VignetteLootElite", scale=1.1, minimap=true,
+		atlas="VignetteLootElite", scale=1.3, minimap=true,
 	},
 })
 ns.RegisterPoints(2646, { -- Naigral (Vilaldoun)
