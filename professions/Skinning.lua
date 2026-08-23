@@ -12,7 +12,7 @@ local KNOWLEDGE = {
     -- minimap = true,
 }
 ns.RegisterPoints(ns.SILVERMOONCITY, {
-    [43205570] = {quest=89171, loot={238633}, vignette=6787}, -- Sin'dorei Tanning Oil
+    [43135562] = {quest=89171, loot={238633}, vignette=6787}, -- Sin'dorei Tanning Oil
 }, KNOWLEDGE)
 ns.RegisterPoints(ns.EVERSONGWOODS, {
     [48507620] = {quest=89173, loot={238635}, vignette=6785}, -- Thalassian Skinning Knife
@@ -31,7 +31,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 -- ns.RegisterPoints(ns.VOIDSTORM, {
 -- }, KNOWLEDGE)
 ns.RegisterPoints(ns.SLAYERSRISE, {
-    [45494246] = {quest=89169, loot={238631}, vignette=6789, parent=true}, -- Voidstorm Leather Sample
+    [45504240] = {quest=89169, loot={238631}, vignette=6789, parent=true}, -- Voidstorm Leather Sample
 }, KNOWLEDGE)
 
 -- Lures
