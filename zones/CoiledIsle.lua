@@ -489,7 +489,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 			ns.rewards.Currency(ns.CURRENCY_ZULJARRA, 50, {quest=96966}),
 		},
 		vignette={7414, 7686},
-		areaPoi={8936},
+		areaPoi={8887, 8936},
 	},
 	[46192717] = { -- Vassti, the Exalted Broodmother
 		criteria=115369, quest=93676,
