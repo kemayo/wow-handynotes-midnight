@@ -11,6 +11,7 @@
 ## X-Wago-ID: kGr0me6y
 ## SavedVariables: HandyNotes_MidnightTreasuresDB
 ## RequiredDeps: HandyNotes
+## AllowLoadGameType: standard
 
 handler\handler.xml
 
