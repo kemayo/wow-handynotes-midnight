@@ -60,7 +60,7 @@ ns.RegisterPoints(ns.HARANDAR, {
 
 ns.RegisterPoints(ns.VOIDSTORM, {
     [49078651] = { -- Predaxas
-        quest=92636,
+        quest=92636, -- also 92130
         worldquest=92636,
         npc=248864,
         loot={

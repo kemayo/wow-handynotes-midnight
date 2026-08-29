@@ -113,9 +113,9 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[61245046] = {quest=92252, vignette=7236},
 	[48275059] = {quest=92251, vignette=7237},
 	[51887662] = {quest=92250, vignette=7238},
-	[36098144] = {quest=92249, vignette=7239}, -- c
+	[36098144] = {quest=92249, vignette=7239},
 	[30816365] = {quest=92248, vignette=7240},
-	[35897426] = {quest=92247, vignette=7241}, -- c
+	[35897427] = {quest=92247, vignette=7241, note="In cave"},
 	[41346613] = {quest=92246, vignette=7242},
 	[41346807] = {quest=92265, vignette=7243},
 	[65305774] = {quest=92264, vignette=7244, note="In cave", path={65005766, 64655754, 64135687, 63405669, 63265707, 63175776}},
