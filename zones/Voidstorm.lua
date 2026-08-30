@@ -552,6 +552,17 @@ ns.RegisterPoints(2646, { -- Naigtal (Vilaldoun)
 		-- translate={[ns.VOIDSTORM_NAIGTAL]=true}, -- confusing
 		atlas="TeleportationNetwork-Ardenweald-32x32", minimap=true,
 	},
+	[55702670] = {
+		label="Ancient Crypt Reliquary",
+		loot={
+			276285, -- Elonath's Defender's Sword
+			276292, -- Ancient Anchorite's Beacon
+			276302, -- Taalvilor Crystalsmith's Mace
+			276303, -- Blessed Blade of Taalvilor
+		},
+		additional={59701650, 65503710, 60404870, 66706900, 71506270, 76708040, 70208330, 49606350, 44405870, 32707950, 23706500},
+		note="Random spawn, doesn't show on your minimap",
+	}
 })
 
 ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
