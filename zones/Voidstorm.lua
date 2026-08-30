@@ -563,6 +563,45 @@ ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
 	minimap=true, -- They are on the minimap, but only when you're incredibly close to them
 	group=TUTORIAL_TITLE35, -- Travel
 })
+
+-- Unfazed Diver
+local UNFAZED = {
+	backdrop=ns.atlas_texture("CircleMaskScalable", {r=0.7, g=0, b=1, a=0.75}),
+	border=ns.atlas_texture("Adventures-Buff-Heal-Ring", {r=1, g=0, b=1}),
+	minimap=true,
+}
+ns.RegisterPoints(2472, { -- K'aresh, Tazavesh
+	[46905856] = {
+		quest=97098,
+		label="{item:275670:Bill of Lading}",
+		loot={
+			275670, -- Bill of Lading
+			275665, -- Phase-Displaced Toy
+		},
+		active=ns.conditions.AuraActive(1214374), -- Phase Diving
+		note="Unlocks {item:246723:Unfazed Diver} in {map:2600:Naigtal}. Next step is in {map:2405:Voidstorm}.\n\nRemember you need your {item:235499:Reshii Wraps} for {spell:1214374:Phase Diving}; you might need to relog before it works after putting it on.",
+		atlas="poi-workorders",
+		parent=true,
+	},
+}, UNFAZED)
+ns.RegisterPoints(ns.VOIDSTORM, {
+	[48187032] = {
+		quest=97099,
+		label="Odd Smelling Crate",
+		hide_before=ns.conditions.QuestComplete(97098),
+		note="Use, then move on to {map:2600:Naigtal}.\n\nUnlocks {item:246723:Unfazed Diver} in {map:2600:Naigtal}. First step was in {map:2472:Tazavesh}.",
+		atlas="mechagon-projects",
+	},
+}, UNFAZED)
+ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
+	[71474531] = {
+		label="Specimen Container",
+		loot={{246723, pet=true}}, -- Unfazed Diver
+		hide_before=ns.conditions.QuestComplete(97099),
+		note="Kill {npc:265891:Hal'hadar Manatech} nearby for the {item:276465:Specimen Container Key}.\n\nFirst step was in {map:2472:Tazavesh}.",
+	}
+}, UNFAZED)
+
 ns.RegisterPoints(ns.VOIDSTORM_VAL, {
 	[33005700] = { -- Nelgothar
 		criteria=114002,
