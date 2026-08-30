@@ -551,6 +551,18 @@ ns.RegisterPoints(2646, { -- Naigral (Vilaldoun)
 	},
 })
 
+ns.RegisterPoints(ns.VOIDSTORM_NAIGTAL, {
+	[46678290] = {}, -- Umbral Base Camp
+	[55064695] = {}, -- Nexus Port
+	[77294291] = {}, -- Sporeforge
+	[32274604] = {}, -- Extraction Coast
+}, {
+	label="{spell:1244638:Manaforge Translocator}",
+	hide_before=ns.conditions.QuestComplete(96809),
+	atlas="FlightMaster_Argus-TaxiNode_Neutral", scale=1.3,
+	minimap=true, -- They are on the minimap, but only when you're incredibly close to them
+	group=TUTORIAL_TITLE35, -- Travel
+})
 ns.RegisterPoints(ns.VOIDSTORM_VAL, {
 	[33005700] = { -- Nelgothar
 		criteria=114002,
