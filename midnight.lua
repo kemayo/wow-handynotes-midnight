@@ -9,7 +9,8 @@ ns.defaults.profile.groupsHidden = {
 }
 
 ns.defaults.profile.achievementsHidden = {
-	[61052] = true, -- Dust 'Em Off
+    [61052] = true, -- Dust 'Em Off
+    [61961] = true, -- Runestone Rush (blizzard worldmap one appears for the active runestone)
 }
 
 ns.groups["junk"] = BAG_FILTER_JUNK
