@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v66
+
+* Eversong Woods: hide the runestones by default; Blizzard shows the active one, and I add the completion data onto that when it's present anyway
+* Rares with *only* shared loot would hide when their achievement was completed rather than respecting the notable-loot setting
+* Avoid a secret taint issue when showing the tooltip for a mob that has no loot
+
 ## Changed in v65
 
 * Silvermoon City: J'imothy
