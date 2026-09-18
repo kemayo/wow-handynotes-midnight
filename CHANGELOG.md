@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v67
+
+* Comment out the Arcantina "junk" points, rather than just hide them by default, since they seem to be actually gone since 12.1
+
 ## Changed in v66
 
 * Eversong Woods: hide the runestones by default; Blizzard shows the active one, and I add the completion data onto that when it's present anyway
