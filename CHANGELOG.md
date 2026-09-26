@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v68
+
+* Coiled Isle: fix Garsecg's achievement-completion criteria, which has changed since the PTR
+
 ## Changed in v67
 
 * Comment out the Arcantina "junk" points, rather than just hide them by default, since they seem to be actually gone since 12.1
