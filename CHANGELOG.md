@@ -1,5 +1,15 @@
 # Changelog
 
+## Changed in v69
+
+* Rares dropping mounts, toys or pets could show as less notable than they should
+* Routes for related points were drawn once per related point, on both the world map and the minimap
+* Routes for a point shown in a different zone from its own could be drawn in the wrong place on the minimap
+* Points did not refresh when an addon restriction (e.g. after combat) lifted
+* Calendar-based events could read the wrong month when the calendar was open on an adjacent month
+* Waypoints for related points could be sorted wrongly or error
+* Don't error if a label or note function returns nil
+
 ## Changed in v68
 
 * Coiled Isle: fix Garsecg's achievement-completion criteria, which has changed since the PTR
