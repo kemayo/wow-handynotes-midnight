@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v70
+
+* Update for 12.1.5
+
 ## Changed in v69
 
 * Rares dropping mounts, toys or pets could show as less notable than they should
