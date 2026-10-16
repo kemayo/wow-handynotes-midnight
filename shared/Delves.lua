@@ -261,6 +261,7 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
     delves[8678] = delves[8441] -- Twilight Crypts
     delves[8760] = delves[8761] -- Gnarldor Isle
     delves[8763] = delves[8764] -- Ring of Glory
+    delves[9037] = delves[9036] -- Labyrinth of Kindo'jan
 
     --
     local function addToTooltip(tooltip, areaPoiID)
