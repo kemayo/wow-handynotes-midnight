@@ -126,10 +126,77 @@ ns.RegisterPoints(2633, { -- Ring of Glory
 })
 
 ns.RegisterPoints(2647, { -- Labyrinth of Kindo'jan
+    [36926984] = {quest=98602, loot={}}, -- Chamber of Rites
+    [46906442] = {quest=97131, loot={}}, -- Chamber of Rites
+    [29967472] = {quest=98608, loot={}}, -- Reliquary
+    [21746859] = {quest=98607, loot={}}, -- Reliquary
+    [13853512] = {quest=98611, loot={}}, -- Halazzi's Lair
+    [26444033] = {quest=98612, loot={}}, -- Halazzi's Lair
+    [69237104] = {quest=98638, loot={}}, -- Catacombs
+    [72436595] = {quest=98637, loot={}}, -- Catacombs
+    [81295505] = {quest=98633, loot={}}, -- The Cave Towers
+    [86906328] = {quest=98634, loot={}}, -- The Cave Towers
+    [46081114] = {quest=98624, loot={}}, -- Akil'zon's Roost
+    [40592029] = {quest=98625, loot={276164}}, -- Akil'zon's Roost, Corroded Patagia
+    [68253409] = {quest=98628, loot={}}, -- Nalorakk's Rest
+    [67892770] = {quest=98629, loot={}}, -- Nalorakk's Rest
+    [21423672] = {quest=98603, loot={}, note="In {area:17030:Jana'lai's Refuge}"}, -- Jan'alai's Refuge
+    [28692313] = {quest=98620, loot={}, note="In {area:17030:Jana'lai's Refuge}"}, -- Jan'alai's Refuge
+    [22162956] = {quest=98621, loot={}, note="In {area:17030:Jana'lai's Refuge}"}, -- Jan'alai's Refuge
+    [40584556] = {quest=98648, loot={}, note="Under the upper bridge"}, -- The Central Chamber
+    [47703998] = {quest=98649, loot={275855}}, -- The Central Chamber, Zul'Aman Swamp Palm Sprout
+    [45974835] = {quest=98650, loot={}}, -- The Central Chamber
+    -- Flooded Chamber
+    [61244414] = {
+        quest={98614, 98640, 98604, 98619, 98631},
+        loot={
+            {284357, decor=true}, -- Ancient Amani Mural
+        },
+        note="Swim through the waterfalls, then use any sort of fire damage to melt the ice",
+        path=56814415,
+    },
+    -- Loa-sealed rooms
+    [38448247] = { -- Akil'zon, Chamber of Rites
+        quest={98605, 98606},
+        loot={
+            282424, -- Akil'zon's Swiftness
+            284054, -- Hexdrinker's Shoulders
+            284181, -- Loa-Touched Spine
+        },
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)
+    },
+    -- [38838349] = {quest=98605, loot={282424}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)}, -- Akil'zon, Chamber of Rites, Akil'zon's Swiftness
+    -- [38028347] = {quest=98606, loot={284054, 284181}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)}, -- Akil'zon, Chamber of Rites, Hexdrinker's Shoulders + Loa-Touched Spine
+    [89047718] = { -- Akil'zon, The Cave Towers
+        quest={98635, 98636},
+        loot={280563}, -- Ancient Hash'ey Battle Art: Falco Strikes
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)
+    },
+    -- [89037803] = {quest=98635, loot={280563}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)}, -- Akil'zon, The Cave Towers, Ancient Hash'ey Battle Art: Falco Strikes
+    -- [88547727] = {quest=98636, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)}, -- Akil'zon, The Cave Towers
+    [30511532] = { -- Akil'zon, Akil'zon's Roost
+        quest={98626, 98627},
+        loot={
+            {280823, toy=true}, -- Feathers of Akil'zon
+        },
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3),
+    },
+    -- [30571564] = {quest=98626, loot={{280823, toy=true}}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)}, -- Akil'zon, Akil'zon's Roost, Feathers of Akil'zon
+    -- [34901780] = {quest=98627, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)}, -- Akil'zon, Akil'zon's Roost
+    [27193416] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5), note="In {area:17029:Halazzi's Lair}"}, -- Jan'alai, Halazzi's Lair x2
+    [22861234] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5), note="In {area:17030:Jana'lai's Refuge}"}, -- Jan'alai, Jana'lai's Refuge x2
+    [27038110] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 7)}, -- Nalorakk, Reliquary x2
+    [64994227] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 7)}, -- Nalorakk, Nalorakk's Rest x2
+    [10555339] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 9)}, -- Halazzi, Halazzi's Lair x3
+    [66745178] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 9)}, -- Halazzi, Catacombs x2
+}, STURDY{
+    achievement=63717, -- Discoveries
+})
+ns.RegisterPoints(2647, { -- Labyrinth of Kindo'jan
     [50308260] = {}, -- Chamber of Rites
     [88505150] = {}, -- The Cave Towers
     [56801780] = {}, -- Akil'zon's Roost
-    [18801820] = {}, -- Jan'alai's Refuge
+    [18801820] = {note="In {area:17030:Jana'lai's Refuge}"}, -- Jan'alai's Refuge
     [58502170] = {}, -- Nalorakk's Rest
 }, {
     label="Potential hexmask or locked room",
