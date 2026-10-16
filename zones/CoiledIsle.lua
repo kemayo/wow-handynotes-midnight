@@ -462,7 +462,7 @@ ns.RegisterPoints(ns.VAULTSOFATALUTEK, {
 	[47300640] = SZARITH{parent=true},
 })
 ns.RegisterPoints(2613, { -- The Underbelly
-	[37681723] = SZARITH{},
+	[39582718] = SZARITH{},
 })
 
 -- Turn the Surge
