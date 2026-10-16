@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v71
+
+* Coiled Isle: fix Szarith the Fanged's position because the Underbelly map got resized
+* Labyrinth of Kindo'jan: show achievement status, not chests yet
+
 ## Changed in v70
 
 * Update for 12.1.5
