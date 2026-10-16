@@ -125,6 +125,19 @@ ns.RegisterPoints(2633, { -- Ring of Glory
     achievement=63171, -- Discoveries
 })
 
+ns.RegisterPoints(2647, { -- Labyrinth of Kindo'jan
+    [50308260] = {}, -- Chamber of Rites
+    [88505150] = {}, -- The Cave Towers
+    [56801780] = {}, -- Akil'zon's Roost
+    [18801820] = {}, -- Jan'alai's Refuge
+    [58502170] = {}, -- Nalorakk's Rest
+}, {
+    label="Potential hexmask or locked room",
+    note="These are randomly assigned on each run",
+    hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 2),
+    atlas="poi-nzothvision", scale=1.4,
+})
+
 ----
 
 EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
@@ -143,6 +156,16 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
         [8445] = {}, -- Torment's Rise
         [8761] = {63437, 63170}, -- Gnarldor Isle
         [8764] = {63436, 63171}, -- The Ring of Glory
+        [9036] = { -- Labyrinth of Kindo'jan
+            63724, -- Knock Knock
+            63718, -- Lock and Key
+            63720, -- Happy Hexmask Collector
+            63721, -- The Labyrinth of Kindo'jan
+            63722, -- Whose Labyrinth?
+            63723, -- My Labyrinth?
+            63717, -- Kindo'jan's Labyrinth Discoveries
+            63727, -- Treasures Upon Treasures
+        },
     }
     -- Bountiful in their own zones:
     delves[8426] = delves[8425] -- Collegiate Calamity
@@ -157,6 +180,7 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
     delves[8444] = delves[8443] -- Atal'Aman
     delves[8759] = delves[8761] -- Gnarldor Isle
     delves[8762] = delves[8764] -- Ring of Glory
+    delves[9035] = delves[9036] -- Labyrinth of Kindo'jan
     -- Bountiful on the continent map:
     delves[8665] = delves[8427] -- Parhelion Plaza
     delves[8666] = delves[8431] -- Shadowguard Point
