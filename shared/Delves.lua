@@ -224,6 +224,7 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
         [8761] = {63437, 63170}, -- Gnarldor Isle
         [8764] = {63436, 63171}, -- The Ring of Glory
         [9036] = { -- Labyrinth of Kindo'jan
+            false,
             63724, -- Knock Knock
             63718, -- Lock and Key
             63720, -- Happy Hexmask Collector
@@ -267,8 +268,10 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
     local function addToTooltip(tooltip, areaPoiID)
         if delves[areaPoiID] and #delves[areaPoiID] > 0 then
             for i, achievement in ipairs(delves[areaPoiID]) do
-                -- we want to show the full criteria list for the first one (stories), and just the summary for the second
-                ns.tooltipHelpers.achievement(tooltip, achievement, i == 1)
+                if achievement then
+                    -- we want to show the full criteria list for the first one (stories), and just the summary for the second
+                    ns.tooltipHelpers.achievement(tooltip, achievement, i == 1)
+                end
             end
             return true
         end
