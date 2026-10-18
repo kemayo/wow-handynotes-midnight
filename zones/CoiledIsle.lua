@@ -184,7 +184,7 @@ ns.RegisterPoints(ns.COILEDISLE, {
 
 -- Mysterious Mix Master
 ns.RegisterPoints(ns.COILEDISLE, {
-	[57404860] = {
+	[57444878] = {
 		achievement=63432,
 		note=function()
 			local function done(c)
