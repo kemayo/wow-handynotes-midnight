@@ -1,5 +1,18 @@
 # Changelog
 
+## Changed in v72
+
+* Labyrinth of Kindo'jan:
+	* Show the chests (completion not present on the renown 7/9 ones)
+	* Show Happy Hexmask Collector and Lock and Key achievment status on the hexmask rooms
+	* Show My Labyrinth achievement status on the doors
+	* Show overall delve status on the continent version of the bountiful delve as well
+* Coiled Isle:
+	* Show where the Altar of Corrosion trait unlock items are
+	* 12.1.5 added official doorways to the Underbelly, so remove mine
+* Arcantina junk is back, so uncomment it (for now)
+* A bunch of largely invisible work to prep for translation, which did incidentally fix a few bugs
+
 ## Changed in v71
 
 * Coiled Isle: fix Szarith the Fanged's position because the Underbelly map got resized
