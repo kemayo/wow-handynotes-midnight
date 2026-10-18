@@ -15,6 +15,7 @@ ignore = {
 }
 
 read_globals = {
+    "GetLocale",
     "BAG_FILTER_JUNK",
     "GLYPHS",
 }
