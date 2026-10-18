@@ -1,5 +1,12 @@
 local myname, ns = ...
 
+--[[
+Scarred Spear: 92375
+Ebon Banner: 92376
+Stormstout Brewery Lantern: 95782
+Wooden Toy Sword: 95783
+--]]
+
 ns.RegisterPoints(ns.ARCANTINA, {
 	[54534241] = {quest=79550, loot={213202}}, -- Pepe: A Tiny Explorer's Hat
 }, {
