@@ -200,6 +200,11 @@ ns.RegisterPoints(2647, { -- Labyrinth of Kindo'jan
     [58502170] = {}, -- Nalorakk's Rest
 }, {
     label="Potential hexmask or locked room",
+    loot={
+        ns.rewards.Achievement(63723), -- My Labyrinth
+        ns.rewards.Achievement(63720), -- Happy Hexmask Collector
+        ns.rewards.Achievement(63718), -- Lock and Key
+    },
     note="These are randomly assigned on each run",
     hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 2),
     atlas="poi-nzothvision", scale=1.4,
