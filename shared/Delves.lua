@@ -244,6 +244,7 @@ EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
             63723, -- My Labyrinth?
             63717, -- Kindo'jan's Labyrinth Discoveries
             63727, -- Treasures Upon Treasures
+            63728, -- A Few More Can't Hurt
         },
     }
     -- Bountiful in their own zones:
