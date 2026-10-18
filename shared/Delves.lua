@@ -183,8 +183,27 @@ ns.RegisterPoints(2647, { -- Labyrinth of Kindo'jan
     },
     -- [30571564] = {quest=98626, loot={{280823, toy=true}}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)}, -- Akil'zon, Akil'zon's Roost, Feathers of Akil'zon
     -- [34901780] = {quest=98627, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 3)}, -- Akil'zon, Akil'zon's Roost
-    [27193416] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5), note="In {area:17029:Halazzi's Lair}"}, -- Jan'alai, Halazzi's Lair x2
-    [22861234] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5), note="In {area:17030:Jana'lai's Refuge}"}, -- Jan'alai, Jana'lai's Refuge x2
+    [27193416] = { -- Jan'alai, Halazzi's Lair
+        quest={98613, 98615},
+        loot={
+            {280825, toy=true}, -- Rite of Jan'alai's Flame
+            283996, -- Ancient Hash'ey Battle Art: Heat Wave
+        },
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5),
+        note="In {area:17029:Halazzi's Lair}",
+    },
+    -- [27493298] = {quest=98613, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5), note="In {area:17029:Halazzi's Lair}"}, -- Jan'alai, Halazzi's Lair
+    -- [27953447] = {quest=98615, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5), note="In {area:17029:Halazzi's Lair}"}, -- Jan'alai, Halazzi's Lair
+    [22861234] = { -- Jan'alai, Jana'lai's Refuge
+        quest={98622, 98623},
+        loot={
+            284180, -- Loa-Touched Deltoid
+        },
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5),
+        note="In {area:17030:Jana'lai's Refuge}",
+    },
+    -- [22421206] = {quest=98622, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5), note="In {area:17030:Jana'lai's Refuge}"}, -- Jan'alai, Jana'lai's Refuge
+    -- [22991163] = {quest=98623, loot={284180}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 5), note="In {area:17030:Jana'lai's Refuge}"}, -- Jan'alai, Jana'lai's Refuge
     [27038110] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 7)}, -- Nalorakk, Reliquary x2
     [64994227] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 7)}, -- Nalorakk, Nalorakk's Rest x2
     [10555339] = {quest=nil, loot={}, hide_before=ns.conditions.MajorFaction(ns.FACTION_LABYRINTH, 9)}, -- Halazzi, Halazzi's Lair x3
