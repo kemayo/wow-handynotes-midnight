@@ -135,12 +135,12 @@ ns.RegisterPoints(ns.HARANDAR, {
 
 ns.RegisterPoints(ns.HARANDAR, {
 	-- PlayerConditionID: 144441 (presumably: Big Moth Hunter II @ renown 9 + Moth Watching III @ renown 11)
-	[39366137] = {quest=92308, vignette=7254}, -- c
+	[39366137] = {quest=92308, vignette=7254},
 	[75835015] = {quest=92316, vignette=7255}, -- c
 	[69444898] = {quest=92315, vignette=7256}, -- c
-	[41066735] = {quest=92314, vignette=7257}, -- c
+	[41066735] = {quest=92314, vignette=7257},
 	[40885152] = {quest=92313, vignette=7258}, -- c
-	[28836691] = {quest=92312, vignette=7259}, -- c
+	[28836691] = {quest=92312, vignette=7259},
 	[62515375] = {quest=92311, vignette=7260}, -- c
 	[74095339] = {quest=92310, vignette=7261}, -- c
 	[56585716] = {quest=92309, vignette=7262}, -- c
@@ -154,32 +154,32 @@ ns.RegisterPoints(ns.HARANDAR, {
 	[66503310] = {quest=92279, vignette=7271}, -- c
 	[43182734] = {quest=92278, vignette=7272}, -- c
 	[47246610] = {quest=92267, vignette=7273}, -- c
-	[46107184] = {quest=92276, vignette=7274}, -- c
-	[50108017] = {quest=92275, vignette=7275}, -- c
+	[46107184] = {quest=92276, vignette=7274},
+	[50108017] = {quest=92275, vignette=7275},
 	[54007303] = {quest=92274, vignette=7276}, -- c
-	[45015808] = {quest=92273, vignette=7277}, -- c
+	[45015808] = {quest=92273, vignette=7277},
 	[67044839] = {quest=92272, vignette=7278}, -- c
 	[71173910] = {quest=92271, vignette=7279}, -- c
 	[54543176] = {quest=92270, vignette=7280}, -- c
 	[52422921] = {quest=92269, vignette=7281}, -- c
 	[47733285] = {quest=92268, vignette=7282}, -- c
-	[34486899] = {quest=92296, vignette=7283}, -- c
+	[34486899] = {quest=92296, vignette=7283},
 	[34614854] = {quest=92295, vignette=7284}, -- c
-	[49047069] = {quest=92294, vignette=7285}, -- c
+	[49047069] = {quest=92294, vignette=7285},
 	[48552623] = {quest=92293, vignette=7286}, -- c
 	[69356294] = {quest=92292, vignette=7287}, -- c
 	[71736745] = {quest=92291, vignette=7288}, -- c
 	[62576463] = {quest=92290, vignette=7289}, -- c
 	[65145085] = {quest=92289, vignette=7290}, -- c
-	[29848765] = {quest=92288, vignette=7291}, -- c
-	[27397032] = {quest=92287, vignette=7292}, -- c
+	[29848765] = {quest=92288, vignette=7291},
+	[27397032] = {quest=92287, vignette=7292},
 	[39211835] = {quest=92297, vignette=7293}, -- c
 }, MOTH{
 	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 9),
 	minimap=ns.conditions.NotMajorFaction(ns.FACTION_HARATI, 11),
 })
 ns.RegisterPoints(2576, { -- The Den
-	[61857566] = {quest=92277, vignette=7263, note="In the Den"}, -- c => 53015598
+	[61837560] = {quest=92277, vignette=7263, note="In the Den"}, -- => 53015598
 }, MOTH{
 	parent=true,
 	requires=ns.conditions.MajorFaction(ns.FACTION_HARATI, 9),
