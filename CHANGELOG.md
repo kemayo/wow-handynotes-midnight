@@ -1,5 +1,12 @@
 # Changelog
 
+## Changed in v73
+
+* Dust 'Em Off: minor coordinate tweaks in the third set
+* Requirement text for "any of these" groups now reads as alternatives, rather than as if all of them were needed
+* The map does less repeated work when it refreshes, which should help in zones with a lot of points
+* Fix route lines sometimes not drawing again after an error elsewhere on the map
+
 ## Changed in v72
 
 * Labyrinth of Kindo'jan:
