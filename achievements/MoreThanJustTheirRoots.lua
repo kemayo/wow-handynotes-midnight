@@ -27,7 +27,7 @@ ns.suppressoverlay[198] = true
 ns.suppressoverlay[12] = true
 
 ns.RegisterPoints(2239, { -- Amirdrassil
-	[34255255] = {criteria=111947, note="On a branch very high up", --[[npc=245107--]]}, -- Fuunid
+	[34225265] = {criteria=111947, note="On a branch very high up", --[[npc=245107--]]}, -- Fuunid
 }, ROOTS)
 ns.suppressoverlay[2239] = true
 ns.suppressoverlay[1978] = true
