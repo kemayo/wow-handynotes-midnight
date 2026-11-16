@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v74
+
+* More Than Just Their Roots: tweak Fuunid's location
+* Avoid a secret error when checking for vehicle status
+* Don't duplicate some tooltip lines when showing certain types of related point
+
 ## Changed in v73
 
 * Dust 'Em Off: minor coordinate tweaks in the third set
